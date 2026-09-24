@@ -1,0 +1,5 @@
+﻿dataset,source,rows,features,parts,literal_empty_cells,unknown_name_rows,unknown_name_features,duplicate_primary_keys,closed_paths_or_rings,consecutive_duplicate_vertices,invalid_ring_or_line_count,lon_min,lon_max,lat_min,lat_max,mat_compared_cells,mat_mismatch_cells
+settlements,镇龙乡及周边村镇点位.csv,166,166,166,0,0,0,0,0,0,0,109.036,109.445,22.8624,23.2242,1162,0
+water_polygons,镇龙乡及周边水体.csv,4229,95,100,0,3173,90,0,100,0,0,109.0328115,109.4415618,22.8615453,23.2231813,38061,0
+water_lines,镇龙乡及周边水系.csv,4570,101,101,0,3618,89,0,0,0,0,109.0328115,109.4450943,22.8615453,23.2247021,36560,0
+roads,镇龙乡及周边道路.csv,21015,1829,1829,0,18518,1546,0,10,0,0,109.0328115,109.4450943,22.8615453,23.2247021,147105,0

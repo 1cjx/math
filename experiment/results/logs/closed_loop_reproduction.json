@@ -1,0 +1,152 @@
+{
+  "procedure": "A独立计算后修复数学公式显示层；B从仅含源文件和原始数据的新目录完整重算成功。两次出版层采用同一最终源码重建。以下不比较运行时钟、阶段用时、环境路径和生成日志。",
+  "A": "/mnt/data/D_closure_final",
+  "B": "/mnt/data/closure_repro_B",
+  "categories": {
+    "source": {
+      "A_count": 53,
+      "B_count": 53,
+      "different_count": 0,
+      "different_paths": []
+    },
+    "raw": {
+      "A_count": 19,
+      "B_count": 19,
+      "different_count": 0,
+      "different_paths": []
+    },
+    "numeric": {
+      "A_count": 687,
+      "B_count": 687,
+      "different_count": 0,
+      "different_paths": []
+    },
+    "png": {
+      "A_count": 147,
+      "B_count": 147,
+      "different_count": 0,
+      "different_paths": []
+    },
+    "svg": {
+      "A_count": 147,
+      "B_count": 147,
+      "different_count": 0,
+      "different_paths": []
+    },
+    "pdf": {
+      "A_count": 147,
+      "B_count": 147,
+      "different_count": 0,
+      "different_paths": []
+    },
+    "markdown": {
+      "A_count": 14,
+      "B_count": 14,
+      "different_count": 0,
+      "different_paths": []
+    }
+  },
+  "workbooks": [
+    {
+      "path": "submission/Q3运输与逐箱补充.xlsx",
+      "sheet_names": [
+        "Q3_运输架次",
+        "Q3_逐箱交付"
+      ],
+      "cell_comparisons": 532,
+      "failed": 0,
+      "failed_cells": [],
+      "archive_bytes_identical": true
+    },
+    {
+      "path": "submission/结果提交.xlsx",
+      "sheet_names": [
+        "Q1_单点组批",
+        "Q2_运输架次",
+        "Q2_逐箱交付",
+        "Q3_中继架次",
+        "Q3_通信保障",
+        "Q4_分区配置"
+      ],
+      "cell_comparisons": 48257,
+      "failed": 0,
+      "failed_cells": [],
+      "archive_bytes_identical": true
+    }
+  ],
+  "reports_ooxml_members": [
+    {
+      "path": "docs/01_数据清洗说明.docx",
+      "members": 19,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/02_第一问建模与求解_修订.docx",
+      "members": 29,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/03_第二问建模与求解.docx",
+      "members": 30,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/04_闭环验证与实质修订说明.docx",
+      "members": 20,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/05_共同物理规则与假设边界.docx",
+      "members": 24,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/06_第三问联合调度与严格继承建模.docx",
+      "members": 27,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/07_可靠性压力测试与失败情景.docx",
+      "members": 24,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/08_第四问严格任务冻结与资源配置.docx",
+      "members": 24,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/09_模板提交与一键复现.docx",
+      "members": 19,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/10_整体论文大纲与填充映射.docx",
+      "members": 19,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/11_中文图件索引与正确引用.docx",
+      "members": 19,
+      "different_members": [],
+      "archive_bytes_identical": false
+    },
+    {
+      "path": "docs/12_参考来源与参数选择说明.docx",
+      "members": 19,
+      "different_members": [],
+      "archive_bytes_identical": false
+    }
+  ],
+  "all_passed": true
+}

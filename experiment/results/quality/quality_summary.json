@@ -1,0 +1,198 @@
+{
+  "raw_file_count": 19,
+  "input_workbooks": 5,
+  "template_sheets": 6,
+  "normalized_business_tables": 11,
+  "nodes": 16,
+  "services": 15,
+  "boxes": 80,
+  "demand_rows": 53,
+  "total_weight_kg": 758.0,
+  "total_volume_m3": 2.011,
+  "total_population": 3422,
+  "first_batch_boxes": 30,
+  "not_applicable_demand_deadlines": 23,
+  "not_applicable_box_deadlines": 50,
+  "unexpected_missing_core_cells": 0,
+  "duplicate_core_primary_keys": 0,
+  "geospatial_vertex_rows": 29980,
+  "unknown_feature_name_rows": 25309,
+  "statistical_flagged_field_records": 72,
+  "node_elevation_review_count": 4,
+  "max_abs_node_dem_difference_m": 10.562911987304688,
+  "valid_dem_cells": 1945174,
+  "dem_iqr_tail_cells": 99549,
+  "mat_csv_compared_cells": 222888,
+  "mat_csv_mismatch_cells": 0,
+  "checks_total": 5065,
+  "checks_passed": 5065,
+  "checks_failed": 0,
+  "physical_values_overwritten": 0,
+  "boxes_removed": 0,
+  "issues": [
+    {
+      "code": "NOT_APPLICABLE_DEADLINE",
+      "severity": "info",
+      "scope": "demand.first_deadline_s",
+      "count": 23,
+      "meaning": "无首批要求的品类，不是未知截止时间",
+      "action": "保留null；增加has_first_deadline，不填0或均值",
+      "details": ""
+    },
+    {
+      "code": "NOT_APPLICABLE_DEADLINE",
+      "severity": "info",
+      "scope": "boxes.first_deadline_s",
+      "count": 50,
+      "meaning": "非首批货箱，不适用首批约束",
+      "action": "保留null；以is_first_batch启用约束",
+      "details": ""
+    },
+    {
+      "code": "MIXED_TABLE_LAYOUT",
+      "severity": "info",
+      "scope": "5 input workbooks",
+      "count": 5,
+      "meaning": "标题、表头、多个业务区块和合并单元格不能作为样本",
+      "action": "按业务表头解析并转为11张整洁表；保留来源行",
+      "details": ""
+    },
+    {
+      "code": "MERGED_CELLS",
+      "severity": "info",
+      "scope": "all workbooks",
+      "count": 24,
+      "meaning": "合并单元格的从属空白是版式结构，不是业务缺失",
+      "action": "只读取定义字段；通信表B:C合并时忽略C列",
+      "details": ""
+    },
+    {
+      "code": "EMPTY_RESULT_TEMPLATE",
+      "severity": "info",
+      "scope": "结果提交模板.xlsx",
+      "count": 6,
+      "meaning": "模板仅含字段定义，空白结果不计入输入数据缺失",
+      "action": "填充Q1—Q4六张源表，另附Q3运输与逐箱补充；Q4配置与缺口解释见独立报告",
+      "details": ""
+    },
+    {
+      "code": "MISSING_NODATA_METADATA",
+      "severity": "warning",
+      "scope": "镇龙乡及周边30米DEM.tif",
+      "count": 1,
+      "meaning": "说明与MAT约定-32767，但GeoTIFF未声明NoData",
+      "action": "仅补齐NoData元数据，全部高程值保持不变",
+      "details": "实际不存在-32767或非有限像元"
+    },
+    {
+      "code": "DEM_STATISTICAL_TAIL",
+      "severity": "info",
+      "scope": "DEM full raster",
+      "count": 99549,
+      "meaning": "全局IQR高程尾部可对应真实山地，不足以证明坏像元",
+      "action": "保留山峰；不截尾、不平滑；输出精确尾部掩码",
+      "details": ""
+    },
+    {
+      "code": "NODE_DEM_ELEVATION_DIFFERENCE",
+      "severity": "warning",
+      "scope": "nodes",
+      "count": 4,
+      "meaning": "题定点高程与DSM像元高程差异超过审核阈值，不等于数据错误",
+      "action": "节点作业高度仍用xlsx；航线净空用DEM；另做全部节点取DEM的敏感性对照",
+      "details": "S006,S008,S009,S015"
+    },
+    {
+      "code": "REPEATED_SERVICE_NAMES",
+      "severity": "info",
+      "scope": "services.name",
+      "count": 4,
+      "meaning": "不同服务区可以同名，不能按名称去重",
+      "action": "以S001—S015唯一ID为主键保留",
+      "details": "{'镇龙乡': 4}"
+    },
+    {
+      "code": "UNKNOWN_FEATURE_NAME",
+      "severity": "info",
+      "scope": "镇龙乡及周边水体.csv",
+      "count": 3173,
+      "meaning": "未记录是名称未知的语义占位，坐标与要素仍有效",
+      "action": "name置null，name_raw保留原文，并新增name_missing标志",
+      "details": ""
+    },
+    {
+      "code": "UNKNOWN_FEATURE_NAME",
+      "severity": "info",
+      "scope": "镇龙乡及周边水系.csv",
+      "count": 3618,
+      "meaning": "未记录是名称未知的语义占位，坐标与要素仍有效",
+      "action": "name置null，name_raw保留原文，并新增name_missing标志",
+      "details": ""
+    },
+    {
+      "code": "UNKNOWN_FEATURE_NAME",
+      "severity": "info",
+      "scope": "镇龙乡及周边道路.csv",
+      "count": 18518,
+      "meaning": "未记录是名称未知的语义占位，坐标与要素仍有效",
+      "action": "name置null，name_raw保留原文，并新增name_missing标志",
+      "details": ""
+    },
+    {
+      "code": "LEGITIMATE_CLOSURE_POINTS",
+      "severity": "info",
+      "scope": "geospatial rings/roads",
+      "count": 110,
+      "meaning": "闭环首末坐标重复是拓扑结构；不是重复记录",
+      "action": "保留顶点顺序与闭合点；去重检查使用复合主键",
+      "details": ""
+    },
+    {
+      "code": "HTML_EXTERNAL_RESOURCES",
+      "severity": "info",
+      "scope": "镇龙乡地理空间详情地图.html",
+      "count": 7,
+      "meaning": "交互地图含在线底图/脚本引用，离线展示不保证可用",
+      "action": "保留原始HTML；计算只使用本地数值数据，另输出离线PNG",
+      "details": ""
+    },
+    {
+      "code": "ENERGY_SUBFORMULA_NOT_EXPANDED",
+      "severity": "warning",
+      "scope": "题面 附录2",
+      "count": 2,
+      "meaning": "题面定义E=E_hor+E_up但未展开两分项；不是可从表格直接核验的确定公式",
+      "action": "在解题文档明确列为补充假设：E_hor=E_use*d/L(q)，E_up=(m0+q)gh/(eta*3.6e6)；结果以此口径为条件",
+      "details": ""
+    },
+    {
+      "code": "GEOSPATIAL_DOCUMENT_EXTENSION",
+      "severity": "info",
+      "scope": "题面附录1与实际附件",
+      "count": 1,
+      "meaning": "题面写地理说明docx，压缩包实际提供同名pdf",
+      "action": "以实际PDF作为附件说明，保留原文件，不视为缺少DEM",
+      "details": ""
+    }
+  ],
+  "dataset_row_counts": {
+    "depots": 1,
+    "services": 15,
+    "transport_models": 3,
+    "transport_drones": 8,
+    "transport_batteries": 3,
+    "relay_models": 1,
+    "relay_drones": 2,
+    "relay_energy": 1,
+    "demand": 53,
+    "boxes": 80,
+    "communication": 14,
+    "nodes": 16
+  },
+  "material_counts": {
+    "医疗物资": 16,
+    "饮用水": 36,
+    "应急食品": 19,
+    "生活卫生用品": 9
+  }
+}

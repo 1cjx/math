@@ -1,0 +1,18 @@
+{
+  "lower_bound_s": 3222.3538926134593,
+  "lp_primal_objective_s": 3222.35390261346,
+  "lp_dual_objective_s": 3222.3539026134595,
+  "certificate_residual": 1.0800249583553523e-12,
+  "variables": 289,
+  "inequalities": 162,
+  "equalities": 80,
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "relaxations": [
+    "货箱允许分数分配",
+    "每个目的地入航段取全图最小时间",
+    "架次和访问次数允许连续",
+    "不约束电池/时限/能耗",
+    "只保留各型机身累计工作量上界"
+  ],
+  "interpretation": "保守的全问题Cmax下界；不是完整原问题最优解。已达零逾期时，仍可用作Cmax下界。"
+}

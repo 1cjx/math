@@ -1,0 +1,114 @@
+[
+  {
+    "workbook": "中继无人机数据.xlsx",
+    "sheet": "数据",
+    "physical_rows": 12,
+    "physical_cols": 19,
+    "merge_ranges": [
+      "A1:S1",
+      "A5:C5",
+      "A10:C10"
+    ]
+  },
+  {
+    "workbook": "物资需求与配送时限.xlsx",
+    "sheet": "数据",
+    "physical_rows": 54,
+    "physical_cols": 9,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "物资需求与配送时限.xlsx",
+    "sheet": "逐箱货箱清单",
+    "physical_rows": 81,
+    "physical_cols": 9,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "调度中心与服务区.xlsx",
+    "sheet": "数据",
+    "physical_rows": 21,
+    "physical_cols": 6,
+    "merge_ranges": [
+      "A1:E1",
+      "A5:F5"
+    ]
+  },
+  {
+    "workbook": "运输无人机数据.xlsx",
+    "sheet": "数据",
+    "physical_rows": 22,
+    "physical_cols": 18,
+    "merge_ranges": [
+      "A1:R1",
+      "A7:C7",
+      "A18:C18"
+    ]
+  },
+  {
+    "workbook": "通信链路参数.xlsx",
+    "sheet": "数据",
+    "physical_rows": 17,
+    "physical_cols": 5,
+    "merge_ranges": [
+      "A1:E1",
+      "B2:C2",
+      "B3:C3",
+      "B4:C4",
+      "B5:C5",
+      "B6:C6",
+      "B7:C7",
+      "B8:C8",
+      "B9:C9",
+      "B10:C10",
+      "B11:C11",
+      "B12:C12",
+      "B13:C13",
+      "B14:C14",
+      "B15:C15",
+      "B16:C16"
+    ]
+  },
+  {
+    "workbook": "结果提交模板.xlsx",
+    "sheet": "Q1_单点组批",
+    "physical_rows": 3,
+    "physical_cols": 9,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "结果提交模板.xlsx",
+    "sheet": "Q2_运输架次",
+    "physical_rows": 3,
+    "physical_cols": 8,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "结果提交模板.xlsx",
+    "sheet": "Q2_逐箱交付",
+    "physical_rows": 3,
+    "physical_cols": 4,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "结果提交模板.xlsx",
+    "sheet": "Q3_中继架次",
+    "physical_rows": 29,
+    "physical_cols": 14,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "结果提交模板.xlsx",
+    "sheet": "Q3_通信保障",
+    "physical_rows": 79,
+    "physical_cols": 23,
+    "merge_ranges": []
+  },
+  {
+    "workbook": "结果提交模板.xlsx",
+    "sheet": "Q4_分区配置",
+    "physical_rows": 58,
+    "physical_cols": 16,
+    "merge_ranges": []
+  }
+]

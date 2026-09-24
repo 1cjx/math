@@ -1,0 +1,83 @@
+{
+  "figure_id": "F113",
+  "title": "第三问：仅中继延迟的冻结分配测试",
+  "sources": {
+    "results/q3/relay_only_delay_sensitivity.csv": "8fde02694e84962e4c01fdd533e5ff0a6382dc08ef957acee93230d295ff4b9a"
+  },
+  "note": "压力场景不重优化；负裕度或中断表示失败，不能当作正式可行方案",
+  "values": [
+    {
+      "relay_only_shift_s": "0.0",
+      "fixed_assignment_uncovered_duration_s": "0.0",
+      "fixed_assignment_uncovered_points": "0",
+      "fixed_assignment_feasible": "True",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": "1.0",
+      "fixed_assignment_uncovered_duration_s": "0.0",
+      "fixed_assignment_uncovered_points": "0",
+      "fixed_assignment_feasible": "True",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": "2.0",
+      "fixed_assignment_uncovered_duration_s": "3.0",
+      "fixed_assignment_uncovered_points": "1",
+      "fixed_assignment_feasible": "False",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": "3.0",
+      "fixed_assignment_uncovered_duration_s": "6.0",
+      "fixed_assignment_uncovered_points": "1",
+      "fixed_assignment_feasible": "False",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": "5.0",
+      "fixed_assignment_uncovered_duration_s": "12.277397246918554",
+      "fixed_assignment_uncovered_points": "1",
+      "fixed_assignment_feasible": "False",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": "10.0",
+      "fixed_assignment_uncovered_duration_s": "36.694103633099644",
+      "fixed_assignment_uncovered_points": "2",
+      "fixed_assignment_feasible": "False",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": "30.0",
+      "fixed_assignment_uncovered_duration_s": "156.69410363309964",
+      "fixed_assignment_uncovered_points": "6",
+      "fixed_assignment_feasible": "False",
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    }
+  ],
+  "visible_text": [
+    "仅中继延迟（s）",
+    "-5",
+    "0",
+    "5",
+    "10",
+    "15",
+    "20",
+    "25",
+    "30",
+    "35",
+    "未覆盖区间累计时间（s）",
+    "-25",
+    "0",
+    "25",
+    "50",
+    "75",
+    "100",
+    "125",
+    "150",
+    "175",
+    "200",
+    "第三问：仅中继延迟的冻结分配测试"
+  ]
+}

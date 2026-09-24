@@ -1,0 +1,17 @@
+﻿code,severity,scope,count,meaning,action,details
+NOT_APPLICABLE_DEADLINE,info,demand.first_deadline_s,23,无首批要求的品类，不是未知截止时间,保留null；增加has_first_deadline，不填0或均值,
+NOT_APPLICABLE_DEADLINE,info,boxes.first_deadline_s,50,非首批货箱，不适用首批约束,保留null；以is_first_batch启用约束,
+MIXED_TABLE_LAYOUT,info,5 input workbooks,5,标题、表头、多个业务区块和合并单元格不能作为样本,按业务表头解析并转为11张整洁表；保留来源行,
+MERGED_CELLS,info,all workbooks,24,合并单元格的从属空白是版式结构，不是业务缺失,只读取定义字段；通信表B:C合并时忽略C列,
+EMPTY_RESULT_TEMPLATE,info,结果提交模板.xlsx,6,模板仅含字段定义，空白结果不计入输入数据缺失,填充Q1—Q4六张源表，另附Q3运输与逐箱补充；Q4配置与缺口解释见独立报告,
+MISSING_NODATA_METADATA,warning,镇龙乡及周边30米DEM.tif,1,说明与MAT约定-32767，但GeoTIFF未声明NoData,仅补齐NoData元数据，全部高程值保持不变,实际不存在-32767或非有限像元
+DEM_STATISTICAL_TAIL,info,DEM full raster,99549,全局IQR高程尾部可对应真实山地，不足以证明坏像元,保留山峰；不截尾、不平滑；输出精确尾部掩码,
+NODE_DEM_ELEVATION_DIFFERENCE,warning,nodes,4,题定点高程与DSM像元高程差异超过审核阈值，不等于数据错误,节点作业高度仍用xlsx；航线净空用DEM；另做全部节点取DEM的敏感性对照,"S006,S008,S009,S015"
+REPEATED_SERVICE_NAMES,info,services.name,4,不同服务区可以同名，不能按名称去重,以S001—S015唯一ID为主键保留,{'镇龙乡': 4}
+UNKNOWN_FEATURE_NAME,info,镇龙乡及周边水体.csv,3173,未记录是名称未知的语义占位，坐标与要素仍有效,name置null，name_raw保留原文，并新增name_missing标志,
+UNKNOWN_FEATURE_NAME,info,镇龙乡及周边水系.csv,3618,未记录是名称未知的语义占位，坐标与要素仍有效,name置null，name_raw保留原文，并新增name_missing标志,
+UNKNOWN_FEATURE_NAME,info,镇龙乡及周边道路.csv,18518,未记录是名称未知的语义占位，坐标与要素仍有效,name置null，name_raw保留原文，并新增name_missing标志,
+LEGITIMATE_CLOSURE_POINTS,info,geospatial rings/roads,110,闭环首末坐标重复是拓扑结构；不是重复记录,保留顶点顺序与闭合点；去重检查使用复合主键,
+HTML_EXTERNAL_RESOURCES,info,镇龙乡地理空间详情地图.html,7,交互地图含在线底图/脚本引用，离线展示不保证可用,保留原始HTML；计算只使用本地数值数据，另输出离线PNG,
+ENERGY_SUBFORMULA_NOT_EXPANDED,warning,题面 附录2,2,题面定义E=E_hor+E_up但未展开两分项；不是可从表格直接核验的确定公式,在解题文档明确列为补充假设：E_hor=E_use*d/L(q)，E_up=(m0+q)gh/(eta*3.6e6)；结果以此口径为条件,
+GEOSPATIAL_DOCUMENT_EXTENSION,info,题面附录1与实际附件,1,题面写地理说明docx，压缩包实际提供同名pdf,以实际PDF作为附件说明，保留原文件，不视为缺少DEM,

@@ -1,0 +1,135 @@
+{
+  "figure_id": "F158",
+  "title": "五个已计算Q3候选的三指标位置",
+  "sources": {
+    "results/q3/closure_existing_candidates.csv": "5ffe9757e59e7d65952b94917df1b09d28c4c6e62314d009b89f1d54d5ed6e5f"
+  },
+  "note": "恰好5个已计算候选；编号对应绘图数据行；部分点同坐标重合。不是全局帕累托前沿，不补造迭代点云。",
+  "values": {
+    "records": [
+      {
+        "candidate": "energy_tradeoff",
+        "component_count": "3",
+        "components": "[['S001', 'S002', 'S003', 'S004', 'S005', 'S007', 'S008', 'S009', 'S010', 'S012', 'S013', 'S014', 'S015'], ['S006'], ['S011']]",
+        "independently_validated": "True",
+        "strict_K3_feasible": "True",
+        "weighted_tardiness_s": "0.0",
+        "joint_makespan_s": "7241.381500034069",
+        "total_energy_kwh": "69.89061574767778",
+        "transport_sorties": "23",
+        "relay_sorties": "4"
+      },
+      {
+        "candidate": "fixed_service_windows",
+        "component_count": "2",
+        "components": "[['S001', 'S002', 'S003', 'S004', 'S005', 'S007', 'S008', 'S009', 'S010', 'S011', 'S012', 'S013', 'S014', 'S015'], ['S006']]",
+        "independently_validated": "True",
+        "strict_K3_feasible": "False",
+        "weighted_tardiness_s": "0.0",
+        "joint_makespan_s": "10111.579472751253",
+        "total_energy_kwh": "77.12182375838108",
+        "transport_sorties": "26",
+        "relay_sorties": "4"
+      },
+      {
+        "candidate": "polish_1",
+        "component_count": "3",
+        "components": "[['S001', 'S002', 'S003', 'S004', 'S005', 'S008', 'S009', 'S010', 'S011', 'S012', 'S013', 'S014', 'S015'], ['S006'], ['S007']]",
+        "independently_validated": "True",
+        "strict_K3_feasible": "True",
+        "weighted_tardiness_s": "0.0",
+        "joint_makespan_s": "6636.184296262294",
+        "total_energy_kwh": "75.06888770403694",
+        "transport_sorties": "25",
+        "relay_sorties": "4"
+      },
+      {
+        "candidate": "polish_2",
+        "component_count": "2",
+        "components": "[['S001', 'S002', 'S003', 'S004', 'S005', 'S007', 'S008', 'S009', 'S010', 'S011', 'S012', 'S013', 'S014', 'S015'], ['S006']]",
+        "independently_validated": "True",
+        "strict_K3_feasible": "False",
+        "weighted_tardiness_s": "0.0",
+        "joint_makespan_s": "6570.184296262294",
+        "total_energy_kwh": "74.72817742100005",
+        "transport_sorties": "26",
+        "relay_sorties": "4"
+      },
+      {
+        "candidate": "uncoupled_baseline",
+        "component_count": "2",
+        "components": "[['S001', 'S002', 'S003', 'S004', 'S005', 'S007', 'S008', 'S009', 'S010', 'S011', 'S012', 'S013', 'S014', 'S015'], ['S006']]",
+        "independently_validated": "True",
+        "strict_K3_feasible": "False",
+        "weighted_tardiness_s": "0.0",
+        "joint_makespan_s": "6570.184296262294",
+        "total_energy_kwh": "74.72817742100005",
+        "transport_sorties": "26",
+        "relay_sorties": "4"
+      }
+    ],
+    "index": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "energy_kwh": [
+      69.89061574767778,
+      77.12182375838108,
+      75.06888770403694,
+      74.72817742100005,
+      74.72817742100005
+    ],
+    "makespan_min": [
+      120.68969166723448,
+      168.5263245458542,
+      110.60307160437156,
+      109.50307160437157,
+      109.50307160437157
+    ],
+    "sorties_total": [
+      27.0,
+      30.0,
+      29.0,
+      30.0,
+      30.0
+    ]
+  },
+  "visible_text": [
+    "1",
+    "2",
+    "3",
+    "4/5",
+    "总能耗（kWh）",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "联合完工（min）",
+    "100",
+    "110",
+    "120",
+    "130",
+    "140",
+    "150",
+    "160",
+    "170",
+    "180",
+    "两类总架次数",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "五个已计算Q3候选的三指标位置"
+  ]
+}

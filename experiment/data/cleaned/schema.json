@@ -1,0 +1,632 @@
+{
+  "tables": [
+    {
+      "table": "depots",
+      "field": "node_id",
+      "original_header": "调度中心编号",
+      "dtype": "str",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "depots",
+      "field": "name",
+      "original_header": "调度中心名称",
+      "dtype": "str",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "depots",
+      "field": "lon_deg",
+      "original_header": "经度（°）",
+      "dtype": "float",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "depots",
+      "field": "lat_deg",
+      "original_header": "纬度（°）",
+      "dtype": "float",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "depots",
+      "field": "ground_elevation_m",
+      "original_header": "海拔（m）",
+      "dtype": "float",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "services",
+      "field": "node_id",
+      "original_header": "服务区编号",
+      "dtype": "str",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "services",
+      "field": "name",
+      "original_header": "服务区名称",
+      "dtype": "str",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "services",
+      "field": "lon_deg",
+      "original_header": "经度（°）",
+      "dtype": "float",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "services",
+      "field": "lat_deg",
+      "original_header": "纬度（°）",
+      "dtype": "float",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "services",
+      "field": "ground_elevation_m",
+      "original_header": "海拔（m）",
+      "dtype": "float",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "services",
+      "field": "population",
+      "original_header": "本次需保障人口（人）",
+      "dtype": "int",
+      "source_file": "调度中心与服务区.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "model_id",
+      "original_header": "机型编号",
+      "dtype": "str",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "name",
+      "original_header": "机型名称",
+      "dtype": "str",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "empty_mass_kg",
+      "original_header": "含电池空载总质量（kg）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "max_payload_kg",
+      "original_header": "最大载货质量（kg）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "volume_m3",
+      "original_header": "可用装载体积（m³）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "cruise_speed_mps",
+      "original_header": "计划巡航速度（m/s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "empty_range_m",
+      "original_header": "空载标准航程（m）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "full_range_m",
+      "original_header": "满载标准航程（m）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "usable_energy_kwh",
+      "original_header": "电池可用能量（kWh）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "reserve_percent",
+      "original_header": "返航电量下限（%）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "prepare_s",
+      "original_header": "工位固定准备时间（s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "load_per_box_s",
+      "original_header": "每箱装载时间（s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "handoff_base_s",
+      "original_header": "接收点基础交接时间（s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "handoff_per_box_s",
+      "original_header": "每箱增加交接时间（s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "climb_speed_mps",
+      "original_header": "最大爬升速度（m/s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "descent_speed_mps",
+      "original_header": "最大下降速度（m/s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "climb_efficiency",
+      "original_header": "爬升能耗效率",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_models",
+      "field": "descent_efficiency",
+      "original_header": "下降能耗效率",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_drones",
+      "field": "drone_id",
+      "original_header": "无人机编号",
+      "dtype": "str",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_drones",
+      "field": "model_id",
+      "original_header": "机型编号",
+      "dtype": "str",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_drones",
+      "field": "initial_node",
+      "original_header": "初始位置",
+      "dtype": "str",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_batteries",
+      "field": "model_id",
+      "original_header": "机型编号",
+      "dtype": "str",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_batteries",
+      "field": "count",
+      "original_header": "共享电池组总数（组）",
+      "dtype": "int",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "transport_batteries",
+      "field": "full_charge_s",
+      "original_header": "等效完全充电时间（s）",
+      "dtype": "float",
+      "source_file": "运输无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "model_id",
+      "original_header": "机型编号",
+      "dtype": "str",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "name",
+      "original_header": "机型名称",
+      "dtype": "str",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "empty_mass_kg",
+      "original_header": "含能源组件空载总质量（kg）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "module_mass_kg",
+      "original_header": "中继通信模块质量（kg）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "takeoff_mass_kg",
+      "original_header": "计划起飞总质量（kg）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "cruise_speed_mps",
+      "original_header": "计划巡航速度（m/s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "cruise_power_kw",
+      "original_header": "巡航功率（kW）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "usable_energy_kwh",
+      "original_header": "能源组件可用能量（kWh）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "reserve_percent",
+      "original_header": "返航电量下限（%）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "prepare_s",
+      "original_header": "工位固定准备时间（s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "link_setup_s",
+      "original_header": "建链时间（s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "turnaround_s",
+      "original_header": "架次周转时间（s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "climb_speed_mps",
+      "original_header": "最大爬升速度（m/s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "descent_speed_mps",
+      "original_header": "最大下降速度（m/s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "climb_efficiency",
+      "original_header": "爬升能耗效率",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "descent_efficiency",
+      "original_header": "下降能耗效率",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "hover_power_kw",
+      "original_header": "悬停功率（kW）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "communication_power_kw",
+      "original_header": "通信附加功率（kW）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_models",
+      "field": "max_hover_agl_m",
+      "original_header": "最大悬停离地高度（m）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_drones",
+      "field": "drone_id",
+      "original_header": "中继无人机编号",
+      "dtype": "str",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_drones",
+      "field": "model_id",
+      "original_header": "机型编号",
+      "dtype": "str",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_drones",
+      "field": "initial_node",
+      "original_header": "初始位置",
+      "dtype": "str",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_energy",
+      "field": "model_id",
+      "original_header": "机型编号",
+      "dtype": "str",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_energy",
+      "field": "count",
+      "original_header": "共享能源组件总数（组）",
+      "dtype": "int",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "relay_energy",
+      "field": "full_charge_s",
+      "original_header": "等效完全充电时间（s）",
+      "dtype": "float",
+      "source_file": "中继无人机数据.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "service_id",
+      "original_header": "服务区编号",
+      "dtype": "str",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "material_type",
+      "original_header": "物资类型",
+      "dtype": "str",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "box_count",
+      "original_header": "总需求箱数",
+      "dtype": "int",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "first_batch_count",
+      "original_header": "首批必须送达箱数",
+      "dtype": "int",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "weight_kg",
+      "original_header": "单箱质量（kg）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "volume_m3",
+      "original_header": "单箱体积（m³）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "priority",
+      "original_header": "应急优先系数",
+      "dtype": "int",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "demand",
+      "field": "first_deadline_s",
+      "original_header": "首批截止时间（s）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": true
+    },
+    {
+      "table": "demand",
+      "field": "expected_s",
+      "original_header": "期望送达时间（s）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "box_id",
+      "original_header": "货箱编号",
+      "dtype": "str",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "service_id",
+      "original_header": "服务区编号",
+      "dtype": "str",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "material_type",
+      "original_header": "物资类型",
+      "dtype": "str",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "weight_kg",
+      "original_header": "单箱质量（kg）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "volume_m3",
+      "original_header": "单箱体积（m³）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "first_batch_text",
+      "original_header": "是否首批保障",
+      "dtype": "str",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "first_deadline_s",
+      "original_header": "首批截止时间（s）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": true
+    },
+    {
+      "table": "boxes",
+      "field": "expected_s",
+      "original_header": "期望送达时间（s）",
+      "dtype": "float",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    },
+    {
+      "table": "boxes",
+      "field": "priority",
+      "original_header": "应急优先系数",
+      "dtype": "int",
+      "source_file": "物资需求与配送时限.xlsx",
+      "nullable": false
+    }
+  ],
+  "null_policy": "CSV空字符串/JSON null；只表示不适用或有标志的名称未知；核心必填字段不得缺失",
+  "coordinate_crs": "EPSG:4326",
+  "local_feature_crs_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",23.0085095,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",109.2308517,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+  "note": "物理模型保留m、s、kg、m³、kWh，不做破坏单位意义的z-score转换。"
+}

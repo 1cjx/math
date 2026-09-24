@@ -1,0 +1,220 @@
+{
+  "figure_id": "F142",
+  "title": "闭环压力测试：充电时间扰动与下一次任务准备裕度",
+  "sources": {
+    "results/closure/fixed_charging_sweep.csv": "895018e0508742efd4babffc773bd943be1d7a6135787295b8c55e8e9ae654e6"
+  },
+  "note": "冻结排程压力试验；仅检验图示扰动维度，不重新优化、不代表随机可靠率",
+  "values": [
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "0.7",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "263.66907983758426",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "0.8",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "175.77938655838943",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "0.9",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "87.8896932791946",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.0",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "-1.1368683772161603e-13",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.02",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "3",
+      "minimum_reuse_slack_s": "-24.336838198309124",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.05",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "4",
+      "minimum_reuse_slack_s": "-60.842095495773265",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.1",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "6",
+      "minimum_reuse_slack_s": "-121.68419099154676",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.2",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "8",
+      "minimum_reuse_slack_s": "-244.49581094778523",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.3",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "8",
+      "minimum_reuse_slack_s": "-423.35641483179506",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q2",
+      "full_charge_time_multiplier": "1.5",
+      "reused_battery_transitions": "12",
+      "conflicting_transitions": "11",
+      "minimum_reuse_slack_s": "-781.0776225998143",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "0.7",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "257.49483235978005",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "0.8",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "171.66322157318666",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "0.9",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "85.83161078659339",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.0",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "0",
+      "minimum_reuse_slack_s": "-2.2737367544323206e-13",
+      "feasible": "True",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.02",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "5",
+      "minimum_reuse_slack_s": "-25.691359555285317",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.05",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "5",
+      "minimum_reuse_slack_s": "-73.82511511898747",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.1",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "6",
+      "minimum_reuse_slack_s": "-186.91472500480631",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.2",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "6",
+      "minimum_reuse_slack_s": "-413.0939447764431",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.3",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "6",
+      "minimum_reuse_slack_s": "-639.2731645480803",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    },
+    {
+      "question": "Q3",
+      "full_charge_time_multiplier": "1.5",
+      "reused_battery_transitions": "11",
+      "conflicting_transitions": "9",
+      "minimum_reuse_slack_s": "-1091.6316040913543",
+      "feasible": "False",
+      "scope": "仅运输电池充电时间乘数；冻结任务/资源编号，不重排"
+    }
+  ],
+  "visible_text": [
+    "充电时间倍率",
+    "0.6",
+    "0.7",
+    "0.8",
+    "0.9",
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "最紧电池复用裕度（s）",
+    "-1400",
+    "-1200",
+    "-1000",
+    "-800",
+    "-600",
+    "-400",
+    "-200",
+    "0",
+    "200",
+    "400",
+    "600",
+    "闭环压力测试：充电时间扰动与下一次任务准备裕度",
+    "Q2",
+    "Q3",
+    "约束边界"
+  ]
+}

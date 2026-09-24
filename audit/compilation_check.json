@@ -1,0 +1,9 @@
+{
+  "pages": 46,
+  "compile_issues": [],
+  "all_pages_rendered": true,
+  "page_contact_sheets_reviewed": 4,
+  "compiler": "XeLaTeX (local)",
+  "live_overleaf_session_used": false,
+  "safety_scope": "只检查图文排版、源数值一致性；不宣称再次证明调度全局最优。"
+}

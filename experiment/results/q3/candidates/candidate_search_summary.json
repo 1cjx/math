@@ -1,0 +1,13 @@
+{
+  "grid_stride_pixels": 4,
+  "grid_positions_scanned": 121317,
+  "valid_dem_positions": 121317,
+  "backhaul_valid_positions": 8672,
+  "retained_candidates": 7512,
+  "sample_points": 487,
+  "late_pair_finalists": 84,
+  "four_sortie_families": 52,
+  "screening_is_not_continuous_proof": true,
+  "full_continuous_global_optimum_claimed": false,
+  "coordinate_model": "局部平面：以O01的WGS84曲率半径将经纬度差映射为米，垂直坐标为题定海拔；DEM射线与距离同一坐标"
+}

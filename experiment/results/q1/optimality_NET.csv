@@ -1,0 +1,16 @@
+﻿service_id,order,reserve_fraction,groups,box_count,states_total,states_reachable,patterns_count,evaluated_transitions,feasible,optimality,trips,energy_kwh,operation_time_s
+S001,NET,0.2,4,15,324,324,201,17902,True,exact_complete_enumeration_dynamic_programming,2,5.9133515703045285,3186.3381546583187
+S002,NET,0.2,4,8,60,60,76,1359,True,exact_complete_enumeration_dynamic_programming,2,8.43464695829562,3858.506684913725
+S003,NET,0.2,4,8,60,60,76,1359,True,exact_complete_enumeration_dynamic_programming,2,8.544882583167624,4450.614653147952
+S004,NET,0.2,4,6,32,32,51,504,True,exact_complete_enumeration_dynamic_programming,1,6.152932018907208,2301.0566924832005
+S005,NET,0.2,4,6,32,32,51,504,True,exact_complete_enumeration_dynamic_programming,1,4.222192859507031,1877.190524525781
+S006,NET,0.2,4,6,32,32,51,504,True,exact_complete_enumeration_dynamic_programming,1,2.5979878649122523,1561.5538679616764
+S007,NET,0.2,4,5,24,24,43,324,True,exact_complete_enumeration_dynamic_programming,1,3.4108943800032887,1907.5664573298925
+S008,NET,0.2,4,5,24,24,43,324,True,exact_complete_enumeration_dynamic_programming,1,5.8360117114838115,2199.7012130854614
+S009,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,2.09623373442617,1558.4417330887609
+S010,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,1.8231956980898127,1555.3795658311767
+S011,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,1.0739517654354556,1188.420472235157
+S012,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,2.7524142988014892,1922.7403507440913
+S013,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,1.8247592723279171,1510.4723251020891
+S014,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,2.14038848210759,1869.7564163816144
+S015,NET,0.2,3,3,8,8,20,56,True,exact_complete_enumeration_dynamic_programming,1,2.307452824284089,1828.2766374269763

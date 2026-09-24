@@ -1,0 +1,117 @@
+[
+  {
+    "stage": "全量质量检查与清洗",
+    "elapsed_seconds": 3.5236334680002983,
+    "status": "passed"
+  },
+  {
+    "stage": "第一问精确优化、权衡与合规余量敏感性",
+    "elapsed_seconds": 4.95678923100013,
+    "status": "passed"
+  },
+  {
+    "stage": "连续/整箱载荷、能耗分项扰动与时间分解",
+    "elapsed_seconds": 0.9742333499998495,
+    "status": "passed"
+  },
+  {
+    "stage": "第一问独立物理与逐箱DP最优性复核",
+    "elapsed_seconds": 5.773353522999969,
+    "status": "passed"
+  },
+  {
+    "stage": "第二问联合组批、路径、机身/电池调度及全部对照",
+    "elapsed_seconds": 410.2458201469999,
+    "status": "passed"
+  },
+  {
+    "stage": "第二问从CSV独立物理/时限/资源复核",
+    "elapsed_seconds": 0.4206786429999738,
+    "status": "passed"
+  },
+  {
+    "stage": "新载荷/分项台账与对照实验独立复核",
+    "elapsed_seconds": 0.3652457950001917,
+    "status": "passed"
+  },
+  {
+    "stage": "Q1/Q2题意逐条审核及原表单元格回溯",
+    "elapsed_seconds": 0.03400444299995797,
+    "status": "passed"
+  },
+  {
+    "stage": "Q3选址、运输/中继联合搜索与连续通信分割",
+    "elapsed_seconds": 113.29816176700024,
+    "status": "passed"
+  },
+  {
+    "stage": "Q3独立连续区间/孤立点、资源与稠密交叉复核",
+    "elapsed_seconds": 3.824526454000079,
+    "status": "passed"
+  },
+  {
+    "stage": "Q3对照、扰动与全部备选方案独立验证",
+    "elapsed_seconds": 20.753679122999984,
+    "status": "passed"
+  },
+  {
+    "stage": "Q3定稿前：严格三分区候选兼容性与闭环选解",
+    "elapsed_seconds": 0.11140667300014684,
+    "status": "passed"
+  },
+  {
+    "stage": "最终Q3重新执行全部独立连续/资源核验",
+    "elapsed_seconds": 2.220848950000345,
+    "status": "passed"
+  },
+  {
+    "stage": "最终Q3重新计算可靠性与备选比较，不沿用旧主指标",
+    "elapsed_seconds": 7.255159703000118,
+    "status": "passed"
+  },
+  {
+    "stage": "Q4严格冻结Q3：禁止副本、全部2/3分区与资源缺口",
+    "elapsed_seconds": 0.10960090800017497,
+    "status": "passed"
+  },
+  {
+    "stage": "Q4独立全枚举、最大匹配与通信物理继承复核",
+    "elapsed_seconds": 3.594076307999785,
+    "status": "passed"
+  },
+  {
+    "stage": "闭环新增：能耗、充电、共同延迟与源规则追溯",
+    "elapsed_seconds": 0.02443527900004483,
+    "status": "passed"
+  },
+  {
+    "stage": "单元测试与故意错误答案拒绝测试",
+    "elapsed_seconds": 4.614042224000059,
+    "status": "passed"
+  },
+  {
+    "stage": "强制同步原模板Excel、逐格比对并从Excel独立重算",
+    "elapsed_seconds": 5.025225083999885,
+    "status": "passed"
+  },
+  {
+    "stage": "生成全部中文论文图、矢量PDF和逐图源数据",
+    "elapsed_seconds": 165.66935452799999,
+    "status": "passed"
+  },
+  {
+    "stage": "自动生成四问建模、核验、题意复查与论文图件报告",
+    "elapsed_seconds": 2.846445799999856,
+    "status": "passed"
+  },
+  {
+    "stage": "最终跨文件/报告/图件一致性门禁",
+    "elapsed_seconds": 1.8033272790003139,
+    "status": "passed"
+  },
+  {
+    "stage": "与参考数值比对（不参与求解）",
+    "elapsed_seconds": 0.002824085999691306,
+    "status": "passed"
+  }
+]

@@ -1,0 +1,4 @@
+﻿model_id,count,full_charge_s,source_workbook,source_sheet,source_excel_row
+A,6,1800.0,运输无人机数据.xlsx,数据,20
+B,4,2400.0,运输无人机数据.xlsx,数据,21
+C,4,3000.0,运输无人机数据.xlsx,数据,22

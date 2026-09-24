@@ -1,0 +1,17 @@
+﻿node_id,given_ground_m,dem_pixel_m,difference_m,review_gt_threshold,action
+O01,127.7,128.7255401611328,-1.0255401611328097,False,retain_given_node_elevation
+S001,154.0,153.96136474609375,0.03863525390625,False,retain_given_node_elevation
+S002,189.5,188.7942352294922,0.7057647705078125,False,retain_given_node_elevation
+S003,308.5,308.51068115234375,-0.01068115234375,False,retain_given_node_elevation
+S004,198.3,195.11575317382812,3.1842468261718864,False,retain_given_node_elevation
+S005,165.0,169.03955078125,-4.03955078125,False,retain_given_node_elevation
+S006,284.8,275.1272277832031,9.672772216796886,True,retain_given_node_elevation
+S007,318.5,314.2220458984375,4.2779541015625,False,retain_given_node_elevation
+S008,240.9,248.2891845703125,-7.389184570312494,True,retain_given_node_elevation
+S009,200.0,189.4370880126953,10.562911987304688,True,retain_given_node_elevation
+S010,321.6,321.5816650390625,0.018334960937522737,False,retain_given_node_elevation
+S011,182.1,178.04286193847656,4.057138061523432,False,retain_given_node_elevation
+S012,249.8,253.31507873535156,-3.515078735351551,False,retain_given_node_elevation
+S013,321.7,321.70806884765625,-0.008068847656261369,False,retain_given_node_elevation
+S014,321.0,320.9825134277344,0.017486572265625,False,retain_given_node_elevation
+S015,444.5,436.229248046875,8.270751953125,True,retain_given_node_elevation

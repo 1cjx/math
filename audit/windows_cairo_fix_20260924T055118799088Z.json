@@ -1,0 +1,10 @@
+{
+  "patch": "D_NATIVE_PDF_PATCH_V1",
+  "changed_file": "viz/core.py",
+  "backup": "viz/core.py.before_cairo_fix_20260924T055118799088Z.bak",
+  "old_sha256": "789d477efddd3fbfdb8ced5bd5c3bd74e1bb94f49ac5e51d477919f3e3b95b9e",
+  "new_sha256": "b224cb5d482d302184897598c47182fc2f24e8ff3f18ff147f4cbb0350553684",
+  "created_utc": "20260924T055118799088Z",
+  "python": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:12:50) [MSC v.1942 64 bit (AMD64)]",
+  "scope": "PDF导出依赖修复；未重新求解或更改实验数据。"
+}

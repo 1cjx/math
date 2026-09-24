@@ -1,0 +1,232 @@
+{
+  "figure_id": "F124",
+  "title": "第四问：2组独立运输机身占用",
+  "sources": {
+    "results/q4/K2/resource_allocations.csv": "041c2376f519f059be9370d1d5049cc56f79640a4e99cdddf097e181414b3b12"
+  },
+  "note": "当前主方案的诊断视图；不另算一次独立实验",
+  "values": [
+    {
+      "resource": "K2-G1-transport_A-04",
+      "start_min": 0.0,
+      "return_min": 40.08798967271737,
+      "ready_min": 40.08798967271737,
+      "trip": "001"
+    },
+    {
+      "resource": "K2-G1-transport_A-01",
+      "start_min": 0.0,
+      "return_min": 20.848325034621702,
+      "ready_min": 20.848325034621702,
+      "trip": "002"
+    },
+    {
+      "resource": "K2-G1-transport_A-03",
+      "start_min": 0.0,
+      "return_min": 34.86295660305066,
+      "ready_min": 34.86295660305066,
+      "trip": "003"
+    },
+    {
+      "resource": "K2-G1-transport_A-02",
+      "start_min": 0.0,
+      "return_min": 20.848325034621702,
+      "ready_min": 20.848325034621702,
+      "trip": "004"
+    },
+    {
+      "resource": "K2-G1-transport_A-01",
+      "start_min": 20.848325034621702,
+      "return_min": 41.696650069243404,
+      "ready_min": 41.696650069243404,
+      "trip": "009"
+    },
+    {
+      "resource": "K2-G1-transport_A-02",
+      "start_min": 20.848325034621702,
+      "return_min": 54.711281637672364,
+      "ready_min": 54.711281637672364,
+      "trip": "010"
+    },
+    {
+      "resource": "K2-G1-transport_A-03",
+      "start_min": 35.15359349905392,
+      "return_min": 62.02215579366124,
+      "ready_min": 62.02215579366124,
+      "trip": "014"
+    },
+    {
+      "resource": "K2-G1-transport_A-04",
+      "start_min": 40.08798967271737,
+      "return_min": 60.936314707339065,
+      "ready_min": 60.936314707339065,
+      "trip": "015"
+    },
+    {
+      "resource": "K2-G1-transport_A-01",
+      "start_min": 54.34813410735093,
+      "return_min": 95.61842608908333,
+      "ready_min": 95.61842608908333,
+      "trip": "017"
+    },
+    {
+      "resource": "K2-G1-transport_A-02",
+      "start_min": 61.497455968788216,
+      "return_min": 97.68299829225107,
+      "ready_min": 97.68299829225107,
+      "trip": "019"
+    },
+    {
+      "resource": "K2-G1-transport_A-03",
+      "start_min": 62.6777126998243,
+      "return_min": 106.06658631387178,
+      "ready_min": 106.06658631387178,
+      "trip": "020"
+    },
+    {
+      "resource": "K2-G1-transport_A-04",
+      "start_min": 74.3994615894038,
+      "return_min": 107.20928497519802,
+      "ready_min": 107.20928497519802,
+      "trip": "023"
+    },
+    {
+      "resource": "K2-G1-transport_B-01",
+      "start_min": 0.0,
+      "return_min": 26.271256649671386,
+      "ready_min": 26.271256649671386,
+      "trip": "005"
+    },
+    {
+      "resource": "K2-G1-transport_B-02",
+      "start_min": 0.0,
+      "return_min": 27.271256649671386,
+      "ready_min": 27.271256649671386,
+      "trip": "006"
+    },
+    {
+      "resource": "K2-G1-transport_B-01",
+      "start_min": 26.271256649671386,
+      "return_min": 60.538601448708256,
+      "ready_min": 60.538601448708256,
+      "trip": "012"
+    },
+    {
+      "resource": "K2-G1-transport_B-02",
+      "start_min": 27.271256649671386,
+      "return_min": 56.54949498464579,
+      "ready_min": 56.54949498464579,
+      "trip": "013"
+    },
+    {
+      "resource": "K2-G1-transport_B-02",
+      "start_min": 56.54949498464579,
+      "return_min": 93.54659697383782,
+      "ready_min": 93.54659697383782,
+      "trip": "018"
+    },
+    {
+      "resource": "K2-G1-transport_B-01",
+      "start_min": 64.98062218169616,
+      "return_min": 90.95465106650884,
+      "ready_min": 90.95465106650884,
+      "trip": "021"
+    },
+    {
+      "resource": "K2-G1-transport_B-01",
+      "start_min": 90.95465106650884,
+      "return_min": 109.7616589370948,
+      "ready_min": 109.7616589370948,
+      "trip": "025"
+    },
+    {
+      "resource": "K2-G1-transport_C-01",
+      "start_min": 0.0,
+      "return_min": 41.281473847733665,
+      "ready_min": 41.281473847733665,
+      "trip": "008"
+    },
+    {
+      "resource": "K2-G1-transport_C-02",
+      "start_min": 26.02589779936127,
+      "return_min": 67.69994099866943,
+      "ready_min": 67.69994099866943,
+      "trip": "011"
+    },
+    {
+      "resource": "K2-G1-transport_C-01",
+      "start_min": 41.281473847733665,
+      "return_min": 79.63241872245368,
+      "ready_min": 79.63241872245368,
+      "trip": "016"
+    },
+    {
+      "resource": "K2-G1-transport_C-02",
+      "start_min": 67.69994099866943,
+      "return_min": 108.30146349207901,
+      "ready_min": 108.30146349207901,
+      "trip": "022"
+    },
+    {
+      "resource": "K2-G1-transport_C-01",
+      "start_min": 79.63241872245368,
+      "return_min": 108.71892746455002,
+      "ready_min": 108.71892746455002,
+      "trip": "024"
+    },
+    {
+      "resource": "K2-G2-transport_C-01",
+      "start_min": 0.0,
+      "return_min": 26.02589779936127,
+      "ready_min": 26.02589779936127,
+      "trip": "007"
+    }
+  ],
+  "visible_text": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "009",
+    "010",
+    "014",
+    "015",
+    "017",
+    "019",
+    "020",
+    "023",
+    "005",
+    "006",
+    "012",
+    "013",
+    "018",
+    "021",
+    "025",
+    "008",
+    "011",
+    "016",
+    "022",
+    "024",
+    "007",
+    "任务相对时刻（min）",
+    "0",
+    "20",
+    "40",
+    "60",
+    "80",
+    "100",
+    "120",
+    "K2-G1-机身A-01",
+    "K2-G1-机身A-02",
+    "K2-G1-机身A-03",
+    "K2-G1-机身A-04",
+    "K2-G1-机身B-01",
+    "K2-G1-机身B-02",
+    "K2-G1-机身C-01",
+    "K2-G1-机身C-02",
+    "K2-G2-机身C-01",
+    "第四问：2组独立运输机身占用",
+    "准备至返回",
+    "充电或机身周转"
+  ]
+}

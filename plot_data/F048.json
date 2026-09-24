@@ -1,0 +1,84 @@
+{
+  "figure_id": "F048",
+  "title": "第一问：能耗分项假设扰动后重新优化",
+  "sources": {
+    "results/q1/energy_assumption_sensitivity.csv": "1ed0fb421d7f8e8ea37ee5b026aeca170c8a10660bfe8a8ef292bef1d817cc03"
+  },
+  "note": "当前主方案的诊断视图；柱高由源表聚合",
+  "values": [
+    {
+      "horizontal_multiplier": "1.0",
+      "climb_multiplier": "1.0",
+      "feasible": "True",
+      "trips": "18",
+      "energy_kwh": "59.13129602205389",
+      "operation_time_s": "32776.015748915874",
+      "min_return_soc_fraction": "0.230883497636599",
+      "type": "nominal"
+    },
+    {
+      "horizontal_multiplier": "0.9",
+      "climb_multiplier": "1.0",
+      "feasible": "True",
+      "trips": "18",
+      "energy_kwh": "53.473740317755265",
+      "operation_time_s": "32776.015748915874",
+      "min_return_soc_fraction": "0.30558339186533656",
+      "type": "assumption_perturbation_not_source_parameter"
+    },
+    {
+      "horizontal_multiplier": "1.1",
+      "climb_multiplier": "1.0",
+      "feasible": "True",
+      "trips": "20",
+      "energy_kwh": "69.3441985335703",
+      "operation_time_s": "36335.49082163948",
+      "min_return_soc_fraction": "0.21064135527948924",
+      "type": "assumption_perturbation_not_source_parameter"
+    },
+    {
+      "horizontal_multiplier": "1.0",
+      "climb_multiplier": "0.9",
+      "feasible": "True",
+      "trips": "18",
+      "energy_kwh": "58.875722124147124",
+      "operation_time_s": "32776.015748915874",
+      "min_return_soc_fraction": "0.23309525364420147",
+      "type": "assumption_perturbation_not_source_parameter"
+    },
+    {
+      "horizontal_multiplier": "1.0",
+      "climb_multiplier": "1.1",
+      "feasible": "True",
+      "trips": "18",
+      "energy_kwh": "59.38686991996065",
+      "operation_time_s": "32776.015748915874",
+      "min_return_soc_fraction": "0.2286717416289965",
+      "type": "assumption_perturbation_not_source_parameter"
+    }
+  ],
+  "visible_text": [
+    "59.131",
+    "53.474",
+    "69.344",
+    "58.876",
+    "59.387",
+    "重新优化后的总运输能耗（kWh）",
+    "-10",
+    "0",
+    "10",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "水平×1.0 / 爬升×1.0",
+    "水平×0.9 / 爬升×1.0",
+    "水平×1.1 / 爬升×1.0",
+    "水平×1.0 / 爬升×0.9",
+    "水平×1.0 / 爬升×1.1",
+    "第一问：能耗分项假设扰动后重新优化"
+  ]
+}

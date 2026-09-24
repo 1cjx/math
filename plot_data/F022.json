@@ -1,0 +1,2215 @@
+{
+  "figure_id": "F022",
+  "title": "第一问：S005载荷—能量可行边界",
+  "sources": {
+    "results/closure/energy_curves_S005.csv": "4bb02a7d1407b81b72d11c2243025f015003e49265c77deb995fb0f443be7520"
+  },
+  "note": "基于明确能耗假设的确定性曲线，不是额外现场实验",
+  "values": [
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "0.0",
+      "energy_fraction_percent": "44.18839651437696"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "0.20833333333333334",
+      "energy_fraction_percent": "44.19509246323417"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "0.4166666666666667",
+      "energy_fraction_percent": "44.20445364287094"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "0.625",
+      "energy_fraction_percent": "44.21555382607891"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "0.8333333333333334",
+      "energy_fraction_percent": "44.22806438451069"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "1.0416666666666667",
+      "energy_fraction_percent": "44.241796639882224"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "1.25",
+      "energy_fraction_percent": "44.25662425627613"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "1.4583333333333335",
+      "energy_fraction_percent": "44.272455284684916"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "1.6666666666666667",
+      "energy_fraction_percent": "44.28921916268999"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "1.875",
+      "energy_fraction_percent": "44.30685971488803"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "2.0833333333333335",
+      "energy_fraction_percent": "44.32533099912777"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "2.291666666666667",
+      "energy_fraction_percent": "44.344594662919626"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "2.5",
+      "energy_fraction_percent": "44.3646181694493"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "2.7083333333333335",
+      "energy_fraction_percent": "44.38537355657146"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "2.916666666666667",
+      "energy_fraction_percent": "44.40683653899746"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "3.125",
+      "energy_fraction_percent": "44.428985840516596"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "3.3333333333333335",
+      "energy_fraction_percent": "44.45180268562105"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "3.541666666666667",
+      "energy_fraction_percent": "44.47527040473828"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "3.75",
+      "energy_fraction_percent": "44.49937412240158"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "3.9583333333333335",
+      "energy_fraction_percent": "44.52410050724246"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "4.166666666666667",
+      "energy_fraction_percent": "44.549437568911756"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "4.375",
+      "energy_fraction_percent": "44.57537449120078"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "4.583333333333334",
+      "energy_fraction_percent": "44.601901493488526"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "4.791666666666667",
+      "energy_fraction_percent": "44.629009714638606"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "5.0",
+      "energy_fraction_percent": "44.65669111489506"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "5.208333333333334",
+      "energy_fraction_percent": "44.68493839235944"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "5.416666666666667",
+      "energy_fraction_percent": "44.71374491139343"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "5.625",
+      "energy_fraction_percent": "44.74310464085974"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "5.833333333333334",
+      "energy_fraction_percent": "44.77301210054429"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "6.041666666666667",
+      "energy_fraction_percent": "44.803462314431805"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "6.25",
+      "energy_fraction_percent": "44.834450769761396"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "6.458333333333334",
+      "energy_fraction_percent": "44.8659733809879"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "6.666666666666667",
+      "energy_fraction_percent": "44.89802645793123"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "6.875",
+      "energy_fraction_percent": "44.930606677520274"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "7.083333333333334",
+      "energy_fraction_percent": "44.96371105863857"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "7.291666666666667",
+      "energy_fraction_percent": "44.99733693965864"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "7.5",
+      "energy_fraction_percent": "45.0314819583176"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "7.708333333333334",
+      "energy_fraction_percent": "45.06614403364087"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "7.916666666666667",
+      "energy_fraction_percent": "45.10132134966363"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "8.125",
+      "energy_fraction_percent": "45.13701234073742"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "8.333333333333334",
+      "energy_fraction_percent": "45.1732156782386"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "8.541666666666668",
+      "energy_fraction_percent": "45.209930258521474"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "8.75",
+      "energy_fraction_percent": "45.24715519197991"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "8.958333333333334",
+      "energy_fraction_percent": "45.2848897930991"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "9.166666666666668",
+      "energy_fraction_percent": "45.323133571394955"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "9.375",
+      "energy_fraction_percent": "45.36188622315092"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "9.583333333333334",
+      "energy_fraction_percent": "45.40114762387357"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "9.791666666666668",
+      "energy_fraction_percent": "45.44091782139785"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "10.0",
+      "energy_fraction_percent": "45.48119702958069"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "10.208333333333334",
+      "energy_fraction_percent": "45.52198562252927"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "10.416666666666668",
+      "energy_fraction_percent": "45.563284129315996"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "10.625",
+      "energy_fraction_percent": "45.60509322913772"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "10.833333333333334",
+      "energy_fraction_percent": "45.64741374688144"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "11.041666666666668",
+      "energy_fraction_percent": "45.69024664906274"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "11.25",
+      "energy_fraction_percent": "45.733593040106705"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "11.458333333333334",
+      "energy_fraction_percent": "45.77745415894444"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "11.666666666666668",
+      "energy_fraction_percent": "45.82183137590084"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "11.875",
+      "energy_fraction_percent": "45.866726189851754"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "12.083333333333334",
+      "energy_fraction_percent": "45.912140225631035"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "12.291666666666668",
+      "energy_fraction_percent": "45.9580752316696"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "12.5",
+      "energy_fraction_percent": "46.00453307785071"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "12.708333333333334",
+      "energy_fraction_percent": "46.0515157535667"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "12.916666666666668",
+      "energy_fraction_percent": "46.099025365964444"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "13.125",
+      "energy_fraction_percent": "46.14706413836716"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "13.333333333333334",
+      "energy_fraction_percent": "46.19563440886238"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "13.541666666666668",
+      "energy_fraction_percent": "46.244738629045706"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "13.75",
+      "energy_fraction_percent": "46.29437936291187"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "13.958333333333334",
+      "energy_fraction_percent": "46.344559285884806"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "14.166666666666668",
+      "energy_fraction_percent": "46.395281183979414"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "14.375",
+      "energy_fraction_percent": "46.44654795308828"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "14.583333333333334",
+      "energy_fraction_percent": "46.49836259838725"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "14.791666666666668",
+      "energy_fraction_percent": "46.55072823385436"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "15.0",
+      "energy_fraction_percent": "46.603648081896964"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "15.208333333333334",
+      "energy_fraction_percent": "46.65712547308243"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "15.416666666666668",
+      "energy_fraction_percent": "46.711163845968414"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "15.625",
+      "energy_fraction_percent": "46.76576674702859"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "15.833333333333334",
+      "energy_fraction_percent": "46.82093783067061"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "16.041666666666668",
+      "energy_fraction_percent": "46.876680859343026"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "16.25",
+      "energy_fraction_percent": "46.93299970372851"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "16.458333333333336",
+      "energy_fraction_percent": "46.98989834302052"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "16.666666666666668",
+      "energy_fraction_percent": "47.04738086528126"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "16.875",
+      "energy_fraction_percent": "47.105451467879"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "17.083333333333336",
+      "energy_fraction_percent": "47.164114458002594"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "17.291666666666668",
+      "energy_fraction_percent": "47.22337425325178"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "17.5",
+      "energy_fraction_percent": "47.283235382301726"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "17.708333333333336",
+      "energy_fraction_percent": "47.34370248564053"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "17.916666666666668",
+      "energy_fraction_percent": "47.40478031637857"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "18.125",
+      "energy_fraction_percent": "47.466473741128844"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "18.333333333333336",
+      "energy_fraction_percent": "47.52878774095726"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "18.541666666666668",
+      "energy_fraction_percent": "47.591727412402584"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "18.75",
+      "energy_fraction_percent": "47.65529796856511"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "18.958333333333336",
+      "energy_fraction_percent": "47.71950474026407"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "19.166666666666668",
+      "energy_fraction_percent": "47.78435317726316"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "19.375",
+      "energy_fraction_percent": "47.84984884956424"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "19.583333333333336",
+      "energy_fraction_percent": "47.915997448769055"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "19.791666666666668",
+      "energy_fraction_percent": "47.98280478950928"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "20.0",
+      "energy_fraction_percent": "48.05027681094458"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "20.208333333333336",
+      "energy_fraction_percent": "48.11841957832945"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "20.416666666666668",
+      "energy_fraction_percent": "48.187239284649074"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "20.625",
+      "energy_fraction_percent": "48.256742252324415"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "20.833333333333336",
+      "energy_fraction_percent": "48.3269349349875"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "21.041666666666668",
+      "energy_fraction_percent": "48.39782391932725"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "21.25",
+      "energy_fraction_percent": "48.46941592700669"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "21.458333333333336",
+      "energy_fraction_percent": "48.541717816652636"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "21.666666666666668",
+      "energy_fraction_percent": "48.61473658591818"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "21.875",
+      "energy_fraction_percent": "48.68847937361976"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "22.083333333333336",
+      "energy_fraction_percent": "48.76295346194925"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "22.291666666666668",
+      "energy_fraction_percent": "48.83816627876272"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "22.5",
+      "energy_fraction_percent": "48.91412539994694"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "22.708333333333336",
+      "energy_fraction_percent": "48.99083855186494"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "22.916666666666668",
+      "energy_fraction_percent": "49.06831361388238"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "23.125",
+      "energy_fraction_percent": "49.146558620975966"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "23.333333333333336",
+      "energy_fraction_percent": "49.22558176642566"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "23.541666666666668",
+      "energy_fraction_percent": "49.305391404592605"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "23.75",
+      "energy_fraction_percent": "49.385996053784254"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "23.958333333333336",
+      "energy_fraction_percent": "49.46740439920892"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "24.166666666666668",
+      "energy_fraction_percent": "49.54962529602169"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "24.375",
+      "energy_fraction_percent": "49.63266777246368"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "24.583333333333336",
+      "energy_fraction_percent": "49.71654103309711"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "24.791666666666668",
+      "energy_fraction_percent": "49.80125446213827"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "A",
+      "payload_kg": "25.0",
+      "energy_fraction_percent": "49.886817626891094"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "0.0",
+      "energy_fraction_percent": "39.74892722113723"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "0.25",
+      "energy_fraction_percent": "39.75977824883109"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "0.5",
+      "energy_fraction_percent": "39.775734995396824"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "0.75",
+      "energy_fraction_percent": "39.7950317958394"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "1.0",
+      "energy_fraction_percent": "39.8170463928481"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "1.25",
+      "energy_fraction_percent": "39.84142434340782"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "1.5",
+      "energy_fraction_percent": "39.86793054335551"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "1.75",
+      "energy_fraction_percent": "39.89639574898155"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "2.0",
+      "energy_fraction_percent": "39.926691711217046"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "2.25",
+      "energy_fraction_percent": "39.95871779046345"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "2.5",
+      "energy_fraction_percent": "39.99239301594807"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "2.75",
+      "energy_fraction_percent": "40.027651034256834"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "3.0",
+      "energy_fraction_percent": "40.06443672152494"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "3.25",
+      "energy_fraction_percent": "40.102703815280194"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "3.5",
+      "energy_fraction_percent": "40.142413202864276"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "3.75",
+      "energy_fraction_percent": "40.183531649955725"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "4.0",
+      "energy_fraction_percent": "40.22603083408653"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "4.25",
+      "energy_fraction_percent": "40.269886595553196"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "4.5",
+      "energy_fraction_percent": "40.31507834706355"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "4.75",
+      "energy_fraction_percent": "40.36158860173535"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "5.0",
+      "energy_fraction_percent": "40.40940259096783"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "5.25",
+      "energy_fraction_percent": "40.45850795167439"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "5.5",
+      "energy_fraction_percent": "40.50889446782508"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "5.75",
+      "energy_fraction_percent": "40.560553855069244"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "6.0",
+      "energy_fraction_percent": "40.61347957993522"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "6.25",
+      "energy_fraction_percent": "40.66766670708108"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "6.5",
+      "energy_fraction_percent": "40.72311176952706"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "6.75",
+      "energy_fraction_percent": "40.77981265788876"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "7.0",
+      "energy_fraction_percent": "40.837768525452525"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "7.25",
+      "energy_fraction_percent": "40.89697970656468"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "7.5",
+      "energy_fraction_percent": "40.957447646293396"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "7.75",
+      "energy_fraction_percent": "41.01917483970251"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "8.0",
+      "energy_fraction_percent": "41.08216477937659"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "8.25",
+      "energy_fraction_percent": "41.146421910075674"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "8.5",
+      "energy_fraction_percent": "41.21195158958856"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "8.75",
+      "energy_fraction_percent": "41.278760055009116"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "9.0",
+      "energy_fraction_percent": "41.34685439378464"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "9.25",
+      "energy_fraction_percent": "41.41624251898905"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "9.5",
+      "energy_fraction_percent": "41.48693314835819"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "9.75",
+      "energy_fraction_percent": "41.558935786694725"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "10.0",
+      "energy_fraction_percent": "41.63226071130895"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "10.25",
+      "energy_fraction_percent": "41.70691896021101"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "10.5",
+      "energy_fraction_percent": "41.7829223228114"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "10.75",
+      "energy_fraction_percent": "41.86028333292186"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "11.0",
+      "energy_fraction_percent": "41.93901526387879"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "11.25",
+      "energy_fraction_percent": "42.01913212563688"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "11.5",
+      "energy_fraction_percent": "42.10064866370299"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "11.75",
+      "energy_fraction_percent": "42.18358035979921"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "12.0",
+      "energy_fraction_percent": "42.26794343416098"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "12.25",
+      "energy_fraction_percent": "42.3537548493906"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "12.5",
+      "energy_fraction_percent": "42.44103231579936"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "12.75",
+      "energy_fraction_percent": "42.52979429818311"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "13.0",
+      "energy_fraction_percent": "42.620060023985815"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "13.25",
+      "energy_fraction_percent": "42.711849492815354"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "13.5",
+      "energy_fraction_percent": "42.80518348728371"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "13.75",
+      "energy_fraction_percent": "42.90008358515108"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "14.0",
+      "energy_fraction_percent": "42.99657217276089"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "14.25",
+      "energy_fraction_percent": "43.094672459758485"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "14.5",
+      "energy_fraction_percent": "43.194408495092446"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "14.75",
+      "energy_fraction_percent": "43.29580518430327"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "15.0",
+      "energy_fraction_percent": "43.398888308109036"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "15.25",
+      "energy_fraction_percent": "43.50368454230315"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "15.5",
+      "energy_fraction_percent": "43.61022147898391"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "15.75",
+      "energy_fraction_percent": "43.71852764914046"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "16.0",
+      "energy_fraction_percent": "43.82863254662443"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "16.25",
+      "energy_fraction_percent": "43.940566653541104"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "16.5",
+      "energy_fraction_percent": "44.0543614670986"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "16.75",
+      "energy_fraction_percent": "44.170049527958234"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "17.0",
+      "energy_fraction_percent": "44.287664450133775"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "17.25",
+      "energy_fraction_percent": "44.40724095249214"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "17.5",
+      "energy_fraction_percent": "44.52881489191306"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "17.75",
+      "energy_fraction_percent": "44.65242329816992"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "18.0",
+      "energy_fraction_percent": "44.778104410599646"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "18.25",
+      "energy_fraction_percent": "44.90589771663417"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "18.5",
+      "energy_fraction_percent": "45.03584399227249"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "18.75",
+      "energy_fraction_percent": "45.167985344577346"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "19.0",
+      "energy_fraction_percent": "45.3023652562871"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "19.25",
+      "energy_fraction_percent": "45.439028632639875"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "19.5",
+      "energy_fraction_percent": "45.57802185051342"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "19.75",
+      "energy_fraction_percent": "45.71939280999195"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "20.0",
+      "energy_fraction_percent": "45.863190988478024"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "20.25",
+      "energy_fraction_percent": "46.00946749747631"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "20.5",
+      "energy_fraction_percent": "46.15827514218418"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "20.75",
+      "energy_fraction_percent": "46.30966848403317"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "21.0",
+      "energy_fraction_percent": "46.46370390633543"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "21.25",
+      "energy_fraction_percent": "46.62043968319908"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "21.5",
+      "energy_fraction_percent": "46.77993605188767"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "21.75",
+      "energy_fraction_percent": "46.94225528881096"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "22.0",
+      "energy_fraction_percent": "47.10746178934632"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "22.25",
+      "energy_fraction_percent": "47.27562215170395"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "22.5",
+      "energy_fraction_percent": "47.44680526506365"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "22.75",
+      "energy_fraction_percent": "47.62108240222596"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "23.0",
+      "energy_fraction_percent": "47.79852731703762"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "23.25",
+      "energy_fraction_percent": "47.979216346869116"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "23.5",
+      "energy_fraction_percent": "48.16322852044119"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "23.75",
+      "energy_fraction_percent": "48.35064567131811"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "24.0",
+      "energy_fraction_percent": "48.54155255740784"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "24.25",
+      "energy_fraction_percent": "48.73603698683333"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "24.5",
+      "energy_fraction_percent": "48.934189950565035"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "24.75",
+      "energy_fraction_percent": "49.13610576223315"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "25.0",
+      "energy_fraction_percent": "49.341882205568005"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "25.25",
+      "energy_fraction_percent": "49.55162068995016"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "25.5",
+      "energy_fraction_percent": "49.765426414587225"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "25.75",
+      "energy_fraction_percent": "49.983408541872315"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "26.0",
+      "energy_fraction_percent": "50.20568038052193"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "26.25",
+      "energy_fraction_percent": "50.43235957913458"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "26.5",
+      "energy_fraction_percent": "50.663568330862084"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "26.75",
+      "energy_fraction_percent": "50.89943358993767"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "27.0",
+      "energy_fraction_percent": "51.140087300863314"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "27.25",
+      "energy_fraction_percent": "51.38566664112181"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "27.5",
+      "energy_fraction_percent": "51.636314278347484"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "27.75",
+      "energy_fraction_percent": "51.892178642964346"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "28.0",
+      "energy_fraction_percent": "52.153414217382064"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "28.25",
+      "energy_fraction_percent": "52.420181842928756"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "28.5",
+      "energy_fraction_percent": "52.692649045797644"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "28.75",
+      "energy_fraction_percent": "52.970990383390216"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "29.0",
+      "energy_fraction_percent": "53.25538781255518"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "29.25",
+      "energy_fraction_percent": "53.54603108135048"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "29.5",
+      "energy_fraction_percent": "53.84311814609478"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "29.75",
+      "energy_fraction_percent": "54.14685561562902"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "B",
+      "payload_kg": "30.0",
+      "energy_fraction_percent": "54.457459224876935"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "0.0",
+      "energy_fraction_percent": "41.71173340993677"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "0.6666666666666666",
+      "energy_fraction_percent": "41.726323456815265"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "1.3333333333333333",
+      "energy_fraction_percent": "41.747826016777395"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "2.0",
+      "energy_fraction_percent": "41.773856255663055"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "2.6666666666666665",
+      "energy_fraction_percent": "41.803576478005716"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "3.333333333333333",
+      "energy_fraction_percent": "41.83651140944941"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "4.0",
+      "energy_fraction_percent": "41.87234730989697"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "4.666666666666666",
+      "energy_fraction_percent": "41.91085962230311"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "5.333333333333333",
+      "energy_fraction_percent": "41.951879335450805"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "6.0",
+      "energy_fraction_percent": "41.99527488039233"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "6.666666666666666",
+      "energy_fraction_percent": "42.040941393462425"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "7.333333333333333",
+      "energy_fraction_percent": "42.08879388841426"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "8.0",
+      "energy_fraction_percent": "42.13876267954405"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "8.666666666666666",
+      "energy_fraction_percent": "42.190790184478026"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "9.333333333333332",
+      "energy_fraction_percent": "42.244828615402184"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "10.0",
+      "energy_fraction_percent": "42.300838265865"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "10.666666666666666",
+      "energy_fraction_percent": "42.35878621037489"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "11.333333333333332",
+      "energy_fraction_percent": "42.418645298293775"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "12.0",
+      "energy_fraction_percent": "42.48039336268356"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "12.666666666666666",
+      "energy_fraction_percent": "42.54401258948797"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "13.333333333333332",
+      "energy_fraction_percent": "42.60948900853963"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "14.0",
+      "energy_fraction_percent": "42.67681207866115"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "14.666666666666666",
+      "energy_fraction_percent": "42.745974346517244"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "15.333333333333332",
+      "energy_fraction_percent": "42.81697116404601"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "16.0",
+      "energy_fraction_percent": "42.88980045298621"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "16.666666666666664",
+      "energy_fraction_percent": "42.964462507693575"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "17.333333333333332",
+      "energy_fraction_percent": "43.0409598294103"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "18.0",
+      "energy_fraction_percent": "43.11929698662481"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "18.666666666666664",
+      "energy_fraction_percent": "43.19948049727317"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "19.333333333333332",
+      "energy_fraction_percent": "43.281518729386484"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "20.0",
+      "energy_fraction_percent": "43.365421817449146"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "20.666666666666664",
+      "energy_fraction_percent": "43.4512015922485"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "21.333333333333332",
+      "energy_fraction_percent": "43.538871522404165"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "22.0",
+      "energy_fraction_percent": "43.62844666608943"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "22.666666666666664",
+      "energy_fraction_percent": "43.71994363171743"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "23.333333333333332",
+      "energy_fraction_percent": "43.81338054657562"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "24.0",
+      "energy_fraction_percent": "43.908777032563826"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "24.666666666666664",
+      "energy_fraction_percent": "44.006154188332516"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "25.333333333333332",
+      "energy_fraction_percent": "44.10553457723435"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "26.0",
+      "energy_fraction_percent": "44.20694222060008"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "26.666666666666664",
+      "energy_fraction_percent": "44.310402595931045"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "27.333333333333332",
+      "energy_fraction_percent": "44.415942639670014"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "28.0",
+      "energy_fraction_percent": "44.52359075427096"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "28.666666666666664",
+      "energy_fraction_percent": "44.63337681933881"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "29.333333333333332",
+      "energy_fraction_percent": "44.74533220665407"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "30.0",
+      "energy_fraction_percent": "44.859489798935655"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "30.666666666666664",
+      "energy_fraction_percent": "44.975884012228235"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "31.333333333333332",
+      "energy_fraction_percent": "45.0945508218312"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "32.0",
+      "energy_fraction_percent": "45.215527791712276"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "32.666666666666664",
+      "energy_fraction_percent": "45.338854107373976"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "33.33333333333333",
+      "energy_fraction_percent": "45.46457061216269"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "34.0",
+      "energy_fraction_percent": "45.59271984703142"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "34.666666666666664",
+      "energy_fraction_percent": "45.7233460937864"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "35.33333333333333",
+      "energy_fraction_percent": "45.8564954218661"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "36.0",
+      "energy_fraction_percent": "45.992215738719324"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "36.666666666666664",
+      "energy_fraction_percent": "46.13055684386555"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "37.33333333333333",
+      "energy_fraction_percent": "46.2715704867385"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "38.0",
+      "energy_fraction_percent": "46.4153104284298"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "38.666666666666664",
+      "energy_fraction_percent": "46.56183250746709"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "39.33333333333333",
+      "energy_fraction_percent": "46.71119470977764"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "40.0",
+      "energy_fraction_percent": "46.86345724300599"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "40.666666666666664",
+      "energy_fraction_percent": "47.01868261537211"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "41.33333333333333",
+      "energy_fraction_percent": "47.17693571927495"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "42.0",
+      "energy_fraction_percent": "47.33828391986568"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "42.666666666666664",
+      "energy_fraction_percent": "47.50279714883505"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "43.33333333333333",
+      "energy_fraction_percent": "47.670548003680665"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "44.0",
+      "energy_fraction_percent": "47.841611852742396"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "44.666666666666664",
+      "energy_fraction_percent": "48.016066946318034"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "45.33333333333333",
+      "energy_fraction_percent": "48.1939945341968"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "46.0",
+      "energy_fraction_percent": "48.37547898997533"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "46.666666666666664",
+      "energy_fraction_percent": "48.56060794254967"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "47.33333333333333",
+      "energy_fraction_percent": "48.749472415208395"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "48.0",
+      "energy_fraction_percent": "48.942166972784854"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "48.666666666666664",
+      "energy_fraction_percent": "49.13878987736297"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "49.33333333333333",
+      "energy_fraction_percent": "49.339443253069746"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "50.0",
+      "energy_fraction_percent": "49.5442332605295"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "50.666666666666664",
+      "energy_fraction_percent": "49.753270281600535"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "51.33333333333333",
+      "energy_fraction_percent": "49.9666691150637"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "52.0",
+      "energy_fraction_percent": "50.184549183986036"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "52.666666666666664",
+      "energy_fraction_percent": "50.40703475554018"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "53.33333333333333",
+      "energy_fraction_percent": "50.63425517412363"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "54.0",
+      "energy_fraction_percent": "50.86634510868976"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "54.666666666666664",
+      "energy_fraction_percent": "51.10344481527771"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "55.33333333333333",
+      "energy_fraction_percent": "51.34570041580918"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "56.0",
+      "energy_fraction_percent": "51.59326419430893"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "56.666666666666664",
+      "energy_fraction_percent": "51.84629491180309"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "57.33333333333333",
+      "energy_fraction_percent": "52.10495814125501"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "58.0",
+      "energy_fraction_percent": "52.369426624014714"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "58.666666666666664",
+      "energy_fraction_percent": "52.63988064938556"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "59.33333333333333",
+      "energy_fraction_percent": "52.91650845905068"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "60.0",
+      "energy_fraction_percent": "53.19950667825585"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "60.666666666666664",
+      "energy_fraction_percent": "53.489080775813434"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "61.33333333333333",
+      "energy_fraction_percent": "53.785445555178036"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "62.0",
+      "energy_fraction_percent": "54.08882567904837"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "62.666666666666664",
+      "energy_fraction_percent": "54.39945623017594"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "63.33333333333333",
+      "energy_fraction_percent": "54.71758331130941"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "64.0",
+      "energy_fraction_percent": "55.043464687478995"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "64.66666666666666",
+      "energy_fraction_percent": "55.37737047412964"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "65.33333333333333",
+      "energy_fraction_percent": "55.719583874949144"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "66.0",
+      "energy_fraction_percent": "56.070401973611325"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "66.66666666666666",
+      "energy_fraction_percent": "56.4301365840703"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "67.33333333333333",
+      "energy_fraction_percent": "56.79911516450379"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "68.0",
+      "energy_fraction_percent": "57.17768180051813"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "68.66666666666666",
+      "energy_fraction_percent": "57.56619826380118"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "69.33333333333333",
+      "energy_fraction_percent": "57.96504515305024"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "70.0",
+      "energy_fraction_percent": "58.37462312471726"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "70.66666666666666",
+      "energy_fraction_percent": "58.79535422191612"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "71.33333333333333",
+      "energy_fraction_percent": "59.22768331073477"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "72.0",
+      "energy_fraction_percent": "59.672079634204"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "72.66666666666666",
+      "energy_fraction_percent": "60.12903849530949"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "73.33333333333333",
+      "energy_fraction_percent": "60.599083081711"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "74.0",
+      "energy_fraction_percent": "61.08276644627409"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "74.66666666666666",
+      "energy_fraction_percent": "61.58067365914802"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "75.33333333333333",
+      "energy_fraction_percent": "62.09342414896651"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "76.0",
+      "energy_fraction_percent": "62.62167425283718"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "76.66666666666666",
+      "energy_fraction_percent": "63.16611999715859"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "77.33333333333333",
+      "energy_fraction_percent": "63.72750013400377"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "78.0",
+      "energy_fraction_percent": "64.30659946088666"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "78.66666666666666",
+      "energy_fraction_percent": "64.90425245524357"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "79.33333333333333",
+      "energy_fraction_percent": "65.5213472589848"
+    },
+    {
+      "service_id": "S005",
+      "model_id": "C",
+      "payload_kg": "80.0",
+      "energy_fraction_percent": "66.15883005308517"
+    }
+  ],
+  "visible_text": [
+    "去程货物质量（kg）",
+    "-10",
+    "0",
+    "10",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90",
+    "往返能耗 / 可用电量（%）",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90",
+    "第一问：S005载荷—能量可行边界",
+    "A型",
+    "B型",
+    "C型",
+    "20%余量对应能量上限"
+  ]
+}

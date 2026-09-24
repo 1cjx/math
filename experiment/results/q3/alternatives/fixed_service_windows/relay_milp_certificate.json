@@ -1,0 +1,7 @@
+{
+  "scope": "相同运输解的固定宽中继时窗可行对照，不执行MILP，不声称最优",
+  "stage1_status": null,
+  "stage2_status": null,
+  "extra_planning_loss_guard_db": 0.2,
+  "guard_atom_count": 2066
+}

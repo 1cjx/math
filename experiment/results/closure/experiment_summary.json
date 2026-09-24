@@ -1,0 +1,15 @@
+{
+  "additional_energy_scenarios": 24,
+  "additional_charging_scenarios": 20,
+  "common_delay_scenarios": 122,
+  "per_trip_energy_bounds": 51,
+  "source_requirement_rows": 35,
+  "Q3_standalone_vs_closure_time_cost_s": 66.0,
+  "Q3_standalone_vs_closure_energy_cost_kwh": 0.3407102830368842,
+  "strict_Q4_no_replication": true,
+  "Q4_source_inventory_feasible": {
+    "2": 0,
+    "3": 0
+  },
+  "scope": "固定排程压力测试不重新优化，失败点保留；不用于声明鲁棒全局保证"
+}

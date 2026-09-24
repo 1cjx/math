@@ -1,0 +1,33 @@
+{
+  "hard_late_s": 1791.7788249192909,
+  "weighted_tardiness_s": 466685.6885295335,
+  "makespan_s": 10320.568987200146,
+  "energy_kwh": 59.13129602205388,
+  "trips": 18,
+  "weighted_completion_s": 3931145.000738316,
+  "scenario": "q1_frozen",
+  "feasible": false,
+  "delivered_boxes": 80,
+  "delivered_weight_kg": 758.0,
+  "delivered_volume_m3": 2.011,
+  "medical_boxes": 16,
+  "first_batch_boxes": 30,
+  "medical_on_time": 15,
+  "first_batch_on_time": 28,
+  "all_expected_on_time": 67,
+  "model_trip_counts": {
+    "B": 9,
+    "C": 9
+  },
+  "multipoint_trips": 0,
+  "max_stops_in_solution": 1,
+  "min_return_soc_fraction": 0.230883497636599,
+  "min_hard_deadline_slack_s": -910.8894124596454,
+  "battery_reuses": 10,
+  "battery_units_used": 8,
+  "battery_sharing_across_drones_units": 2,
+  "flight_time_sum_s": 19288.015748915874,
+  "operation_time_sum_s": 32776.015748915874,
+  "last_box_delivery_s": 9529.983312397857,
+  "optimality": "verified_feasible_heuristic_upper_bound_not_global_optimum"
+}

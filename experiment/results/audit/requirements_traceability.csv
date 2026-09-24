@@ -1,0 +1,18 @@
+﻿question,requirement,source_location,implementation_or_evidence,audit_interpretation
+Q1,不分配实体/电池；只O01-Si-O01，不跨区,题面第2页,optimizer.py候选按service_id分区；validation.py逐箱DP,已核验；Q1不强加Q2时限
+Q1,45组最大安全载荷；整箱不可拆且只送一次,题面第2页,max_safe_payload.csv；payload_continuous_discrete.csv；box_assignment.csv,连续能力与现有箱集合可实现值分别列出
+Q1,质量、容积、返航余量,题面第2页,independent_optimality.csv；validation_checks.csv,逐批质量/体积/完整往返电耗而非只看去程
+Q1,三个目标及余量变化,题面第2页,objective_comparison.csv；reserve_sensitivity.csv,优先关系公开，20%起，不把单项最优称综合全优
+Q2,联合组批、访问次序、机型、实体、电池、开始时刻,题面第3页,q2_search.py；q2_physics.py；trips.csv,均在搜索/解码中决定；无通信要求
+Q2,医疗期望时限硬约束，首批截止硬约束,题面第3页,q2_validation.py逐箱重算,其余期望时限仅作加权逾期评价
+Q2,全部任务完工为所有运输机最后返回O01,题面第3页,summary.json；Q2_运输架次.csv,非最后交付或累计工时
+Q2,8机、初装已包含的14组电池、同型共享,题面第9页,independent_resources.csv；transport_battery_units.csv,未凭空增加初装电池、并行充电可行
+Q2,90%拐点，65%/35%分段充满才可再次使用,题面第9页,independent_charge；battery_usage.csv,不按全程线性充电，也不带未充满电池出发
+Q1/Q2,航段最高DEM像元+50；每站30米作业后再爬升,题面第7页,240条有向arc_geometry；独立rasterio核验,去返分开，载荷逐站递减，返程为零
+Q1/Q2,航程1.5次幂；含电池空载质量不再加电池,题面第8页/原参数,physics.py与q2_validation.py独立公式,水平/爬升两个分项是已披露闭合假设
+Q1/Q2,模板往返时间与开始时刻口径,原结果模板仅给标题,time_components.csv；提交说明,固定解释：准备开始至返回；保留其他分项；没有额外官方定义
+Q2,单点/多点、节能对照和可行性,题面第3页,scenario_comparison.csv；每对照独立复核,启发式解；不误称下界已闭合
+Q1/Q2/Q3,共同原始ID、单位、物理规则,题面第4至5页,本回溯表；共用config与独立重算,Q3新运输方案另表，绝不覆盖Q2答案
+Q3,全阶段连续通信、单中继双向接入与回传,题面第10至11页,q3_validation.py连续顶点枚举和独立点审查,不只查服务点，不以遮挡直接代替断链
+Q3,两中继/六组件/300m AGL/建链/周转/返航,题面第8至9页及原表,independent_relay_details.csv,计划总质量23.5kg，建链期额外保守计能耗
+Q3,联合完工含中继返回,题面第3至4页,Q3_中继架次.csv；summary.json,运输与中继能耗合计，两类架次分别列出

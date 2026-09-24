@@ -1,0 +1,76 @@
+{
+  "q2_direct_only": {
+    "extra_loss_db": 0.0,
+    "required_airborne_service_s": 37827.596321587655,
+    "outage_duration_sum_s": 14212.142267889609,
+    "coverage_fraction": 0.6242916904614702,
+    "boundary_points_checked": 398,
+    "uncovered_boundary_points": 96,
+    "continuous_feasible": false
+  },
+  "baseline_with_relays": {
+    "extra_loss_db": 0.0,
+    "required_airborne_service_s": 37417.01536509141,
+    "outage_duration_sum_s": 0,
+    "coverage_fraction": 1.0,
+    "boundary_points_checked": 1042,
+    "uncovered_boundary_points": 0,
+    "continuous_feasible": true
+  },
+  "max_tested_extra_loss_feasible_db": 0.2,
+  "coordinate_max_loss_difference_db": 0.003083557652333005,
+  "common_delay_limit_s": 338.49973248746437,
+  "relay_only_fixed_assignment_test": [
+    {
+      "relay_only_shift_s": 0.0,
+      "fixed_assignment_uncovered_duration_s": 0.0,
+      "fixed_assignment_uncovered_points": 0,
+      "fixed_assignment_feasible": true,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": 1.0,
+      "fixed_assignment_uncovered_duration_s": 0.0,
+      "fixed_assignment_uncovered_points": 0,
+      "fixed_assignment_feasible": true,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": 2.0,
+      "fixed_assignment_uncovered_duration_s": 3.0,
+      "fixed_assignment_uncovered_points": 1,
+      "fixed_assignment_feasible": false,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": 3.0,
+      "fixed_assignment_uncovered_duration_s": 6.0,
+      "fixed_assignment_uncovered_points": 1,
+      "fixed_assignment_feasible": false,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": 5.0,
+      "fixed_assignment_uncovered_duration_s": 12.277397246918554,
+      "fixed_assignment_uncovered_points": 1,
+      "fixed_assignment_feasible": false,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": 10.0,
+      "fixed_assignment_uncovered_duration_s": 36.694103633099644,
+      "fixed_assignment_uncovered_points": 2,
+      "fixed_assignment_feasible": false,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    },
+    {
+      "relay_only_shift_s": 30.0,
+      "fixed_assignment_uncovered_duration_s": 156.69410363309964,
+      "fixed_assignment_uncovered_points": 6,
+      "fixed_assignment_feasible": false,
+      "meaning": "不重排运输、不重选保障关系的冻结方案压力测试"
+    }
+  ],
+  "all_source_parameters_unchanged": true,
+  "parameter_disturbances_are_not_official_safety_requirements": true
+}

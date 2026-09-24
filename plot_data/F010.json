@@ -1,0 +1,475 @@
+{
+  "figure_id": "F010",
+  "title": "第一问：不同架次数下的最小能耗曲线",
+  "sources": {
+    "results/q1/flight_energy_frontier.csv": "cb6ee6de77395cad4a7d1e7117bb1888a3f7e15fe16872c84aaf23fe1f30ba37"
+  },
+  "note": "包含被支配点的逐架次数最小能耗曲线；只有18和19架次是本数据二维非支配点，非三目标全部帕累托前沿",
+  "values": [
+    {
+      "trips": "18",
+      "min_energy_kwh": "59.131296022053895",
+      "operation_time_at_min_energy_s": "32776.01574891587",
+      "pareto_efficient_N_E": "True",
+      "trip_allocation": "S001:2;S002:2;S003:2;S004:1;S005:1;S006:1;S007:1;S008:1;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "19",
+      "min_energy_kwh": "59.03394209220336",
+      "operation_time_at_min_energy_s": "34439.97740715107",
+      "pareto_efficient_N_E": "True",
+      "trip_allocation": "S001:2;S002:2;S003:2;S004:1;S005:1;S006:1;S007:1;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "20",
+      "min_energy_kwh": "59.059564364730605",
+      "operation_time_at_min_energy_s": "35744.961747781745",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:2;S002:2;S003:2;S004:1;S005:1;S006:1;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "21",
+      "min_energy_kwh": "59.4533884431891",
+      "operation_time_at_min_energy_s": "36762.0619550751",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:3;S002:2;S003:2;S004:1;S005:1;S006:1;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "22",
+      "min_energy_kwh": "59.527858145070304",
+      "operation_time_at_min_energy_s": "37698.09329233265",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:4;S002:2;S003:2;S004:1;S005:1;S006:1;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "23",
+      "min_energy_kwh": "60.15045232284888",
+      "operation_time_at_min_energy_s": "38709.193499626",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:5;S002:2;S003:2;S004:1;S005:1;S006:1;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "24",
+      "min_energy_kwh": "60.335879563426765",
+      "operation_time_at_min_energy_s": "39758.35318890054",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:4;S002:2;S003:2;S004:1;S005:1;S006:3;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "25",
+      "min_energy_kwh": "60.89756053923652",
+      "operation_time_at_min_energy_s": "40662.3250441769",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:7;S002:2;S003:2;S004:1;S005:1;S006:1;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "26",
+      "min_energy_kwh": "61.60401939303806",
+      "operation_time_at_min_energy_s": "42429.67334928022",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:4;S002:2;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "27",
+      "min_energy_kwh": "61.70558195759298",
+      "operation_time_at_min_energy_s": "42722.58494074478",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:7;S002:2;S003:2;S004:1;S005:1;S006:3;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "28",
+      "min_energy_kwh": "62.48123272634344",
+      "operation_time_at_min_energy_s": "43731.00541297994",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:7;S002:2;S003:2;S004:1;S005:1;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "29",
+      "min_energy_kwh": "62.973721787204276",
+      "operation_time_at_min_energy_s": "45393.90510112447",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:7;S002:2;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:1;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "30",
+      "min_energy_kwh": "63.749372555954736",
+      "operation_time_at_min_energy_s": "46402.32557335962",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:7;S002:2;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "31",
+      "min_energy_kwh": "64.53632457545113",
+      "operation_time_at_min_energy_s": "47431.42578065297",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:8;S002:2;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "32",
+      "min_energy_kwh": "65.37073638971825",
+      "operation_time_at_min_energy_s": "48460.525987946334",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:9;S002:2;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "33",
+      "min_energy_kwh": "66.21468409209972",
+      "operation_time_at_min_energy_s": "49489.62619523968",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:10;S002:2;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "34",
+      "min_energy_kwh": "67.06688340701405",
+      "operation_time_at_min_energy_s": "51628.796503426456",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:9;S002:4;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "35",
+      "min_energy_kwh": "67.91083110939553",
+      "operation_time_at_min_energy_s": "52657.89671071982",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:10;S002:4;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:2;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "36",
+      "min_energy_kwh": "68.76335217926179",
+      "operation_time_at_min_energy_s": "53666.317182954976",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:10;S002:4;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "37",
+      "min_energy_kwh": "69.62341574229309",
+      "operation_time_at_min_energy_s": "54695.41739024832",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:11;S002:4;S003:2;S004:1;S005:3;S006:3;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "38",
+      "min_energy_kwh": "70.51500720909293",
+      "operation_time_at_min_energy_s": "55782.68864509151",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:11;S002:4;S003:2;S004:1;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "39",
+      "min_energy_kwh": "71.41029653892693",
+      "operation_time_at_min_energy_s": "56811.78885238486",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:12;S002:4;S003:2;S004:1;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "40",
+      "min_energy_kwh": "72.31654289061527",
+      "operation_time_at_min_energy_s": "57840.88905967821",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:13;S002:4;S003:2;S004:1;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "41",
+      "min_energy_kwh": "73.23284459740984",
+      "operation_time_at_min_energy_s": "58869.989266971555",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:14;S002:4;S003:2;S004:1;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "42",
+      "min_energy_kwh": "74.14943327180684",
+      "operation_time_at_min_energy_s": "61304.763278384846",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:13;S002:4;S003:2;S004:3;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "43",
+      "min_energy_kwh": "75.0657349786014",
+      "operation_time_at_min_energy_s": "62333.863485678194",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:14;S002:4;S003:2;S004:3;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "44",
+      "min_energy_kwh": "75.99056518825674",
+      "operation_time_at_min_energy_s": "63362.96369297154",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:2;S004:3;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "45",
+      "min_energy_kwh": "76.91363285266985",
+      "operation_time_at_min_energy_s": "65965.34204670374",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:14;S002:4;S003:4;S004:3;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "46",
+      "min_energy_kwh": "77.83846306232518",
+      "operation_time_at_min_energy_s": "66994.44225399708",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:4;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "47",
+      "min_energy_kwh": "78.78127637514743",
+      "operation_time_at_min_energy_s": "68081.71350884027",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:5;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "48",
+      "min_energy_kwh": "79.75280346884342",
+      "operation_time_at_min_energy_s": "69168.98476368346",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:6;S007:2;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "49",
+      "min_energy_kwh": "81.02259813095456",
+      "operation_time_at_min_energy_s": "70625.26016266375",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:6;S007:3;S008:2;S009:1;S010:1;S011:3;S012:1;S013:1;S014:1;S015:1"
+    },
+    {
+      "trips": "50",
+      "min_energy_kwh": "82.33393169033354",
+      "operation_time_at_min_energy_s": "71955.73248776584",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:6;S007:3;S008:2;S009:1;S010:1;S011:3;S012:1;S013:2;S014:1;S015:1"
+    },
+    {
+      "trips": "51",
+      "min_energy_kwh": "83.6467647321067",
+      "operation_time_at_min_energy_s": "73331.11205359701",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:6;S007:3;S008:2;S009:1;S010:2;S011:3;S012:1;S013:2;S014:1;S015:1"
+    },
+    {
+      "trips": "52",
+      "min_energy_kwh": "85.02185735852477",
+      "operation_time_at_min_energy_s": "74787.38745257728",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:6;S007:4;S008:2;S009:1;S010:2;S011:3;S012:1;S013:2;S014:1;S015:1"
+    },
+    {
+      "trips": "53",
+      "min_energy_kwh": "86.43781407787256",
+      "operation_time_at_min_energy_s": "76243.66285155757",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:3;S006:6;S007:5;S008:2;S009:1;S010:2;S011:3;S012:1;S013:2;S014:1;S015:1"
+    },
+    {
+      "trips": "54",
+      "min_energy_kwh": "87.8785766274909",
+      "operation_time_at_min_energy_s": "77639.8330798594",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:4;S006:6;S007:5;S008:2;S009:1;S010:2;S011:3;S012:1;S013:2;S014:1;S015:1"
+    },
+    {
+      "trips": "55",
+      "min_energy_kwh": "89.32238397031792",
+      "operation_time_at_min_energy_s": "79015.21264569058",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:4;S006:6;S007:5;S008:2;S009:1;S010:3;S011:3;S012:1;S013:2;S014:1;S015:1"
+    },
+    {
+      "trips": "56",
+      "min_energy_kwh": "90.76646427740849",
+      "operation_time_at_min_energy_s": "80345.68497079267",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:4;S006:6;S007:5;S008:2;S009:1;S010:3;S011:3;S012:1;S013:3;S014:1;S015:1"
+    },
+    {
+      "trips": "57",
+      "min_energy_kwh": "92.27321035191964",
+      "operation_time_at_min_energy_s": "81724.12670388143",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:4;S006:6;S007:5;S008:2;S009:2;S010:3;S011:3;S012:1;S013:3;S014:1;S015:1"
+    },
+    {
+      "trips": "58",
+      "min_energy_kwh": "93.79886454084074",
+      "operation_time_at_min_energy_s": "83120.29693218324",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:5;S006:6;S007:5;S008:2;S009:2;S010:3;S011:3;S012:1;S013:3;S014:1;S015:1"
+    },
+    {
+      "trips": "59",
+      "min_energy_kwh": "95.35022123504186",
+      "operation_time_at_min_energy_s": "84810.05334856485",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:5;S006:6;S007:5;S008:2;S009:2;S010:3;S011:3;S012:1;S013:3;S014:2;S015:1"
+    },
+    {
+      "trips": "60",
+      "min_energy_kwh": "96.92346371134887",
+      "operation_time_at_min_energy_s": "86206.22357686669",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:2;S010:3;S011:3;S012:1;S013:3;S014:2;S015:1"
+    },
+    {
+      "trips": "61",
+      "min_energy_kwh": "98.58447071758503",
+      "operation_time_at_min_energy_s": "87854.50021429367",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:2;S010:3;S011:3;S012:1;S013:3;S014:2;S015:2"
+    },
+    {
+      "trips": "62",
+      "min_energy_kwh": "100.24739365026302",
+      "operation_time_at_min_energy_s": "89232.94194738242",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:1;S013:3;S014:2;S015:2"
+    },
+    {
+      "trips": "63",
+      "min_energy_kwh": "101.94711053449043",
+      "operation_time_at_min_energy_s": "90922.69836376404",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:1;S013:3;S014:3;S015:2"
+    },
+    {
+      "trips": "64",
+      "min_energy_kwh": "103.77262283519931",
+      "operation_time_at_min_energy_s": "92570.97500119101",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:4;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:1;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "65",
+      "min_energy_kwh": "105.72420092270433",
+      "operation_time_at_min_energy_s": "94207.6693012895",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:5;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:1;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "66",
+      "min_energy_kwh": "107.70625376420962",
+      "operation_time_at_min_energy_s": "95950.40965203357",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:5;S003:4;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "67",
+      "min_energy_kwh": "109.71528720663409",
+      "operation_time_at_min_energy_s": "97850.93295557697",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:5;S003:5;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "68",
+      "min_energy_kwh": "111.7422268784713",
+      "operation_time_at_min_energy_s": "99487.6272556754",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:6;S003:5;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "69",
+      "min_energy_kwh": "113.82511563965217",
+      "operation_time_at_min_energy_s": "101388.15055921879",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:6;S003:6;S004:3;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "70",
+      "min_energy_kwh": "115.91970976844046",
+      "operation_time_at_min_energy_s": "103189.79419628206",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:6;S003:6;S004:4;S005:6;S006:6;S007:5;S008:2;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "71",
+      "min_energy_kwh": "118.02743427943304",
+      "operation_time_at_min_energy_s": "104971.6256319424",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:6;S003:6;S004:4;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "72",
+      "min_energy_kwh": "120.14567712951374",
+      "operation_time_at_min_energy_s": "106608.31993204086",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:7;S003:6;S004:4;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "73",
+      "min_energy_kwh": "122.30633168433572",
+      "operation_time_at_min_energy_s": "108245.01423213932",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:6;S004:4;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "74",
+      "min_energy_kwh": "124.47869873067205",
+      "operation_time_at_min_energy_s": "110145.53753568271",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:7;S004:4;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:2;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "75",
+      "min_energy_kwh": "126.66306435819978",
+      "operation_time_at_min_energy_s": "111888.27788642679",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:7;S004:4;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:3;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "76",
+      "min_energy_kwh": "128.8769954188867",
+      "operation_time_at_min_energy_s": "113788.80118997018",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:8;S004:4;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:3;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "77",
+      "min_energy_kwh": "131.09561188755333",
+      "operation_time_at_min_energy_s": "115590.44482703345",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:8;S004:5;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:3;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "78",
+      "min_energy_kwh": "133.38375240830425",
+      "operation_time_at_min_energy_s": "117392.08846409673",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:8;S004:6;S005:6;S006:6;S007:5;S008:3;S009:3;S010:3;S011:3;S012:3;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "79",
+      "min_energy_kwh": "135.6790859474869",
+      "operation_time_at_min_energy_s": "119173.91989975706",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:8;S004:6;S005:6;S006:6;S007:5;S008:4;S009:3;S010:3;S011:3;S012:3;S013:3;S014:3;S015:3"
+    },
+    {
+      "trips": "80",
+      "min_energy_kwh": "138.0472269033454",
+      "operation_time_at_min_energy_s": "120955.7513354174",
+      "pareto_efficient_N_E": "False",
+      "trip_allocation": "S001:15;S002:8;S003:8;S004:6;S005:6;S006:6;S007:5;S008:5;S009:3;S010:3;S011:3;S012:3;S013:3;S014:3;S015:3"
+    }
+  ],
+  "visible_text": [
+    "18架次：59.131 kWh\n19架次：59.034 kWh",
+    "运输总架次数",
+    "10",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90",
+    "最小运输能耗（kWh）",
+    "40",
+    "60",
+    "80",
+    "100",
+    "120",
+    "140",
+    "160",
+    "第一问：不同架次数下的最小能耗曲线",
+    "每个架次数下的最小能耗",
+    "二维非支配点"
+  ]
+}

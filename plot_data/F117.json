@@ -1,0 +1,58 @@
+{
+  "figure_id": "F117",
+  "title": "第四问：运输与中继依赖合并后的不可拆单元",
+  "sources": {
+    "results/q4/atomic_components.csv": "a2e7a6140bced966e0eb49c285def9315e7d94f61567cc24e44aa694567688d5"
+  },
+  "note": "当前主方案的诊断视图；柱高由源表聚合",
+  "values": [
+    {
+      "component_id": "C01",
+      "services": "S001;S002;S003;S004;S005;S008;S009;S010;S011;S012;S013;S014;S015",
+      "service_count": "13",
+      "transport_trips": "22",
+      "boxes": "69",
+      "weight_kg": "654.0",
+      "transport_workload_s": "42542.910699169166",
+      "transport_workload_share": "0.8991038502938968"
+    },
+    {
+      "component_id": "C02",
+      "services": "S006",
+      "service_count": "1",
+      "transport_trips": "1",
+      "boxes": "6",
+      "weight_kg": "59.0",
+      "transport_workload_s": "1561.5538679616764",
+      "transport_workload_share": "0.03300195195983827"
+    },
+    {
+      "component_id": "C03",
+      "services": "S007",
+      "service_count": "1",
+      "transport_trips": "2",
+      "boxes": "5",
+      "weight_kg": "45.0",
+      "transport_workload_s": "3212.5507979605663",
+      "transport_workload_share": "0.0678941977462648"
+    }
+  ],
+  "visible_text": [
+    "89.91%",
+    "3.30%",
+    "6.79%",
+    "C01",
+    "C02",
+    "C03",
+    "占全部运输累计作业时间（%）",
+    "-20",
+    "0",
+    "20",
+    "40",
+    "60",
+    "80",
+    "100",
+    "120",
+    "第四问：运输与中继依赖合并后的不可拆单元"
+  ]
+}

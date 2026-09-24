@@ -1,0 +1,7 @@
+{
+  "mode": "both_rebuilt_openpyxl_from_current_results",
+  "snapshot_is_not_solver_input": true,
+  "guard_every_cell": true,
+  "reject_stale_files": true,
+  "Q2_not_overwritten_by_Q3": true
+}

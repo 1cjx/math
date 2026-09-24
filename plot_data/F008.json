@@ -1,0 +1,130 @@
+{
+  "figure_id": "F008",
+  "title": "第一问：提高返航余量后的总能耗",
+  "sources": {
+    "results/q1/reserve_sensitivity.csv": "11f9d8ec5b7d8f82a0341cd49c4397589ca93ba254636bbb61ada0d67a11af30"
+  },
+  "note": "各档重新优化；仅绘制全箱可交付档，不可行档详见源表，不能视为0",
+  "values": [
+    {
+      "reserve_fraction": "0.2",
+      "feasible": "True",
+      "trips": "18",
+      "energy_kwh": "59.13129602205389",
+      "operation_time_s": "32776.015748915874",
+      "min_return_soc_fraction": "0.230883497636599",
+      "model_mix": "B:9;C:9",
+      "infeasible_services": ""
+    },
+    {
+      "reserve_fraction": "0.25",
+      "feasible": "True",
+      "trips": "19",
+      "energy_kwh": "61.07338737608944",
+      "operation_time_s": "34565.659385979154",
+      "min_return_soc_fraction": "0.27049853606452356",
+      "model_mix": "B:10;C:9",
+      "infeasible_services": ""
+    },
+    {
+      "reserve_fraction": "0.3",
+      "feasible": "True",
+      "trips": "20",
+      "energy_kwh": "67.22758968352564",
+      "operation_time_s": "36586.176952417474",
+      "min_return_soc_fraction": "0.3101873775759114",
+      "model_mix": "B:9;C:11",
+      "infeasible_services": ""
+    },
+    {
+      "reserve_fraction": "0.35",
+      "feasible": "True",
+      "trips": "25",
+      "energy_kwh": "75.60758952635034",
+      "operation_time_s": "45383.563533925684",
+      "min_return_soc_fraction": "0.35117768018311146",
+      "model_mix": "B:15;C:10",
+      "infeasible_services": ""
+    },
+    {
+      "reserve_fraction": "0.4",
+      "feasible": "False",
+      "trips": "",
+      "energy_kwh": "",
+      "operation_time_s": "",
+      "min_return_soc_fraction": "",
+      "model_mix": "",
+      "infeasible_services": "S004;S008"
+    },
+    {
+      "reserve_fraction": "0.45",
+      "feasible": "False",
+      "trips": "",
+      "energy_kwh": "",
+      "operation_time_s": "",
+      "min_return_soc_fraction": "",
+      "model_mix": "",
+      "infeasible_services": "S002;S003;S004;S008;S012"
+    },
+    {
+      "reserve_fraction": "0.5",
+      "feasible": "False",
+      "trips": "",
+      "energy_kwh": "",
+      "operation_time_s": "",
+      "min_return_soc_fraction": "",
+      "model_mix": "",
+      "infeasible_services": "S002;S003;S004;S008;S012"
+    },
+    {
+      "reserve_fraction": "0.55",
+      "feasible": "False",
+      "trips": "",
+      "energy_kwh": "",
+      "operation_time_s": "",
+      "min_return_soc_fraction": "",
+      "model_mix": "",
+      "infeasible_services": "S002;S003;S004;S008;S009;S012;S014;S015"
+    },
+    {
+      "reserve_fraction": "0.6",
+      "feasible": "False",
+      "trips": "",
+      "energy_kwh": "",
+      "operation_time_s": "",
+      "min_return_soc_fraction": "",
+      "model_mix": "",
+      "infeasible_services": "S002;S003;S004;S005;S008;S009;S012;S014;S015"
+    }
+  ],
+  "visible_text": [
+    "59.13",
+    "61.07",
+    "67.23",
+    "75.61",
+    "× 全箱交付不可行",
+    "要求保留的返航电量（%）",
+    "20",
+    "25",
+    "30",
+    "35",
+    "40",
+    "45",
+    "50",
+    "55",
+    "60",
+    "方案运输能耗（kWh）",
+    "55.0",
+    "57.5",
+    "60.0",
+    "62.5",
+    "65.0",
+    "67.5",
+    "70.0",
+    "72.5",
+    "75.0",
+    "77.5",
+    "80.0",
+    "第一问：提高返航余量后的总能耗"
+  ]
+}

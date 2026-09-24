@@ -1,0 +1,13 @@
+{
+  "checks_total": 1129,
+  "checks_passed": 1129,
+  "checks_failed": 0,
+  "theme_reports": 12,
+  "parsed_formulas": 29,
+  "png_figures": 147,
+  "svg_figures": 147,
+  "pdf_figures": 147,
+  "strict_Q3_Q4_consistent": true,
+  "source_inventory_is_not_Q4_sufficient": true,
+  "scope": "实际表格/聚合/继承/源哈希/数值锚点/公式和图源闭环；视觉另检查，非全局最优或现实安全认证"
+}

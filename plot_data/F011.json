@@ -1,0 +1,185 @@
+{
+  "figure_id": "F011",
+  "title": "数据核查：题定节点海拔与DEM像元差异",
+  "sources": {
+    "results/quality/node_dem_comparison.csv": "071ac1457fdede41fdaf56bfaeb13afaff4d710e6b6537480727d2316f07af40"
+  },
+  "note": "当前主方案的诊断视图；柱高由源表聚合",
+  "values": [
+    {
+      "node_id": "O01",
+      "given_ground_m": "127.7",
+      "dem_pixel_m": "128.7255401611328",
+      "difference_m": "-1.0255401611328097",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S001",
+      "given_ground_m": "154.0",
+      "dem_pixel_m": "153.96136474609375",
+      "difference_m": "0.03863525390625",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S002",
+      "given_ground_m": "189.5",
+      "dem_pixel_m": "188.7942352294922",
+      "difference_m": "0.7057647705078125",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S003",
+      "given_ground_m": "308.5",
+      "dem_pixel_m": "308.51068115234375",
+      "difference_m": "-0.01068115234375",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S004",
+      "given_ground_m": "198.3",
+      "dem_pixel_m": "195.11575317382812",
+      "difference_m": "3.1842468261718864",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S005",
+      "given_ground_m": "165.0",
+      "dem_pixel_m": "169.03955078125",
+      "difference_m": "-4.03955078125",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S006",
+      "given_ground_m": "284.8",
+      "dem_pixel_m": "275.1272277832031",
+      "difference_m": "9.672772216796886",
+      "review_gt_threshold": "True",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S007",
+      "given_ground_m": "318.5",
+      "dem_pixel_m": "314.2220458984375",
+      "difference_m": "4.2779541015625",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S008",
+      "given_ground_m": "240.9",
+      "dem_pixel_m": "248.2891845703125",
+      "difference_m": "-7.389184570312494",
+      "review_gt_threshold": "True",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S009",
+      "given_ground_m": "200.0",
+      "dem_pixel_m": "189.4370880126953",
+      "difference_m": "10.562911987304688",
+      "review_gt_threshold": "True",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S010",
+      "given_ground_m": "321.6",
+      "dem_pixel_m": "321.5816650390625",
+      "difference_m": "0.018334960937522737",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S011",
+      "given_ground_m": "182.1",
+      "dem_pixel_m": "178.04286193847656",
+      "difference_m": "4.057138061523432",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S012",
+      "given_ground_m": "249.8",
+      "dem_pixel_m": "253.31507873535156",
+      "difference_m": "-3.515078735351551",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S013",
+      "given_ground_m": "321.7",
+      "dem_pixel_m": "321.70806884765625",
+      "difference_m": "-0.008068847656261369",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S014",
+      "given_ground_m": "321.0",
+      "dem_pixel_m": "320.9825134277344",
+      "difference_m": "0.017486572265625",
+      "review_gt_threshold": "False",
+      "action": "retain_given_node_elevation"
+    },
+    {
+      "node_id": "S015",
+      "given_ground_m": "444.5",
+      "dem_pixel_m": "436.229248046875",
+      "difference_m": "8.270751953125",
+      "review_gt_threshold": "True",
+      "action": "retain_given_node_elevation"
+    }
+  ],
+  "visible_text": [
+    "-1.0",
+    "0.0",
+    "0.7",
+    "-0.0",
+    "3.2",
+    "-4.0",
+    "9.7",
+    "4.3",
+    "-7.4",
+    "10.6",
+    "0.0",
+    "4.1",
+    "-3.5",
+    "-0.0",
+    "0.0",
+    "8.3",
+    "O01",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "题定海拔 − DEM海拔（m）",
+    "-10.0",
+    "-7.5",
+    "-5.0",
+    "-2.5",
+    "0.0",
+    "2.5",
+    "5.0",
+    "7.5",
+    "10.0",
+    "12.5",
+    "15.0",
+    "数据核查：题定节点海拔与DEM像元差异"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "trips.csv": "c39ffe0fb135a05a5c7db67c58d746377dda3a268da8e325642197439415a03d",
+    "relay_sorties.csv": "e94ff7c02632907307795382005ce97277aec19c005241c41040a22b6797e2bb",
+    "box_deliveries.csv": "0f0078104dbccf97193b4e630dd1b5d547e04b38f24ea6c40fa01325d4678f07",
+    "Q3_运输架次.csv": "8dfeffd23b51cbfc02898f8863c759c2545ecafe0d8d1b669bc020aeb41b2a69",
+    "Q3_逐箱交付.csv": "b516cf1bc2d004fee64737c3934ef77ca3cad336c4af147521b000bf9a076f85",
+    "Q3_中继架次.csv": "a8bb711ee2a4361dd2e3f9d875dc12dbd4f8966a84bf7f8ff5977f56ba0d5c14",
+    "Q3_通信保障.csv": "bbba548f505c646ab1d297f2796078f53ec6b75a18e977154a249a55b6f084f2",
+    "summary.json": "265ba898bdd7515ae0b960a7b6981cd6490ae1e501e99fa2cef2c9bf08c00893",
+    "independent_validation.json": "9d5ed928c02fa2093120890636e8044e70abb92e5ae07f78a3b443f9fe797a69"
+  },
+  "source_Q3_unchanged": true,
+  "scope": "Q4执行前后关键主方案及独立证书字节相同；此前Q3闭环修复已完成"
+}

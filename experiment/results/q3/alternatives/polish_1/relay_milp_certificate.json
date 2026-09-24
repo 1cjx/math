@@ -1,0 +1,17 @@
+{
+  "stage1_status": 0,
+  "stage2_status": 0,
+  "stage1_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "stage2_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "stage1_joint_cmax_s": 6636.184296262294,
+  "stage1_dual_bound": 6636.184296262294,
+  "stage1_gap": 0.0,
+  "stage2_gap": 0.0,
+  "variables": 1343,
+  "binary_variables": 1334,
+  "constraints": 3389,
+  "max_constraint_violation": 0.0,
+  "scope": "给定运输解、四个候选悬停点及中继实体先后关系的条件子问题；不是原Q3全局最优证明",
+  "extra_planning_loss_guard_db": 0.2,
+  "guard_atom_count": 2037
+}

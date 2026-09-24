@@ -1,0 +1,7 @@
+{
+  "pairs_compared": 3165,
+  "max_absolute_distance_difference_m": 2.5841667559870984,
+  "max_absolute_relative_difference": 0.00035507071687159244,
+  "max_absolute_loss_difference_db": 0.003083557652333005,
+  "scope": "相同端点两种距离定义的端点/中点对照，不是全球投影误差上界；连续可行性证书针对已声明的局部三维模型"
+}

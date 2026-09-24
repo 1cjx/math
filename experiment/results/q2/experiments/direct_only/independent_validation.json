@@ -1,0 +1,16 @@
+{
+  "checks_total": 1098,
+  "checks_passed": 1098,
+  "checks_failed": 0,
+  "trips": 31,
+  "recomputed_boxes": 80,
+  "energy_kwh": 77.80537737587444,
+  "makespan_s": 6984.693747952648,
+  "min_return_soc_fraction": 0.26286388531044325,
+  "weighted_tardiness_s": 0.0,
+  "hard_late_s": 0.0,
+  "min_hard_slack_s": 103.14983626274261,
+  "max_energy_error_kwh": 8.881784197001252e-16,
+  "max_time_error_s": 9.094947017729282e-13,
+  "allow_hard_late_for_diagnostic_baseline": false
+}

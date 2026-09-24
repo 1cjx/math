@@ -1,0 +1,296 @@
+{
+  "figure_id": "F058",
+  "title": "Q2：C型无人机运输路线",
+  "sources": {
+    "data/cleaned/geospatial/dem_clean.tif": "a4717cbc3f4b847ca79b510069fbc35f84d5cf43bb881ff0328da337af79152a",
+    "data/cleaned/model_inputs.json": "7850493892d691e1731f8de93347f9959bbb054af24b19b2d54dd0016067cff2",
+    "results/q2/trips.csv": "9e0e88277ecbd210029fd1ed30995b7c4078cd1b6101664af9cce74578467a37"
+  },
+  "note": "当前主方案的诊断视图；不另算一次独立实验",
+  "values": {
+    "nodes": [
+      {
+        "id": "O01",
+        "lon": 109.2308517,
+        "lat": 23.0085095
+      },
+      {
+        "id": "S001",
+        "lon": 109.2432319,
+        "lat": 23.0335927
+      },
+      {
+        "id": "S002",
+        "lon": 109.2585519,
+        "lat": 23.0703271
+      },
+      {
+        "id": "S003",
+        "lon": 109.1688578,
+        "lat": 23.0402714
+      },
+      {
+        "id": "S004",
+        "lon": 109.2381714,
+        "lat": 23.0778414
+      },
+      {
+        "id": "S005",
+        "lon": 109.2283003,
+        "lat": 23.0561338
+      },
+      {
+        "id": "S006",
+        "lon": 109.1997836,
+        "lat": 23.007714
+      },
+      {
+        "id": "S007",
+        "lon": 109.1928191,
+        "lat": 23.0294186
+      },
+      {
+        "id": "S008",
+        "lon": 109.2127472,
+        "lat": 23.0795113
+      },
+      {
+        "id": "S009",
+        "lon": 109.2541424,
+        "lat": 23.0552989
+      },
+      {
+        "id": "S010",
+        "lon": 109.2760168,
+        "lat": 23.0194009
+      },
+      {
+        "id": "S011",
+        "lon": 109.2203356,
+        "lat": 23.0319231
+      },
+      {
+        "id": "S012",
+        "lon": 109.2831357,
+        "lat": 23.054464
+      },
+      {
+        "id": "S013",
+        "lon": 109.2713839,
+        "lat": 23.0310882
+      },
+      {
+        "id": "S014",
+        "lon": 109.2835966,
+        "lat": 23.0052097
+      },
+      {
+        "id": "S015",
+        "lon": 109.1923786,
+        "lat": 23.0494548
+      }
+    ],
+    "routes": [
+      {
+        "trip_id": "Q2-007",
+        "drone_id": "U07",
+        "model_id": "C",
+        "battery_id": "C-BAT-01",
+        "start_s": "0.0",
+        "takeoff_s": "420.0",
+        "visit_order": "S007",
+        "route": "O01→S007→O01",
+        "return_s": "1841.5664573298927",
+        "energy_kwh": "3.3558263722557324",
+        "return_soc_fraction": "0.5805217034680334",
+        "initial_soc_fraction": "1.0",
+        "weight_kg": "42.0",
+        "volume_m3": "0.117",
+        "box_count": "4",
+        "box_ids": "S007-FOD-01;S007-HYG-01;S007-WAT-01;S007-WAT-02",
+        "stop_count": "1",
+        "flight_time_s": "1097.5664573298925",
+        "operation_time_s": "1841.5664573298927",
+        "preparation_load_s": "420.0",
+        "handoff_s": "324.0000000000002"
+      },
+      {
+        "trip_id": "Q2-008",
+        "drone_id": "U08",
+        "model_id": "C",
+        "battery_id": "C-BAT-02",
+        "start_s": "0.0",
+        "takeoff_s": "450.0",
+        "visit_order": "S005",
+        "route": "O01→S005→O01",
+        "return_s": "1811.1905245257808",
+        "energy_kwh": "4.127461135544714",
+        "return_soc_fraction": "0.4840673580569107",
+        "initial_soc_fraction": "1.0",
+        "weight_kg": "56.0",
+        "volume_m3": "0.14400000000000002",
+        "box_count": "5",
+        "box_ids": "S005-FOD-01;S005-HYG-01;S005-WAT-01;S005-WAT-02;S005-WAT-03",
+        "stop_count": "1",
+        "flight_time_s": "1001.190524525781",
+        "operation_time_s": "1811.1905245257808",
+        "preparation_load_s": "450.0",
+        "handoff_s": "359.9999999999998"
+      },
+      {
+        "trip_id": "Q2-013",
+        "drone_id": "U08",
+        "model_id": "C",
+        "battery_id": "C-BAT-03",
+        "start_s": "1811.1905245257808",
+        "takeoff_s": "2291.190524525781",
+        "visit_order": "S002",
+        "route": "O01→S002→O01",
+        "return_s": "3919.0029093410417",
+        "energy_kwh": "5.8530716901666295",
+        "return_soc_fraction": "0.2683660387291713",
+        "initial_soc_fraction": "1.0",
+        "weight_kg": "59.0",
+        "volume_m3": "0.156",
+        "box_count": "6",
+        "box_ids": "S002-FOD-01;S002-HYG-01;S002-MED-01;S002-WAT-01;S002-WAT-02;S002-WAT-04",
+        "stop_count": "1",
+        "flight_time_s": "1231.8123848152609",
+        "operation_time_s": "2107.812384815261",
+        "preparation_load_s": "480.0",
+        "handoff_s": "396.0"
+      },
+      {
+        "trip_id": "Q2-014",
+        "drone_id": "U07",
+        "model_id": "C",
+        "battery_id": "C-BAT-04",
+        "start_s": "1841.5664573298927",
+        "takeoff_s": "2351.5664573298927",
+        "visit_order": "S001;S013",
+        "route": "O01→S001→S013→O01",
+        "return_s": "4032.182241083965",
+        "energy_kwh": "4.184768132725042",
+        "return_soc_fraction": "0.4769039834093698",
+        "initial_soc_fraction": "1.0",
+        "weight_kg": "65.0",
+        "volume_m3": "0.191",
+        "box_count": "7",
+        "box_ids": "S001-HYG-01;S001-HYG-02;S001-WAT-02;S001-WAT-04;S013-FOD-01;S013-MED-01;S013-WAT-01",
+        "stop_count": "2",
+        "flight_time_s": "1068.6157837540727",
+        "operation_time_s": "2190.6157837540723",
+        "preparation_load_s": "510.0",
+        "handoff_s": "611.9999999999995"
+      },
+      {
+        "trip_id": "Q2-022",
+        "drone_id": "U08",
+        "model_id": "C",
+        "battery_id": "C-BAT-01",
+        "start_s": "3919.0029093410417",
+        "takeoff_s": "4399.002909341041",
+        "visit_order": "S003",
+        "route": "O01→S003→O01",
+        "return_s": "6355.094258945617",
+        "energy_kwh": "6.149478043769306",
+        "return_soc_fraction": "0.23131524452883678",
+        "initial_soc_fraction": "1.0",
+        "weight_kg": "64.0",
+        "volume_m3": "0.17200000000000001",
+        "box_count": "6",
+        "box_ids": "S003-FOD-01;S003-FOD-02;S003-HYG-01;S003-WAT-01;S003-WAT-02;S003-WAT-04",
+        "stop_count": "1",
+        "flight_time_s": "1560.091349604575",
+        "operation_time_s": "2436.091349604575",
+        "preparation_load_s": "480.0",
+        "handoff_s": "396.0"
+      },
+      {
+        "trip_id": "Q2-023",
+        "drone_id": "U07",
+        "model_id": "C",
+        "battery_id": "C-BAT-02",
+        "start_s": "4032.182241083965",
+        "takeoff_s": "4512.182241083965",
+        "visit_order": "S004",
+        "route": "O01→S004→O01",
+        "return_s": "6333.238933567165",
+        "energy_kwh": "6.152932018907208",
+        "return_soc_fraction": "0.230883497636599",
+        "initial_soc_fraction": "1.0",
+        "weight_kg": "59.0",
+        "volume_m3": "0.156",
+        "box_count": "6",
+        "box_ids": "S004-FOD-01;S004-HYG-01;S004-MED-01;S004-WAT-01;S004-WAT-02;S004-WAT-03",
+        "stop_count": "1",
+        "flight_time_s": "1425.0566924832003",
+        "operation_time_s": "2301.0566924832005",
+        "preparation_load_s": "480.0",
+        "handoff_s": "396.0000000000002"
+      }
+    ],
+    "relays": [],
+    "groups": [],
+    "dem_extent": [
+      109.0326388888889,
+      109.44541666666667,
+      22.86125,
+      23.22486111111111
+    ],
+    "display_extent": [
+      109.1568578,
+      109.3015966,
+      22.9922097,
+      23.0925113
+    ],
+    "dem_minmax_m": [
+      41.68907928466797,
+      1132.8560791015625
+    ]
+  },
+  "visible_text": [
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "O01 调度中心",
+    "北",
+    "经度（°E）",
+    "109.15",
+    "109.18",
+    "109.21",
+    "109.24",
+    "109.27",
+    "109.30",
+    "109.33",
+    "纬度（°N）",
+    "22.98",
+    "23.00",
+    "23.03",
+    "23.05",
+    "23.08",
+    "23.10",
+    "Q2：C型无人机运输路线",
+    "C型航段",
+    "DEM海拔（m）",
+    "0",
+    "200",
+    "400",
+    "600",
+    "800",
+    "1000",
+    "1200"
+  ]
+}

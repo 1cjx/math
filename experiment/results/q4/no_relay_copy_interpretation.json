@@ -1,0 +1,33 @@
+{
+  "meaning": "正式模型禁止中继任务复制及组间共享；共同依赖同一中继任务的服务区必须同组。",
+  "components": [
+    [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    [
+      "S006"
+    ],
+    [
+      "S007"
+    ]
+  ],
+  "component_count": 3,
+  "feasible_partition_counts": {
+    "2": 3,
+    "3": 1
+  },
+  "not_equivalent_to_inventory_feasibility": true,
+  "input_Q3_not_modified": true
+}

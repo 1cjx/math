@@ -1,0 +1,9 @@
+﻿resource_type,resource_name,source_inventory,Q3_used_distinct_IDs,Q3_fixed_schedule_minimum,source_unused_vs_minimum
+transport_A,A型运输无人机,4,4,4,0
+transport_B,B型运输无人机,2,2,2,0
+transport_C,C型运输无人机,2,2,2,0
+battery_A,A型电池组,6,6,6,0
+battery_B,B型电池组,4,4,4,0
+battery_C,C型电池组,4,4,4,0
+relay_drone,中继无人机,2,2,2,0
+relay_energy,中继能源组件,6,4,3,3

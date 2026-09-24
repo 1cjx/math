@@ -1,0 +1,60 @@
+{
+  "figure_id": "F137",
+  "title": "第四问：3组独立中继能源组件占用",
+  "sources": {
+    "results/q4/K3/resource_allocations.csv": "571ed6feccebb9a1098fd8b8cbdc271000294e28fa60d0dad4c4aa9dd8d6f9f6"
+  },
+  "note": "当前主方案的诊断视图；不另算一次独立实验",
+  "values": [
+    {
+      "resource": "K3-G1-relay_energy-01",
+      "start_min": 3.7617067759757146,
+      "return_min": 60.96622626039377,
+      "ready_min": 75.8091015152766,
+      "trip": "002"
+    },
+    {
+      "resource": "K3-G1-relay_energy-02",
+      "start_min": 29.91989927909605,
+      "return_min": 110.60307160437156,
+      "ready_min": 128.50491614537722,
+      "trip": "003"
+    },
+    {
+      "resource": "K3-G1-relay_energy-03",
+      "start_min": 66.99789535782426,
+      "return_min": 107.81863962755168,
+      "ready_min": 120.61088015573334,
+      "trip": "004"
+    },
+    {
+      "resource": "K3-G3-relay_energy-01",
+      "start_min": 5.034281992421347,
+      "return_min": 24.621683599239525,
+      "ready_min": 34.102469939959526,
+      "trip": "001"
+    }
+  ],
+  "visible_text": [
+    "002",
+    "003",
+    "004",
+    "001",
+    "任务相对时刻（min）",
+    "0",
+    "20",
+    "40",
+    "60",
+    "80",
+    "100",
+    "120",
+    "140",
+    "K3-G1-中继能源-01",
+    "K3-G1-中继能源-02",
+    "K3-G1-中继能源-03",
+    "K3-G3-中继能源-01",
+    "第四问：3组独立中继能源组件占用",
+    "准备至返回",
+    "充电或机身周转"
+  ]
+}

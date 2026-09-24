@@ -1,0 +1,98 @@
+{
+  "figure_id": "F112",
+  "title": "第三问：额外传播损耗压力测试",
+  "sources": {
+    "results/q3/propagation_loss_sensitivity.csv": "ef38cc544a54a869d9d3c134cac49198b685fa8491b1df19d5e34d6ed02a24da"
+  },
+  "note": "压力场景不重优化；负裕度或中断表示失败，不能当作正式可行方案",
+  "values": [
+    {
+      "extra_loss_db": "0.0",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "0",
+      "coverage_fraction": "1.0",
+      "boundary_points_checked": "1042",
+      "uncovered_boundary_points": "0",
+      "continuous_feasible": "True"
+    },
+    {
+      "extra_loss_db": "0.05",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "0",
+      "coverage_fraction": "1.0",
+      "boundary_points_checked": "1042",
+      "uncovered_boundary_points": "0",
+      "continuous_feasible": "True"
+    },
+    {
+      "extra_loss_db": "0.1",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "0",
+      "coverage_fraction": "1.0",
+      "boundary_points_checked": "1042",
+      "uncovered_boundary_points": "0",
+      "continuous_feasible": "True"
+    },
+    {
+      "extra_loss_db": "0.2",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "0",
+      "coverage_fraction": "1.0",
+      "boundary_points_checked": "1046",
+      "uncovered_boundary_points": "0",
+      "continuous_feasible": "True"
+    },
+    {
+      "extra_loss_db": "0.5",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "1206.973567973389",
+      "coverage_fraction": "0.967742655147758",
+      "boundary_points_checked": "1046",
+      "uncovered_boundary_points": "39",
+      "continuous_feasible": "False"
+    },
+    {
+      "extra_loss_db": "1.0",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "4840.962645850283",
+      "coverage_fraction": "0.8706213577268189",
+      "boundary_points_checked": "1078",
+      "uncovered_boundary_points": "140",
+      "continuous_feasible": "False"
+    },
+    {
+      "extra_loss_db": "2.0",
+      "required_airborne_service_s": "37417.01536509141",
+      "outage_duration_sum_s": "11658.119275369594",
+      "coverage_fraction": "0.6884273328159103",
+      "boundary_points_checked": "1100",
+      "uncovered_boundary_points": "277",
+      "continuous_feasible": "False"
+    }
+  ],
+  "visible_text": [
+    "额外传播损耗（dB）",
+    "-0.25",
+    "0.00",
+    "0.25",
+    "0.50",
+    "0.75",
+    "1.00",
+    "1.25",
+    "1.50",
+    "1.75",
+    "2.00",
+    "2.25",
+    "通信中断累计时间（s）",
+    "-2000",
+    "0",
+    "2000",
+    "4000",
+    "6000",
+    "8000",
+    "10000",
+    "12000",
+    "14000",
+    "第三问：额外传播损耗压力测试"
+  ]
+}

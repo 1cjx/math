@@ -1,0 +1,104 @@
+﻿check,pass,details
+K2/exact_group_count,True,
+K2-G1/nonempty_and_unique_services,True,
+K2-G1/transport_must_link,True,
+K2-G1/transport_A/nonnegative_integer,True,
+K2-G1/transport_A/minimum_chain_cover_count,True,4.0 != 4
+K2-G1/transport_B/nonnegative_integer,True,
+K2-G1/transport_B/minimum_chain_cover_count,True,2.0 != 2
+K2-G1/transport_C/nonnegative_integer,True,
+K2-G1/transport_C/minimum_chain_cover_count,True,2.0 != 2
+K2-G1/battery_A/nonnegative_integer,True,
+K2-G1/battery_A/minimum_chain_cover_count,True,6.0 != 6
+K2-G1/battery_B/nonnegative_integer,True,
+K2-G1/battery_B/minimum_chain_cover_count,True,4.0 != 4
+K2-G1/battery_C/nonnegative_integer,True,
+K2-G1/battery_C/minimum_chain_cover_count,True,4.0 != 4
+K2-G1/relay_drone/nonnegative_integer,True,
+K2-G1/relay_drone/minimum_chain_cover_count,True,2.0 != 2
+K2-G1/relay_energy/nonnegative_integer,True,
+K2-G1/relay_energy/minimum_chain_cover_count,True,3.0 != 3
+K2-G2/nonempty_and_unique_services,True,
+K2-G2/transport_must_link,True,
+K2-G2/transport_A/nonnegative_integer,True,
+K2-G2/transport_A/minimum_chain_cover_count,True,0.0 != 0
+K2-G2/transport_B/nonnegative_integer,True,
+K2-G2/transport_B/minimum_chain_cover_count,True,0.0 != 0
+K2-G2/transport_C/nonnegative_integer,True,
+K2-G2/transport_C/minimum_chain_cover_count,True,1.0 != 1
+K2-G2/battery_A/nonnegative_integer,True,
+K2-G2/battery_A/minimum_chain_cover_count,True,0.0 != 0
+K2-G2/battery_B/nonnegative_integer,True,
+K2-G2/battery_B/minimum_chain_cover_count,True,0.0 != 0
+K2-G2/battery_C/nonnegative_integer,True,
+K2-G2/battery_C/minimum_chain_cover_count,True,1.0 != 1
+K2-G2/relay_drone/nonnegative_integer,True,
+K2-G2/relay_drone/minimum_chain_cover_count,True,0.0 != 0
+K2-G2/relay_energy/nonnegative_integer,True,
+K2-G2/relay_energy/minimum_chain_cover_count,True,0.0 != 0
+K2/service_partition,True,
+K2/admissible_enumerated_partition,True,
+K2/exact_global_objective_shortage_units,True,2
+K2/exact_global_objective_resource_units,True,29
+K2/exact_global_objective_transport_workload_cv,True,0.9339960960803234
+K3/exact_group_count,True,
+K3-G1/nonempty_and_unique_services,True,
+K3-G1/transport_must_link,True,
+K3-G1/transport_A/nonnegative_integer,True,
+K3-G1/transport_A/minimum_chain_cover_count,True,4.0 != 4
+K3-G1/transport_B/nonnegative_integer,True,
+K3-G1/transport_B/minimum_chain_cover_count,True,2.0 != 2
+K3-G1/transport_C/nonnegative_integer,True,
+K3-G1/transport_C/minimum_chain_cover_count,True,2.0 != 2
+K3-G1/battery_A/nonnegative_integer,True,
+K3-G1/battery_A/minimum_chain_cover_count,True,6.0 != 6
+K3-G1/battery_B/nonnegative_integer,True,
+K3-G1/battery_B/minimum_chain_cover_count,True,4.0 != 4
+K3-G1/battery_C/nonnegative_integer,True,
+K3-G1/battery_C/minimum_chain_cover_count,True,4.0 != 4
+K3-G1/relay_drone/nonnegative_integer,True,
+K3-G1/relay_drone/minimum_chain_cover_count,True,2.0 != 2
+K3-G1/relay_energy/nonnegative_integer,True,
+K3-G1/relay_energy/minimum_chain_cover_count,True,3.0 != 3
+K3-G2/nonempty_and_unique_services,True,
+K3-G2/transport_must_link,True,
+K3-G2/transport_A/nonnegative_integer,True,
+K3-G2/transport_A/minimum_chain_cover_count,True,0.0 != 0
+K3-G2/transport_B/nonnegative_integer,True,
+K3-G2/transport_B/minimum_chain_cover_count,True,0.0 != 0
+K3-G2/transport_C/nonnegative_integer,True,
+K3-G2/transport_C/minimum_chain_cover_count,True,1.0 != 1
+K3-G2/battery_A/nonnegative_integer,True,
+K3-G2/battery_A/minimum_chain_cover_count,True,0.0 != 0
+K3-G2/battery_B/nonnegative_integer,True,
+K3-G2/battery_B/minimum_chain_cover_count,True,0.0 != 0
+K3-G2/battery_C/nonnegative_integer,True,
+K3-G2/battery_C/minimum_chain_cover_count,True,1.0 != 1
+K3-G2/relay_drone/nonnegative_integer,True,
+K3-G2/relay_drone/minimum_chain_cover_count,True,0.0 != 0
+K3-G2/relay_energy/nonnegative_integer,True,
+K3-G2/relay_energy/minimum_chain_cover_count,True,0.0 != 0
+K3-G3/nonempty_and_unique_services,True,
+K3-G3/transport_must_link,True,
+K3-G3/transport_A/nonnegative_integer,True,
+K3-G3/transport_A/minimum_chain_cover_count,True,0.0 != 0
+K3-G3/transport_B/nonnegative_integer,True,
+K3-G3/transport_B/minimum_chain_cover_count,True,2.0 != 2
+K3-G3/transport_C/nonnegative_integer,True,
+K3-G3/transport_C/minimum_chain_cover_count,True,0.0 != 0
+K3-G3/battery_A/nonnegative_integer,True,
+K3-G3/battery_A/minimum_chain_cover_count,True,0.0 != 0
+K3-G3/battery_B/nonnegative_integer,True,
+K3-G3/battery_B/minimum_chain_cover_count,True,2.0 != 2
+K3-G3/battery_C/nonnegative_integer,True,
+K3-G3/battery_C/minimum_chain_cover_count,True,0.0 != 0
+K3-G3/relay_drone/nonnegative_integer,True,
+K3-G3/relay_drone/minimum_chain_cover_count,True,1.0 != 1
+K3-G3/relay_energy/nonnegative_integer,True,
+K3-G3/relay_energy/minimum_chain_cover_count,True,1.0 != 1
+K3/service_partition,True,
+K3/admissible_enumerated_partition,True,
+K3/exact_global_objective_shortage_units,True,7
+K3/exact_global_objective_resource_units,True,35
+K3/exact_global_objective_transport_workload_cv,True,1.2009410699956247
+K_only_2_and_3,True,

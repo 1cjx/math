@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "numbered_docx_reports": 12,
+  "rendered_pages": 47,
+  "render_results": [
+    {
+      "document": "docs/01_数据清洗说明.docx",
+      "returncode": 0,
+      "pages": 3
+    },
+    {
+      "document": "docs/02_第一问建模与求解_修订.docx",
+      "returncode": 0,
+      "pages": 5
+    },
+    {
+      "document": "docs/03_第二问建模与求解.docx",
+      "returncode": 0,
+      "pages": 8
+    },
+    {
+      "document": "docs/04_闭环验证与实质修订说明.docx",
+      "returncode": 0,
+      "pages": 3
+    },
+    {
+      "document": "docs/05_共同物理规则与假设边界.docx",
+      "returncode": 0,
+      "pages": 2
+    },
+    {
+      "document": "docs/06_第三问联合调度与严格继承建模.docx",
+      "returncode": 0,
+      "pages": 5
+    },
+    {
+      "document": "docs/07_可靠性压力测试与失败情景.docx",
+      "returncode": 0,
+      "pages": 4
+    },
+    {
+      "document": "docs/08_第四问严格任务冻结与资源配置.docx",
+      "returncode": 0,
+      "pages": 4
+    },
+    {
+      "document": "docs/09_模板提交与一键复现.docx",
+      "returncode": 0,
+      "pages": 2
+    },
+    {
+      "document": "docs/10_整体论文大纲与填充映射.docx",
+      "returncode": 0,
+      "pages": 5
+    },
+    {
+      "document": "docs/11_中文图件索引与正确引用.docx",
+      "returncode": 0,
+      "pages": 5
+    },
+    {
+      "document": "docs/12_参考来源与参数选择说明.docx",
+      "returncode": 0,
+      "pages": 1
+    }
+  ],
+  "visual_review": "全部47页渲染后逐页缩略图检查，关键公式/结果页及中文图按原分辨率复核；完成标注重叠、表格换行与中文资源标签修订。",
+  "plot_files": {
+    "png": 147,
+    "svg": 147,
+    "pdf": 147
+  },
+  "visible_language": "标题/坐标轴/图例/解释为中文；机型、区域、架次、单位等标识保留原义。",
+  "figure_values": "paper/figure_catalog.csv与paper/figure_data逐图追溯；不是把147图说成147项独立实验。",
+  "spreadsheet_previews_reviewed": [
+    "Q4_分区配置 A1:K6",
+    "Q3_中继架次 A1:J5",
+    "Q3_通信保障 A1:F10"
+  ],
+  "docx_transfer_proof": "所有12份A/B报告的OOXML成员和嵌入图逐字节一致；本发布复制B，A的逐页渲染对应同一内容。",
+  "font_file_distribution": false
+}

@@ -1,0 +1,127 @@
+{
+  "figure_id": "F123",
+  "title": "第四问：2组分类型资源缺口",
+  "sources": {
+    "results/q4/inventory_gap.csv": "37d82c48d15c03e7364fd1504d968b38bca80be6df92de4ede534d755c2040d1",
+    "results/q4/summary.json": "9924f6068f92c5d592fd9f95ddf34e8f2c6867ce21be5b5d4e5df73b6e67440f"
+  },
+  "note": "当前主方案的诊断视图；柱高由源表聚合",
+  "values": [
+    {
+      "K": "2",
+      "resource_type": "transport_A",
+      "resource_name": "A型运输无人机",
+      "inventory": "4",
+      "required": "4",
+      "shortage": "0",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "0",
+      "extra_vs_Q3_used_IDs": "0"
+    },
+    {
+      "K": "2",
+      "resource_type": "transport_B",
+      "resource_name": "B型运输无人机",
+      "inventory": "2",
+      "required": "2",
+      "shortage": "0",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "0",
+      "extra_vs_Q3_used_IDs": "0"
+    },
+    {
+      "K": "2",
+      "resource_type": "transport_C",
+      "resource_name": "C型运输无人机",
+      "inventory": "2",
+      "required": "3",
+      "shortage": "1",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "1",
+      "extra_vs_Q3_used_IDs": "1"
+    },
+    {
+      "K": "2",
+      "resource_type": "battery_A",
+      "resource_name": "A型电池组",
+      "inventory": "6",
+      "required": "6",
+      "shortage": "0",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "0",
+      "extra_vs_Q3_used_IDs": "0"
+    },
+    {
+      "K": "2",
+      "resource_type": "battery_B",
+      "resource_name": "B型电池组",
+      "inventory": "4",
+      "required": "4",
+      "shortage": "0",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "0",
+      "extra_vs_Q3_used_IDs": "0"
+    },
+    {
+      "K": "2",
+      "resource_type": "battery_C",
+      "resource_name": "C型电池组",
+      "inventory": "4",
+      "required": "5",
+      "shortage": "1",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "1",
+      "extra_vs_Q3_used_IDs": "1"
+    },
+    {
+      "K": "2",
+      "resource_type": "relay_drone",
+      "resource_name": "中继无人机",
+      "inventory": "2",
+      "required": "2",
+      "shortage": "0",
+      "unused_inventory": "0",
+      "structural_extra_vs_Q3_minimum": "0",
+      "extra_vs_Q3_used_IDs": "0"
+    },
+    {
+      "K": "2",
+      "resource_type": "relay_energy",
+      "resource_name": "中继能源组件",
+      "inventory": "6",
+      "required": "3",
+      "shortage": "0",
+      "unused_inventory": "3",
+      "structural_extra_vs_Q3_minimum": "0",
+      "extra_vs_Q3_used_IDs": "-1"
+    }
+  ],
+  "visible_text": [
+    "0",
+    "0",
+    "1",
+    "0",
+    "0",
+    "1",
+    "0",
+    "0",
+    "需要增补的分类型件数",
+    "-0.2",
+    "0.0",
+    "0.2",
+    "0.4",
+    "0.6",
+    "0.8",
+    "1.0",
+    "1.2",
+    "A型运输机",
+    "B型运输机",
+    "C型运输机",
+    "A型电池组",
+    "B型电池组",
+    "C型电池组",
+    "中继无人机",
+    "中继能源",
+    "第四问：2组分类型资源缺口"
+  ]
+}

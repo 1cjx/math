@@ -1,0 +1,11 @@
+{
+  "checks_total": 1885,
+  "checks_passed": 1885,
+  "checks_failed": 0,
+  "plans_validated": 8,
+  "trip_records_validated": 155,
+  "independent_optimum_services": 15,
+  "minimum_trips_lower_bound": 18,
+  "max_energy_recalculation_error_kwh": 8.881784197001252e-16,
+  "max_time_recalculation_error_s": 4.547473508864641e-13
+}

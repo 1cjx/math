@@ -1,0 +1,512 @@
+[
+  {
+    "family_rank": 1,
+    "travel_score_s": 3275.5886677817507,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      101,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-730",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 2,
+    "travel_score_s": 3290.0084143404474,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      102,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-734",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 3,
+    "travel_score_s": 3291.5634995313358,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      104,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-742",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 4,
+    "travel_score_s": 3292.4379683352035,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      101,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-730",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 5,
+    "travel_score_s": 3294.0205116953807,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      69,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-730",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 6,
+    "travel_score_s": 3296.4056472938646,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      78,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-766",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 7,
+    "travel_score_s": 3296.9628561484924,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      103,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-738",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 8,
+    "travel_score_s": 3299.9985534059906,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      77,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-762",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 9,
+    "travel_score_s": 3305.177246359643,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      107,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-754",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 10,
+    "travel_score_s": 3306.3452027960698,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      105,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-746",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 11,
+    "travel_score_s": 3306.6921171374934,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      106,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-750",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 12,
+    "travel_score_s": 3306.8577148939003,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      102,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-734",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 13,
+    "travel_score_s": 3307.810107998024,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      72,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-742",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 14,
+    "travel_score_s": 3308.4128000847886,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      104,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-742",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 15,
+    "travel_score_s": 3309.2820326466262,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      45,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-582-730",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 16,
+    "travel_score_s": 3310.869812248834,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      69,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-730",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 17,
+    "travel_score_s": 3313.2549478473175,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      78,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-766",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 18,
+    "travel_score_s": 3313.6148192372866,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      70,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-734",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 19,
+    "travel_score_s": 3313.8121567019457,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      103,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-738",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 20,
+    "travel_score_s": 3314.4332342478788,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      71,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-738",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 21,
+    "travel_score_s": 3316.8478539594435,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      77,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-762",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 22,
+    "travel_score_s": 3317.3753164225245,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      76,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-758",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 23,
+    "travel_score_s": 3318.9625648331994,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      75,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-754",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 24,
+    "travel_score_s": 3322.0265469130964,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      107,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-754",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 25,
+    "travel_score_s": 3322.545392432249,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      73,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-746",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 26,
+    "travel_score_s": 3323.1945033495226,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      105,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-746",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 27,
+    "travel_score_s": 3323.196327998664,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      74,
+      856
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-750",
+      "GRID-642-606"
+    ]
+  },
+  {
+    "family_rank": 28,
+    "travel_score_s": 3323.541417690946,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      106,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-590-750",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 29,
+    "travel_score_s": 3324.6594085514766,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      72,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-586-742",
+      "GRID-638-606"
+    ]
+  },
+  {
+    "family_rank": 30,
+    "travel_score_s": 3326.131333200079,
+    "early_single_service": "S007",
+    "site_indices": [
+      3028,
+      4353,
+      45,
+      779
+    ],
+    "site_ids": [
+      "GRID-734-634",
+      "GRID-782-878",
+      "GRID-582-730",
+      "GRID-638-606"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "extra_loss_db": 0.0,
+  "required_airborne_service_s": 37827.596321587655,
+  "outage_duration_sum_s": 14212.142267889609,
+  "coverage_fraction": 0.6242916904614702,
+  "boundary_points_checked": 398,
+  "uncovered_boundary_points": 96,
+  "continuous_feasible": false
+}

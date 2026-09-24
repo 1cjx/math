@@ -1,0 +1,11 @@
+{
+  "basis": "题面问题四：冻结已修订且通过独立核验的Q3，再作严格分区。",
+  "independent_execution_convention": "每个原Q3运输和中继任务均恰好执行一次，不复制、不拆分、不裁剪服务窗口。共依赖同一中继任务的服务区必须同组。",
+  "physical_resource_identity": "执行前按组配置兼容实体；各组物理ID互斥；源ID仅追溯，不在执行期间借调。",
+  "not_allowed": "改变箱子、访问顺序、任务开始/结束、悬停位置/海拔、通信保障关系，或增加任务副本。",
+  "inventory_feasibility": "需求可以超过源库存，逐类列出缺口；可行指补足配置后独立执行，不修改源数据。",
+  "objective": "缺口总件数→资源总件数→运输作业时长CV；件数不是成本；另列均衡优先方案。",
+  "fixed_gateway": "G01是共用固定基础设施，不属于禁止跨组调配的可移动资源。",
+  "strict_no_copy_enforced": true,
+  "Q3_repair_is_prior_to_Q4_freeze": true
+}

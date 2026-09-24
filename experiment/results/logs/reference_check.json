@@ -1,0 +1,463 @@
+{
+  "checks": [
+    {
+      "field": "result.q4.component_count",
+      "actual": 3,
+      "reference": 3,
+      "pass": true
+    },
+    {
+      "field": "result.q4.partition_counts.2",
+      "actual": 3,
+      "reference": 3,
+      "pass": true
+    },
+    {
+      "field": "result.q4.partition_counts.3",
+      "actual": 1,
+      "reference": 1,
+      "pass": true
+    },
+    {
+      "field": "result.q4.minimum_shortage_units.2",
+      "actual": 2,
+      "reference": 2,
+      "pass": true
+    },
+    {
+      "field": "result.q4.minimum_shortage_units.3",
+      "actual": 7,
+      "reference": 7,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.2.partition_id",
+      "actual": "K2-121",
+      "reference": "K2-121",
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.2.resource_units",
+      "actual": 29,
+      "reference": 29,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.2.shortage_units",
+      "actual": 2,
+      "reference": 2,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.2.transport_workload_cv",
+      "actual": 0.9339960960803234,
+      "reference": 0.9339960960803234,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.2.total_energy_kwh",
+      "actual": 75.06888770403694,
+      "reference": 75.06888770403694,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.3.partition_id",
+      "actual": "K3-123",
+      "reference": "K3-123",
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.3.resource_units",
+      "actual": 35,
+      "reference": 35,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.3.shortage_units",
+      "actual": 7,
+      "reference": 7,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.3.transport_workload_cv",
+      "actual": 1.2009410699956247,
+      "reference": 1.2009410699956247,
+      "pass": true
+    },
+    {
+      "field": "result.q4.selected.3.total_energy_kwh",
+      "actual": 75.06888770403694,
+      "reference": 75.06888770403694,
+      "pass": true
+    },
+    {
+      "field": "result.q4.checks_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.q4.physical_checks_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.q3.trips",
+      "actual": 25,
+      "reference": 25,
+      "pass": true
+    },
+    {
+      "field": "result.q3.energy_kwh",
+      "actual": 71.74679839040581,
+      "reference": 71.74679839040581,
+      "pass": true
+    },
+    {
+      "field": "result.q3.transport_makespan_s",
+      "actual": 6585.699536225688,
+      "reference": 6585.699536225688,
+      "pass": true
+    },
+    {
+      "field": "result.q3.joint_makespan_s",
+      "actual": 6636.184296262294,
+      "reference": 6636.184296262294,
+      "pass": true
+    },
+    {
+      "field": "result.q3.relay_energy_kwh",
+      "actual": 3.3220893136311287,
+      "reference": 3.3220893136311287,
+      "pass": true
+    },
+    {
+      "field": "result.q3.total_energy_kwh",
+      "actual": 75.06888770403694,
+      "reference": 75.06888770403694,
+      "pass": true
+    },
+    {
+      "field": "result.q3.relay_trips",
+      "actual": 4,
+      "reference": 4,
+      "pass": true
+    },
+    {
+      "field": "result.q3.relay_bodies_used",
+      "actual": 2,
+      "reference": 2,
+      "pass": true
+    },
+    {
+      "field": "result.q3.relay_modules_used",
+      "actual": 4,
+      "reference": 4,
+      "pass": true
+    },
+    {
+      "field": "result.q3.delivered_boxes",
+      "actual": 80,
+      "reference": 80,
+      "pass": true
+    },
+    {
+      "field": "result.q3.medical_on_time",
+      "actual": 16,
+      "reference": 16,
+      "pass": true
+    },
+    {
+      "field": "result.q3.first_batch_on_time",
+      "actual": 30,
+      "reference": 30,
+      "pass": true
+    },
+    {
+      "field": "result.q3.all_expected_on_time",
+      "actual": 80,
+      "reference": 80,
+      "pass": true
+    },
+    {
+      "field": "result.q3.min_return_soc_fraction",
+      "actual": 0.230883497636599,
+      "reference": 0.230883497636599,
+      "pass": true
+    },
+    {
+      "field": "result.q3.min_hard_deadline_slack_s",
+      "actual": 338.4997324874639,
+      "reference": 338.4997324874639,
+      "pass": true
+    },
+    {
+      "field": "result.q3.relay_min_soc_fraction",
+      "actual": 0.5583764057997391,
+      "reference": 0.5583764057997391,
+      "pass": true
+    },
+    {
+      "field": "result.q3.communication_atoms",
+      "actual": 2059,
+      "reference": 2059,
+      "pass": true
+    },
+    {
+      "field": "result.q3.communication_boundary_points",
+      "actual": 1042,
+      "reference": 1042,
+      "pass": true
+    },
+    {
+      "field": "result.q3_verification.source_mismatches",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.q3_verification.checks_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.q3_verification.continuous_atoms_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.q3_verification.dense_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.q1.trips",
+      "actual": 18,
+      "reference": 18,
+      "pass": true
+    },
+    {
+      "field": "result.q1.energy_kwh",
+      "actual": 59.13129602205389,
+      "reference": 59.13129602205389,
+      "pass": true
+    },
+    {
+      "field": "result.q1.operation_time_s",
+      "actual": 32776.015748915874,
+      "reference": 32776.015748915874,
+      "pass": true
+    },
+    {
+      "field": "result.q1.flight_time_s",
+      "actual": 19288.015748915874,
+      "reference": 19288.015748915874,
+      "pass": true
+    },
+    {
+      "field": "result.q1.delivered_boxes",
+      "actual": 80,
+      "reference": 80,
+      "pass": true
+    },
+    {
+      "field": "result.q1.delivered_weight_kg",
+      "actual": 758.0,
+      "reference": 758.0,
+      "pass": true
+    },
+    {
+      "field": "result.q1.delivered_volume_m3",
+      "actual": 2.011,
+      "reference": 2.011,
+      "pass": true
+    },
+    {
+      "field": "result.q1.min_return_soc_fraction",
+      "actual": 0.230883497636599,
+      "reference": 0.230883497636599,
+      "pass": true
+    },
+    {
+      "field": "result.q1.critical_common_reserve_fraction",
+      "actual": 0.3526780688718867,
+      "reference": 0.3526780688718867,
+      "pass": true
+    },
+    {
+      "field": "result.q1.model_trip_counts.C",
+      "actual": 9,
+      "reference": 9,
+      "pass": true
+    },
+    {
+      "field": "result.q1.model_trip_counts.B",
+      "actual": 9,
+      "reference": 9,
+      "pass": true
+    },
+    {
+      "field": "result.q2.trips",
+      "actual": 26,
+      "reference": 26,
+      "pass": true
+    },
+    {
+      "field": "result.q2.energy_kwh",
+      "actual": 71.94566215060301,
+      "reference": 71.94566215060301,
+      "pass": true
+    },
+    {
+      "field": "result.q2.makespan_s",
+      "actual": 6355.094258945617,
+      "reference": 6355.094258945617,
+      "pass": true
+    },
+    {
+      "field": "result.q2.weighted_tardiness_s",
+      "actual": 0.0,
+      "reference": 0.0,
+      "pass": true
+    },
+    {
+      "field": "result.q2.hard_late_s",
+      "actual": 0.0,
+      "reference": 0.0,
+      "pass": true
+    },
+    {
+      "field": "result.q2.delivered_boxes",
+      "actual": 80,
+      "reference": 80,
+      "pass": true
+    },
+    {
+      "field": "result.q2.medical_on_time",
+      "actual": 16,
+      "reference": 16,
+      "pass": true
+    },
+    {
+      "field": "result.q2.first_batch_on_time",
+      "actual": 30,
+      "reference": 30,
+      "pass": true
+    },
+    {
+      "field": "result.q2.all_expected_on_time",
+      "actual": 80,
+      "reference": 80,
+      "pass": true
+    },
+    {
+      "field": "result.q2.model_trip_counts.A",
+      "actual": 12,
+      "reference": 12,
+      "pass": true
+    },
+    {
+      "field": "result.q2.model_trip_counts.B",
+      "actual": 8,
+      "reference": 8,
+      "pass": true
+    },
+    {
+      "field": "result.q2.model_trip_counts.C",
+      "actual": 6,
+      "reference": 6,
+      "pass": true
+    },
+    {
+      "field": "result.q2.multipoint_trips",
+      "actual": 7,
+      "reference": 7,
+      "pass": true
+    },
+    {
+      "field": "result.q2.min_return_soc_fraction",
+      "actual": 0.20413342867827433,
+      "reference": 0.20413342867827433,
+      "pass": true
+    },
+    {
+      "field": "result.q2.min_hard_deadline_slack_s",
+      "actual": 2.328362491415646,
+      "reference": 2.328362491415646,
+      "pass": true
+    },
+    {
+      "field": "result.q2.battery_reuses",
+      "actual": 12,
+      "reference": 12,
+      "pass": true
+    },
+    {
+      "field": "result.q2.makespan_lower_bound_s",
+      "actual": 3222.3538926134593,
+      "reference": 3222.3538926134593,
+      "pass": true
+    },
+    {
+      "field": "result.quality.boxes",
+      "actual": 80,
+      "reference": 80,
+      "pass": true
+    },
+    {
+      "field": "result.quality.valid_dem_cells",
+      "actual": 1945174,
+      "reference": 1945174,
+      "pass": true
+    },
+    {
+      "field": "result.quality.geospatial_vertex_rows",
+      "actual": 29980,
+      "reference": 29980,
+      "pass": true
+    },
+    {
+      "field": "result.quality.checks_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.quality.physical_values_overwritten",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.validation.q1_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.validation.q1_exact_services",
+      "actual": 15,
+      "reference": 15,
+      "pass": true
+    },
+    {
+      "field": "result.validation.q2_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    },
+    {
+      "field": "result.validation.q2_arc_failed",
+      "actual": 0,
+      "reference": 0,
+      "pass": true
+    }
+  ],
+  "checks_passed": 76,
+  "checks_failed": 0,
+  "absolute_tolerance": 1e-06
+}

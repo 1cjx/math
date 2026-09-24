@@ -1,0 +1,1133 @@
+{
+  "figure_id": "F144",
+  "title": "闭环压力测试：共同延迟对最紧硬时限的影响",
+  "sources": {
+    "results/closure/common_delay_fine_sweep.csv": "98af01d156b4499037c08376df951075e7a467d7b05f2bef379a7c1052f90bc7"
+  },
+  "note": "冻结排程压力试验；仅检验图示扰动维度，不重新优化、不代表随机可靠率",
+  "values": [
+    {
+      "question": "Q2",
+      "common_delay_s": "0",
+      "minimum_hard_slack_s": "2.328362491415646",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "10",
+      "minimum_hard_slack_s": "-7.671637508584354",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "0",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "20",
+      "minimum_hard_slack_s": "-17.671637508584354",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "0",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "30",
+      "minimum_hard_slack_s": "-27.671637508584354",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "0",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "40",
+      "minimum_hard_slack_s": "-37.671637508584354",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "1",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "50",
+      "minimum_hard_slack_s": "-47.671637508584354",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "1",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "60",
+      "minimum_hard_slack_s": "-57.671637508584354",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "1",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "70",
+      "minimum_hard_slack_s": "-67.67163750858435",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "1",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "80",
+      "minimum_hard_slack_s": "-77.67163750858435",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "1",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "90",
+      "minimum_hard_slack_s": "-87.67163750858435",
+      "hard_late_boxes": "3",
+      "expected_late_boxes": "2",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "100",
+      "minimum_hard_slack_s": "-97.67163750858435",
+      "hard_late_boxes": "3",
+      "expected_late_boxes": "2",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "110",
+      "minimum_hard_slack_s": "-107.67163750858435",
+      "hard_late_boxes": "3",
+      "expected_late_boxes": "2",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "120",
+      "minimum_hard_slack_s": "-117.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "130",
+      "minimum_hard_slack_s": "-127.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "140",
+      "minimum_hard_slack_s": "-137.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "150",
+      "minimum_hard_slack_s": "-147.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "160",
+      "minimum_hard_slack_s": "-157.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "170",
+      "minimum_hard_slack_s": "-167.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "180",
+      "minimum_hard_slack_s": "-177.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "190",
+      "minimum_hard_slack_s": "-187.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "200",
+      "minimum_hard_slack_s": "-197.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "3",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "210",
+      "minimum_hard_slack_s": "-207.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "220",
+      "minimum_hard_slack_s": "-217.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "230",
+      "minimum_hard_slack_s": "-227.67163750858435",
+      "hard_late_boxes": "4",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "240",
+      "minimum_hard_slack_s": "-237.67163750858435",
+      "hard_late_boxes": "5",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "250",
+      "minimum_hard_slack_s": "-247.67163750858435",
+      "hard_late_boxes": "5",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "260",
+      "minimum_hard_slack_s": "-257.67163750858435",
+      "hard_late_boxes": "5",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "270",
+      "minimum_hard_slack_s": "-267.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "280",
+      "minimum_hard_slack_s": "-277.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "290",
+      "minimum_hard_slack_s": "-287.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "300",
+      "minimum_hard_slack_s": "-297.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "310",
+      "minimum_hard_slack_s": "-307.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "320",
+      "minimum_hard_slack_s": "-317.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "330",
+      "minimum_hard_slack_s": "-327.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "340",
+      "minimum_hard_slack_s": "-337.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "350",
+      "minimum_hard_slack_s": "-347.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "360",
+      "minimum_hard_slack_s": "-357.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "370",
+      "minimum_hard_slack_s": "-367.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "380",
+      "minimum_hard_slack_s": "-377.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "7",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "390",
+      "minimum_hard_slack_s": "-387.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "7",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "400",
+      "minimum_hard_slack_s": "-397.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "7",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "410",
+      "minimum_hard_slack_s": "-407.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "8",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "420",
+      "minimum_hard_slack_s": "-417.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "8",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "430",
+      "minimum_hard_slack_s": "-427.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "8",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "440",
+      "minimum_hard_slack_s": "-437.67163750858435",
+      "hard_late_boxes": "6",
+      "expected_late_boxes": "8",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "450",
+      "minimum_hard_slack_s": "-447.67163750858435",
+      "hard_late_boxes": "7",
+      "expected_late_boxes": "9",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "460",
+      "minimum_hard_slack_s": "-457.67163750858435",
+      "hard_late_boxes": "7",
+      "expected_late_boxes": "9",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "470",
+      "minimum_hard_slack_s": "-467.67163750858435",
+      "hard_late_boxes": "7",
+      "expected_late_boxes": "9",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "480",
+      "minimum_hard_slack_s": "-477.67163750858435",
+      "hard_late_boxes": "7",
+      "expected_late_boxes": "9",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "490",
+      "minimum_hard_slack_s": "-487.67163750858435",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "500",
+      "minimum_hard_slack_s": "-497.67163750858435",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "510",
+      "minimum_hard_slack_s": "-507.67163750858435",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "520",
+      "minimum_hard_slack_s": "-517.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "530",
+      "minimum_hard_slack_s": "-527.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "540",
+      "minimum_hard_slack_s": "-537.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "550",
+      "minimum_hard_slack_s": "-547.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "560",
+      "minimum_hard_slack_s": "-557.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "570",
+      "minimum_hard_slack_s": "-567.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "580",
+      "minimum_hard_slack_s": "-577.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "590",
+      "minimum_hard_slack_s": "-587.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q2",
+      "common_delay_s": "600",
+      "minimum_hard_slack_s": "-597.6716375085844",
+      "hard_late_boxes": "8",
+      "expected_late_boxes": "10",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "0",
+      "minimum_hard_slack_s": "338.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "10",
+      "minimum_hard_slack_s": "328.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "20",
+      "minimum_hard_slack_s": "318.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "30",
+      "minimum_hard_slack_s": "308.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "40",
+      "minimum_hard_slack_s": "298.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "50",
+      "minimum_hard_slack_s": "288.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "60",
+      "minimum_hard_slack_s": "278.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "70",
+      "minimum_hard_slack_s": "268.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "80",
+      "minimum_hard_slack_s": "258.4997324874639",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "90",
+      "minimum_hard_slack_s": "248.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "100",
+      "minimum_hard_slack_s": "238.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "110",
+      "minimum_hard_slack_s": "228.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "120",
+      "minimum_hard_slack_s": "218.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "130",
+      "minimum_hard_slack_s": "208.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "140",
+      "minimum_hard_slack_s": "198.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "150",
+      "minimum_hard_slack_s": "188.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "160",
+      "minimum_hard_slack_s": "178.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "170",
+      "minimum_hard_slack_s": "168.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "180",
+      "minimum_hard_slack_s": "158.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "190",
+      "minimum_hard_slack_s": "148.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "200",
+      "minimum_hard_slack_s": "138.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "210",
+      "minimum_hard_slack_s": "128.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "220",
+      "minimum_hard_slack_s": "118.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "230",
+      "minimum_hard_slack_s": "108.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "240",
+      "minimum_hard_slack_s": "98.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "250",
+      "minimum_hard_slack_s": "88.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "260",
+      "minimum_hard_slack_s": "78.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "0",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "270",
+      "minimum_hard_slack_s": "68.49973248746392",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "1",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "280",
+      "minimum_hard_slack_s": "58.499732487463916",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "1",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "290",
+      "minimum_hard_slack_s": "48.499732487463916",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "1",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "300",
+      "minimum_hard_slack_s": "38.499732487463916",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "1",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "310",
+      "minimum_hard_slack_s": "28.499732487463916",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "2",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "320",
+      "minimum_hard_slack_s": "18.499732487463916",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "3",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "330",
+      "minimum_hard_slack_s": "8.499732487463916",
+      "hard_late_boxes": "0",
+      "expected_late_boxes": "3",
+      "hard_feasible": "True",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "340",
+      "minimum_hard_slack_s": "-1.5002675125360838",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "350",
+      "minimum_hard_slack_s": "-11.500267512536084",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "360",
+      "minimum_hard_slack_s": "-21.500267512536084",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "370",
+      "minimum_hard_slack_s": "-31.500267512536084",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "380",
+      "minimum_hard_slack_s": "-41.500267512536084",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "390",
+      "minimum_hard_slack_s": "-51.500267512536084",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "400",
+      "minimum_hard_slack_s": "-61.500267512536084",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "410",
+      "minimum_hard_slack_s": "-71.50026751253608",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "420",
+      "minimum_hard_slack_s": "-81.50026751253608",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "430",
+      "minimum_hard_slack_s": "-91.50026751253608",
+      "hard_late_boxes": "1",
+      "expected_late_boxes": "4",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "440",
+      "minimum_hard_slack_s": "-101.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "450",
+      "minimum_hard_slack_s": "-111.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "460",
+      "minimum_hard_slack_s": "-121.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "470",
+      "minimum_hard_slack_s": "-131.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "480",
+      "minimum_hard_slack_s": "-141.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "490",
+      "minimum_hard_slack_s": "-151.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "500",
+      "minimum_hard_slack_s": "-161.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "510",
+      "minimum_hard_slack_s": "-171.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "520",
+      "minimum_hard_slack_s": "-181.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "530",
+      "minimum_hard_slack_s": "-191.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "540",
+      "minimum_hard_slack_s": "-201.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "550",
+      "minimum_hard_slack_s": "-211.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "560",
+      "minimum_hard_slack_s": "-221.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "570",
+      "minimum_hard_slack_s": "-231.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "580",
+      "minimum_hard_slack_s": "-241.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "590",
+      "minimum_hard_slack_s": "-251.50026751253608",
+      "hard_late_boxes": "2",
+      "expected_late_boxes": "5",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    },
+    {
+      "question": "Q3",
+      "common_delay_s": "600",
+      "minimum_hard_slack_s": "-261.5002675125361",
+      "hard_late_boxes": "3",
+      "expected_late_boxes": "6",
+      "hard_feasible": "False",
+      "scope": "运输、中继及充电整体平移；不改变相对占用/通信，截止时刻固定"
+    }
+  ],
+  "visible_text": [
+    "全部资源共同延迟（s）",
+    "-100",
+    "0",
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700",
+    "最紧硬时限裕度（s）",
+    "-800",
+    "-600",
+    "-400",
+    "-200",
+    "0",
+    "200",
+    "400",
+    "600",
+    "闭环压力测试：共同延迟对最紧硬时限的影响",
+    "Q2",
+    "Q3",
+    "约束边界"
+  ]
+}

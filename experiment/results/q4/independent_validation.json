@@ -1,0 +1,74 @@
+{
+  "checks_total": 11364,
+  "checks_passed": 11364,
+  "checks_failed": 0,
+  "full_partitions_checked": 4,
+  "independent_group_subsets": 6,
+  "physical_cases": {
+    "2": {
+      "checks_total": 17291,
+      "checks_failed": 0,
+      "communication_intervals_and_points": 2059,
+      "communication_failed": 0,
+      "transport_energy_kwh": 71.74679839040581,
+      "relay_energy_kwh": 3.3220893136311287,
+      "joint_makespan_s": 6636.184296262294,
+      "boxes": 80,
+      "hard_late_s": 0.0,
+      "source_inventory_sufficient": false,
+      "feasible_with_declared_additions": true,
+      "not_a_field_safety_certification": true
+    },
+    "3": {
+      "checks_total": 17289,
+      "checks_failed": 0,
+      "communication_intervals_and_points": 2059,
+      "communication_failed": 0,
+      "transport_energy_kwh": 71.74679839040581,
+      "relay_energy_kwh": 3.3220893136311287,
+      "joint_makespan_s": 6636.184296262294,
+      "boxes": 80,
+      "hard_late_s": 0.0,
+      "source_inventory_sufficient": false,
+      "feasible_with_declared_additions": true,
+      "not_a_field_safety_certification": true
+    },
+    "balance_2": {
+      "checks_total": 17289,
+      "checks_failed": 0,
+      "communication_intervals_and_points": 2059,
+      "communication_failed": 0,
+      "transport_energy_kwh": 71.74679839040581,
+      "relay_energy_kwh": 3.3220893136311287,
+      "joint_makespan_s": 6636.184296262294,
+      "boxes": 80,
+      "hard_late_s": 0.0,
+      "source_inventory_sufficient": false,
+      "feasible_with_declared_additions": true,
+      "not_a_field_safety_certification": true
+    },
+    "balance_3": {
+      "checks_total": 17289,
+      "checks_failed": 0,
+      "communication_intervals_and_points": 2059,
+      "communication_failed": 0,
+      "transport_energy_kwh": 71.74679839040581,
+      "relay_energy_kwh": 3.3220893136311287,
+      "joint_makespan_s": 6636.184296262294,
+      "boxes": 80,
+      "hard_late_s": 0.0,
+      "source_inventory_sufficient": false,
+      "feasible_with_declared_additions": true,
+      "not_a_field_safety_certification": true
+    }
+  },
+  "physical_checks_total": 69158,
+  "physical_checks_failed": 0,
+  "source_Q3_hashes_checked": 9,
+  "verified_for_declared_required_resources": true,
+  "main_solutions_inventory_feasible": {
+    "2": false,
+    "3": false
+  },
+  "scope": "冻结Q3下的全部划分、区间资源最少配置、资源不跨组、完整通信继承、增配后物理可行；禁止复制中继任务，正式源任务各恰好一次"
+}

@@ -1,0 +1,5 @@
+﻿file,rows,columns,compared_cells,mismatch_count,all_equal
+镇龙乡及周边村镇点位.mat,166,7,1162,0,True
+镇龙乡及周边水体.mat,4229,9,38061,0,True
+镇龙乡及周边水系.mat,4570,8,36560,0,True
+镇龙乡及周边道路.mat,21015,7,147105,0,True

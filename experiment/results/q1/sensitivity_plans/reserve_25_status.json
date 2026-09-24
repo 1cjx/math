@@ -1,0 +1,21 @@
+{
+  "feasible": true,
+  "order": "NET",
+  "reserve_fraction": 0.25,
+  "trips": 19,
+  "energy_kwh": 61.07338737608944,
+  "operation_time_s": 34565.659385979154,
+  "flight_time_s": 20639.65938597915,
+  "airborne_service_s": 26465.65938597915,
+  "preparation_load_s": 8100.0,
+  "handoff_s": 5826.0,
+  "delivered_boxes": 80,
+  "delivered_weight_kg": 758.0,
+  "delivered_volume_m3": 2.011,
+  "min_return_soc_fraction": 0.27049853606452356,
+  "min_energy_margin_kwh": 0.16398828851618852,
+  "model_trip_counts": {
+    "C": 9,
+    "B": 10
+  }
+}

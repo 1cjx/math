@@ -1,0 +1,2993 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST001",
+        "name": "黎塘镇",
+        "name_raw": "黎塘镇",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "621892885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.129485,
+          23.20284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST002",
+        "name": "三里镇",
+        "name_raw": "三里镇",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "3155700108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3917952,
+          23.0561446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST003",
+        "name": "云表镇",
+        "name_raw": "云表镇",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "3155700111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3858039,
+          22.9062875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST004",
+        "name": "五里镇",
+        "name_raw": "五里镇",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "3155700112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3938582,
+          22.9618298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST005",
+        "name": "黄练镇",
+        "name_raw": "黄练镇",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "3722472095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3118097,
+          23.1581487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST006",
+        "name": "定布",
+        "name_raw": "定布",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3810307024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3999847,
+          23.1991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST007",
+        "name": "红坭",
+        "name_raw": "红坭",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3810307026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3972304,
+          23.183709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST008",
+        "name": "平龙",
+        "name_raw": "平龙",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3810307030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.4007833,
+          23.2167599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST009",
+        "name": "覃塘街道",
+        "name_raw": "覃塘街道",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "3810307031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.4158451,
+          23.1373934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST010",
+        "name": "宾州",
+        "name_raw": "宾州",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.407,
+          23.0041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST011",
+        "name": "长塘",
+        "name_raw": "长塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.42,
+          23.0101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST012",
+        "name": "东流",
+        "name_raw": "东流",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.444,
+          22.9915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST013",
+        "name": "吉水",
+        "name_raw": "吉水",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.43,
+          23.0314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST014",
+        "name": "吉塘",
+        "name_raw": "吉塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.426,
+          23.0194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST015",
+        "name": "冷尾",
+        "name_raw": "冷尾",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.441,
+          23.001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST016",
+        "name": "梁屋",
+        "name_raw": "梁屋",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.439,
+          23.0675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST017",
+        "name": "隆兴",
+        "name_raw": "隆兴",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352225"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.404,
+          23.0207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST018",
+        "name": "石社",
+        "name_raw": "石社",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.434,
+          23.0465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST019",
+        "name": "旺六村",
+        "name_raw": "旺六村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.422,
+          23.0365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST020",
+        "name": "西域",
+        "name_raw": "西域",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909352231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.431,
+          23.018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST021",
+        "name": "庞村",
+        "name_raw": "庞村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3909512213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.043,
+          22.9833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST022",
+        "name": "草衣",
+        "name_raw": "草衣",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.198,
+          22.9115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST023",
+        "name": "长安",
+        "name_raw": "长安",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.112,
+          22.8748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST024",
+        "name": "呔赖",
+        "name_raw": "呔赖",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747327"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.127,
+          22.9925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST025",
+        "name": "大料",
+        "name_raw": "大料",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0774522,
+          22.9257376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST026",
+        "name": "定里",
+        "name_raw": "定里",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747329"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.195,
+          22.9419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST027",
+        "name": "逢村",
+        "name_raw": "逢村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747330"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.05,
+          22.8954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST028",
+        "name": "高石",
+        "name_raw": "高石",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747331"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.058,
+          22.9144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST029",
+        "name": "古逢",
+        "name_raw": "古逢",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.123,
+          22.9423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST030",
+        "name": "禾仓",
+        "name_raw": "禾仓",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.036,
+          22.9238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST031",
+        "name": "何村",
+        "name_raw": "何村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.161,
+          22.9541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST032",
+        "name": "何代",
+        "name_raw": "何代",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1,
+          22.987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST033",
+        "name": "禾塘",
+        "name_raw": "禾塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.053,
+          22.8853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST034",
+        "name": "黄村",
+        "name_raw": "黄村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.161,
+          22.9317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST035",
+        "name": "江局",
+        "name_raw": "江局",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.104,
+          22.9432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST036",
+        "name": "老村",
+        "name_raw": "老村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.157,
+          23.0117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST037",
+        "name": "李陆",
+        "name_raw": "李陆",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747341"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.088,
+          22.9789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST038",
+        "name": "六昌",
+        "name_raw": "六昌",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.191,
+          23.0026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST039",
+        "name": "六花",
+        "name_raw": "六花",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.173,
+          22.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST040",
+        "name": "陆村",
+        "name_raw": "陆村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.14,
+          22.9698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST041",
+        "name": "木路",
+        "name_raw": "木路",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747346"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.196,
+          22.9933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST042",
+        "name": "那罗",
+        "name_raw": "那罗",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747348"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.144,
+          22.8879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST043",
+        "name": "那妙新村",
+        "name_raw": "那妙新村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747349"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.069,
+          22.9524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST044",
+        "name": "泮塘",
+        "name_raw": "泮塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.098,
+          22.8624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST045",
+        "name": "平林",
+        "name_raw": "平林",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.073,
+          22.8718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST046",
+        "name": "平田",
+        "name_raw": "平田",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.131,
+          23.0018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST047",
+        "name": "三联",
+        "name_raw": "三联",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910747356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1037663,
+          22.9699968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST048",
+        "name": "石塘镇",
+        "name_raw": "石塘镇",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "3910748657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0671696,
+          22.8866563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST049",
+        "name": "双河",
+        "name_raw": "双河",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748658"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.103,
+          22.9588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST050",
+        "name": "榃冠",
+        "name_raw": "榃冠",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748659"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.129,
+          22.8634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST051",
+        "name": "塘旺",
+        "name_raw": "塘旺",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.08,
+          22.9078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST052",
+        "name": "潭宽",
+        "name_raw": "潭宽",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748661"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0794536,
+          22.9137058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST053",
+        "name": "榃冷",
+        "name_raw": "榃冷",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.18,
+          22.9241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST054",
+        "name": "榃桥",
+        "name_raw": "榃桥",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1660386,
+          22.901617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST055",
+        "name": "旺感新",
+        "name_raw": "旺感新",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.101,
+          22.8899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST056",
+        "name": "旺龙",
+        "name_raw": "旺龙",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.043,
+          22.9637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST057",
+        "name": "旺宅",
+        "name_raw": "旺宅",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748666"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1124289,
+          22.9057304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST058",
+        "name": "为合",
+        "name_raw": "为合",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.104,
+          22.8677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST059",
+        "name": "五福",
+        "name_raw": "五福",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748668"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.148,
+          23.0027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST060",
+        "name": "新宁",
+        "name_raw": "新宁",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.051,
+          22.9419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST061",
+        "name": "中团",
+        "name_raw": "中团",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.173,
+          22.9395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST062",
+        "name": "竹瓦",
+        "name_raw": "竹瓦",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910748671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.177,
+          23.0162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST063",
+        "name": "八凤",
+        "name_raw": "八凤",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.09,
+          23.0103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST064",
+        "name": "百含",
+        "name_raw": "百含",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0786687,
+          23.0588448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST065",
+        "name": "长奎",
+        "name_raw": "长奎",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.085,
+          23.0444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST066",
+        "name": "均圩",
+        "name_raw": "均圩",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776762"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.037,
+          23.029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST067",
+        "name": "君庄",
+        "name_raw": "君庄",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776763"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.071,
+          23.0369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST068",
+        "name": "可包",
+        "name_raw": "可包",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.069,
+          22.9917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST069",
+        "name": "浪利",
+        "name_raw": "浪利",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776766"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.037,
+          23.0019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST070",
+        "name": "榄桥",
+        "name_raw": "榄桥",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.096,
+          23.0063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST071",
+        "name": "六庄",
+        "name_raw": "六庄",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776768"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.117,
+          23.0346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST072",
+        "name": "木塘",
+        "name_raw": "木塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.09,
+          23.0274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST073",
+        "name": "那笠",
+        "name_raw": "那笠",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776771"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.102,
+          23.0619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST074",
+        "name": "欧村",
+        "name_raw": "欧村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776772"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.046,
+          23.0072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST075",
+        "name": "平塘",
+        "name_raw": "平塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0744707,
+          23.053477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST076",
+        "name": "上塘",
+        "name_raw": "上塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776774"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.057,
+          23.0255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST077",
+        "name": "上学",
+        "name_raw": "上学",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.075,
+          23.025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST078",
+        "name": "田僚",
+        "name_raw": "田僚",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776776"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.117,
+          23.0553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST079",
+        "name": "王平",
+        "name_raw": "王平",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.085,
+          23.013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST080",
+        "name": "下富",
+        "name_raw": "下富",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910776778"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.051,
+          23.0281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST081",
+        "name": "青桐",
+        "name_raw": "青桐",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "3910905260"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1953163,
+          22.8938404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST082",
+        "name": "龙母",
+        "name_raw": "龙母",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4425310426"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0393476,
+          23.1252652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST083",
+        "name": "龙贵",
+        "name_raw": "龙贵",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4806278759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.413,
+          22.9287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST084",
+        "name": "大良",
+        "name_raw": "大良",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4806278782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.418,
+          22.8866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST085",
+        "name": "郭祥",
+        "name_raw": "郭祥",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4806278785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.445,
+          22.8813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST086",
+        "name": "六秀新",
+        "name_raw": "六秀新",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4806278802"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.411,
+          22.9562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST087",
+        "name": "宝盖",
+        "name_raw": "宝盖",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4806278805"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.442,
+          22.9611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST088",
+        "name": "旺庄",
+        "name_raw": "旺庄",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "4806278811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.399,
+          22.8724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST089",
+        "name": "龙公",
+        "name_raw": "龙公",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084352463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.055,
+          23.213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST090",
+        "name": "青草",
+        "name_raw": "青草",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084352464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0850476,
+          23.1613727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST091",
+        "name": "三择",
+        "name_raw": "三择",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084352465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.047,
+          23.1445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST092",
+        "name": "吴江",
+        "name_raw": "吴江",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084352466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.065,
+          23.2147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST093",
+        "name": "细江",
+        "name_raw": "细江",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084352467"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.059,
+          23.2224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST094",
+        "name": "新兴",
+        "name_raw": "新兴",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084352468"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.037,
+          23.1257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST095",
+        "name": "安城",
+        "name_raw": "安城",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084418287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.104,
+          23.2118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST096",
+        "name": "平龙",
+        "name_raw": "平龙",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084418295"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.121,
+          23.2136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST097",
+        "name": "姚村",
+        "name_raw": "姚村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5084418302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.128,
+          23.2242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST098",
+        "name": "灵竹",
+        "name_raw": "灵竹",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5126756524"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.13472,
+          22.9593493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST099",
+        "name": "镇龙乡",
+        "name_raw": "镇龙乡",
+        "name_missing": false,
+        "category": "乡镇",
+        "osm_id": "5126807955"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.243639,
+          23.0322977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST100",
+        "name": "新林",
+        "name_raw": "新林",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154968173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.423,
+          22.9833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST101",
+        "name": "岭岑",
+        "name_raw": "岭岑",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154996714"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.321,
+          23.1478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST102",
+        "name": "六枕",
+        "name_raw": "六枕",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154996715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2930906,
+          23.1691081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST103",
+        "name": "莫村",
+        "name_raw": "莫村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154996716"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3089407,
+          23.1500718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST104",
+        "name": "平寨",
+        "name_raw": "平寨",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154996717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.33,
+          23.1526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST105",
+        "name": "元岭",
+        "name_raw": "元岭",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154996718"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3245492,
+          23.1454549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST106",
+        "name": "罗村",
+        "name_raw": "罗村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "5154998377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3801132,
+          23.0538279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST107",
+        "name": "上陈",
+        "name_raw": "上陈",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7939345339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3229066,
+          22.9832482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST108",
+        "name": "龚村",
+        "name_raw": "龚村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7940974371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3432146,
+          22.9378269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST109",
+        "name": "六贡",
+        "name_raw": "六贡",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7940981418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3824591,
+          22.9684581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST110",
+        "name": "三岔",
+        "name_raw": "三岔",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.359,
+          22.9278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST111",
+        "name": "福塘",
+        "name_raw": "福塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.36,
+          22.8992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST112",
+        "name": "振兴",
+        "name_raw": "振兴",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.38,
+          22.8832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST113",
+        "name": "福龙",
+        "name_raw": "福龙",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.376,
+          22.8972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST114",
+        "name": "南康",
+        "name_raw": "南康",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.33,
+          22.9261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST115",
+        "name": "甲俭",
+        "name_raw": "甲俭",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.351,
+          22.9177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST116",
+        "name": "宿龙",
+        "name_raw": "宿龙",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.313,
+          22.9045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST117",
+        "name": "邓圩",
+        "name_raw": "邓圩",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999979693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.298,
+          22.9249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST118",
+        "name": "临江",
+        "name_raw": "临江",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986666"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.275,
+          22.9034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST119",
+        "name": "罗村",
+        "name_raw": "罗村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.253,
+          22.9092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST120",
+        "name": "旺安",
+        "name_raw": "旺安",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986668"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2288065,
+          22.9150294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST121",
+        "name": "东圩",
+        "name_raw": "东圩",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.254,
+          22.8983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST122",
+        "name": "白衣",
+        "name_raw": "白衣",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.242,
+          22.9164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST123",
+        "name": "下里",
+        "name_raw": "下里",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.233,
+          22.8923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST124",
+        "name": "六蓝村",
+        "name_raw": "六蓝村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "7999986672"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.265,
+          22.922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST125",
+        "name": "里造",
+        "name_raw": "里造",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "8002101958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.287,
+          22.8793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST126",
+        "name": "未命名居民点",
+        "name_raw": "未命名居民点",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "9158122396"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0361738,
+          23.1029838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST127",
+        "name": "太塘",
+        "name_raw": "太塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "9193928965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1876969,
+          23.2017299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST128",
+        "name": "大塘",
+        "name_raw": "大塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "9193928966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1907006,
+          23.1988454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST129",
+        "name": "覃村",
+        "name_raw": "覃村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "9482699703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1836596,
+          23.2111405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST130",
+        "name": "黄村",
+        "name_raw": "黄村",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "9482699704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1851963,
+          23.207957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST131",
+        "name": "新凤",
+        "name_raw": "新凤",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "9482699938"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.188361,
+          23.2125497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST132",
+        "name": "高塘",
+        "name_raw": "高塘",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11118428527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1424282,
+          23.1957024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST133",
+        "name": "里仁",
+        "name_raw": "里仁",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11118958451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1674374,
+          23.1875337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST134",
+        "name": "常安",
+        "name_raw": "常安",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11118958452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1461042,
+          23.1996775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST135",
+        "name": "潘山",
+        "name_raw": "潘山",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11118958453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1514899,
+          23.1991338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST136",
+        "name": "青山",
+        "name_raw": "青山",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11118958454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1551995,
+          23.1966077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST137",
+        "name": "青平",
+        "name_raw": "青平",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11118958455"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1379333,
+          23.2005158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST138",
+        "name": "欧阳",
+        "name_raw": "欧阳",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634880138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1859961,
+          23.1577319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST139",
+        "name": "良四",
+        "name_raw": "良四",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634880183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.170186,
+          23.1476777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST140",
+        "name": "果问",
+        "name_raw": "果问",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634880266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2072017,
+          23.1293571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST141",
+        "name": "良元",
+        "name_raw": "良元",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634880968"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1876082,
+          23.1247911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST142",
+        "name": "新果莪",
+        "name_raw": "新果莪",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1821723,
+          23.1166509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST143",
+        "name": "干江",
+        "name_raw": "干江",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2054913,
+          23.1014131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST144",
+        "name": "果招",
+        "name_raw": "果招",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.176236,
+          23.1128317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST145",
+        "name": "大站",
+        "name_raw": "大站",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881512"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2191546,
+          23.0776627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST146",
+        "name": "古麻",
+        "name_raw": "古麻",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2019376,
+          23.0742455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST147",
+        "name": "竹瓦",
+        "name_raw": "竹瓦",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1738636,
+          23.0938857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST148",
+        "name": "那麓",
+        "name_raw": "那麓",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881841"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2201329,
+          23.063406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST149",
+        "name": "古律",
+        "name_raw": "古律",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634881882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2097858,
+          23.058543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST150",
+        "name": "那托",
+        "name_raw": "那托",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1894467,
+          23.0497624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST151",
+        "name": "六造",
+        "name_raw": "六造",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882329"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.168918,
+          23.0409654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST152",
+        "name": "都长",
+        "name_raw": "都长",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882330"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.166781,
+          23.0365922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST153",
+        "name": "那旭",
+        "name_raw": "那旭",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882331"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1728034,
+          23.036716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST154",
+        "name": "佛子",
+        "name_raw": "佛子",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1790201,
+          23.0275429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST155",
+        "name": "银坑",
+        "name_raw": "银坑",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1915989,
+          23.0358083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST156",
+        "name": "那桑",
+        "name_raw": "那桑",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1931438,
+          23.0294971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST157",
+        "name": "六规",
+        "name_raw": "六规",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1974591,
+          23.0424149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST158",
+        "name": "那从",
+        "name_raw": "那从",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2189672,
+          23.0312847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST159",
+        "name": "平旺",
+        "name_raw": "平旺",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2293012,
+          23.0248391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST160",
+        "name": "那龙",
+        "name_raw": "那龙",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2368288,
+          23.0398887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST161",
+        "name": "上良",
+        "name_raw": "上良",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2266493,
+          23.0561427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST162",
+        "name": "三岔",
+        "name_raw": "三岔",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11634882851"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1395408,
+          22.971984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST163",
+        "name": "罗管",
+        "name_raw": "罗管",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11637200196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0741986,
+          23.0765845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST164",
+        "name": "横梨",
+        "name_raw": "横梨",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11637200490"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1475567,
+          23.110668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST165",
+        "name": "那业",
+        "name_raw": "那业",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11637200491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1345105,
+          23.1146782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "ST166",
+        "name": "黄兴",
+        "name_raw": "黄兴",
+        "name_missing": false,
+        "category": "村庄",
+        "osm_id": "11637200697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0865984,
+          23.1169218
+        ]
+      }
+    }
+  ]
+}

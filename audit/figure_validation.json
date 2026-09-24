@@ -1,0 +1,8 @@
+{
+  "scope": "本轮原生绘图、数值聚合和文件继承验证；未重新求解优化器，也不替代原物理可行性证书。",
+  "checks": 2440,
+  "failed": 0,
+  "failures": [],
+  "source_F148_grid_points": 4941,
+  "max_surface_error_kwh": 2.6645352591003757e-15
+}

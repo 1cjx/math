@@ -1,0 +1,15 @@
+{
+  "feasible": false,
+  "infeasible_services": [
+    "S002",
+    "S003",
+    "S004",
+    "S008",
+    "S009",
+    "S012",
+    "S014",
+    "S015"
+  ],
+  "order": "NET",
+  "reserve_fraction": 0.55
+}

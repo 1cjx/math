@@ -1,0 +1,2 @@
+﻿model_id,name,empty_mass_kg,module_mass_kg,takeoff_mass_kg,cruise_speed_mps,cruise_power_kw,usable_energy_kwh,reserve_percent,prepare_s,link_setup_s,turnaround_s,climb_speed_mps,descent_speed_mps,climb_efficiency,descent_efficiency,hover_power_kw,communication_power_kw,max_hover_agl_m,source_workbook,source_sheet,source_excel_row,reserve_fraction
+R,中继标准测试多旋翼,21.0,2.5,23.5,15.0,1.15,3.2,20.0,180.0,30.0,300.0,4.0,3.0,0.72,0.0,1.05,0.05,300.0,中继无人机数据.xlsx,数据,3,0.2

@@ -1,0 +1,5 @@
+﻿K,partition_id,independent_resource_units,independent_shortage_units,independent_transport_workload_cv,all_counts_match
+2,K2-112,33,5,0.8642116045074704,True
+2,K2-121,29,2,0.9339960960803234,True
+2,K2-122,35,7,0.7982077005877939,True
+3,K3-123,35,7,1.2009410699956247,True

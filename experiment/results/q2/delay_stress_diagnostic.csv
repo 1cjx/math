@@ -1,0 +1,6 @@
+﻿uniform_delay_s,hard_violated_boxes,expected_violated_boxes,hard_violated_box_ids,type
+0,0,0,,frozen_plan_delay_diagnostic_not_optimized_solution
+5,1,0,S012-MED-01,frozen_plan_delay_diagnostic_not_optimized_solution
+30,1,0,S012-MED-01,frozen_plan_delay_diagnostic_not_optimized_solution
+60,2,1,S012-MED-01;S012-WAT-01,frozen_plan_delay_diagnostic_not_optimized_solution
+120,4,3,S012-MED-01;S012-WAT-01;S013-MED-01;S013-WAT-01,frozen_plan_delay_diagnostic_not_optimized_solution

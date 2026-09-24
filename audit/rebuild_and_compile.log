@@ -1,0 +1,466 @@
+F001 第一问：调度中心与单点往返航线
+F002 原始全分辨率地形与任务节点
+F003 第一问：各机型连续最大安全载荷
+F004 第一问：各服务区最少往返架次数
+F005 第一问：逐架次往返能耗分解
+F006 第一问：每一架次返航电量核验
+F007 第一问：安全余量与最少架次数
+F008 第一问：提高返航余量后的总能耗
+F009 第一问：S008安全载荷对余量要求的响应
+F010 第一问：不同架次数下的最小能耗曲线
+F011 数据核查：题定节点海拔与DEM像元差异
+F012 数据核查：全部货箱按服务区分布
+F013 第一问：O01至S001沿线地形与净空
+F014 第一问：S001载荷—能量可行边界
+F015 第一问：O01至S002沿线地形与净空
+F016 第一问：S002载荷—能量可行边界
+F017 第一问：O01至S003沿线地形与净空
+F018 第一问：S003载荷—能量可行边界
+F019 第一问：O01至S004沿线地形与净空
+F020 第一问：S004载荷—能量可行边界
+F021 第一问：O01至S005沿线地形与净空
+F022 第一问：S005载荷—能量可行边界
+F023 第一问：O01至S006沿线地形与净空
+F024 第一问：S006载荷—能量可行边界
+F025 第一问：O01至S007沿线地形与净空
+F026 第一问：S007载荷—能量可行边界
+F027 第一问：O01至S008沿线地形与净空
+F028 第一问：瓶颈区域S008地形剖面
+F029 第一问：S008载荷—能量可行边界
+F030 第一问：O01至S009沿线地形与净空
+F031 第一问：S009载荷—能量可行边界
+F032 第一问：O01至S010沿线地形与净空
+F033 第一问：S010载荷—能量可行边界
+F034 第一问：O01至S011沿线地形与净空
+F035 第一问：S011载荷—能量可行边界
+F036 第一问：O01至S012沿线地形与净空
+F037 第一问：S012载荷—能量可行边界
+F038 第一问：O01至S013沿线地形与净空
+F039 第一问：S013载荷—能量可行边界
+F040 第一问：O01至S014沿线地形与净空
+F041 第一问：S014载荷—能量可行边界
+F042 第一问：O01至S015沿线地形与净空
+F043 第一问：S015载荷—能量可行边界
+F044 第一问：A型连续上限与现有整箱可实现载荷
+F045 第一问：B型连续上限与现有整箱可实现载荷
+F046 第一问：C型连续上限与现有整箱可实现载荷
+F047 第一问：三种时间口径的组成
+F048 第一问：能耗分项假设扰动后重新优化
+F049 Q2：26架次运输航线与节点
+F050 Q2：运输无人机占用时序
+F051 Q2：共享电池任务与充电时序
+F052 Q2：医疗及首批保障货箱硬时限
+F053 Q2：实算备选方案的时间与能耗
+F054 Q2：逐架次返航安全余量
+F055 Q2：全部货箱累计交付进度
+F056 Q2：A型无人机运输路线
+F057 Q2：B型无人机运输路线
+F058 Q2：C型无人机运输路线
+F059 Q2：各服务区最紧硬时限裕度
+F060 Q2：载质量与装载体积利用率
+F061 Q2：逐航段汇总的运输能耗分项
+F062 Q2：分机型累计作业与纯飞行时间
+F063 Q3：25架次运输航线与节点
+F064 Q3：运输无人机占用时序
+F065 Q3：共享电池任务与充电时序
+F066 Q3：医疗及首批保障货箱硬时限
+F067 Q3：实算备选方案的时间与能耗
+F068 Q3：逐架次返航安全余量
+F069 Q3：全部货箱累计交付进度
+F070 Q3：A型无人机运输路线
+F071 Q3：B型无人机运输路线
+F072 Q3：C型无人机运输路线
+F073 Q3：各服务区最紧硬时限裕度
+F074 Q3：载质量与装载体积利用率
+F075 Q3：逐航段汇总的运输能耗分项
+F076 Q3：分机型累计作业与纯飞行时间
+F077 第二问：固定搜索预算下的收敛轨迹
+F078 第三问：中继无人机任务及周转
+F079 第三问：中继能源组件及两阶段充电
+F080 第三问：Q3-R-001完整飞行及服务剖面
+F081 第三问：Q3-R-002完整飞行及服务剖面
+F082 第三问：Q3-R-003完整飞行及服务剖面
+F083 第三问：Q3-R-004完整飞行及服务剖面
+F084 第三问：Q3-T-001逐阶段高度剖面
+F085 第三问：Q3-T-002逐阶段高度剖面
+F086 第三问：Q3-T-003逐阶段高度剖面
+F087 第三问：Q3-T-004逐阶段高度剖面
+F088 第三问：Q3-T-005逐阶段高度剖面
+F089 第三问：Q3-T-006逐阶段高度剖面
+F090 第三问：Q3-T-007逐阶段高度剖面
+F091 第三问：Q3-T-008逐阶段高度剖面
+F092 第三问：Q3-T-009逐阶段高度剖面
+F093 第三问：Q3-T-010逐阶段高度剖面
+F094 第三问：Q3-T-011逐阶段高度剖面
+F095 第三问：Q3-T-012逐阶段高度剖面
+F096 第三问：Q3-T-013逐阶段高度剖面
+F097 第三问：Q3-T-014逐阶段高度剖面
+F098 第三问：Q3-T-015逐阶段高度剖面
+F099 第三问：Q3-T-016逐阶段高度剖面
+F100 第三问：Q3-T-017逐阶段高度剖面
+F101 第三问：Q3-T-018逐阶段高度剖面
+F102 第三问：Q3-T-019逐阶段高度剖面
+F103 第三问：Q3-T-020逐阶段高度剖面
+F104 第三问：Q3-T-021逐阶段高度剖面
+F105 第三问：Q3-T-022逐阶段高度剖面
+F106 第三问：Q3-T-023逐阶段高度剖面
+F107 第三问：Q3-T-024逐阶段高度剖面
+F108 第三问：Q3-T-025逐阶段高度剖面
+F109 第三问：直连与中继保障的完整时间区间
+F110 第三问：直连与中继累计保障工作量
+F111 第三问：已分割区间中点链路裕量分布
+F112 第三问：额外传播损耗压力测试
+F113 第三问：仅中继延迟的冻结分配测试
+F114 第三问：全部资源共同延后的时限裕度
+F115 第三问：每次中继任务能耗组成
+F116 第三问：中继任务返航剩余电量
+F117 第四问：运输与中继依赖合并后的不可拆单元
+F118 第四问：严格不复制中继的2组分区
+F119 第四问：2组的运输累计作业时间
+F120 第四问：2组的货箱数量
+F121 第四问：2组的运输架次数
+F122 第四问：2组独立配置需求与原库存
+F123 第四问：2组分类型资源缺口
+F124 第四问：2组独立运输机身占用
+F125 第四问：2组独立运输电池占用
+F126 第四问：2组独立中继机身占用
+F127 第四问：2组独立中继能源组件占用
+F128 第四问：严格不复制中继的3组分区
+F129 第四问：3组的运输累计作业时间
+F130 第四问：3组的货箱数量
+F131 第四问：3组的运输架次数
+F132 第四问：3组独立配置需求与原库存
+F133 第四问：3组分类型资源缺口
+F134 第四问：3组独立运输机身占用
+F135 第四问：3组独立运输电池占用
+F136 第四问：3组独立中继机身占用
+F137 第四问：3组独立中继能源组件占用
+F138 第四问：严格可行的全部4个分区比较
+F139 闭环压力测试：运输能耗扰动与最低返航电量
+F140 闭环压力测试：运输能耗扰动导致的安全余量违约
+F141 闭环压力测试：运输能耗扰动导致的电池周转冲突
+F142 闭环压力测试：充电时间扰动与下一次任务准备裕度
+F143 闭环压力测试：充电变慢后的资源冲突
+F144 闭环压力测试：共同延迟对最紧硬时限的影响
+F145 闭环压力测试：共同延迟导致的硬时限违约货箱数
+F146 闭环压力测试：共同延迟导致的期望送达逾期
+F147 闭环筛选：独立Q3候选的严格三分区兼容性
+F148 C型载荷—巡航海拔能耗响应（模型扫参）
+F149 同一能耗曲面的可行域投影
+F150 巡航海拔改变时的载荷—能耗截面
+F151 返航余量下的跨服务区载荷分布
+F152 15个服务区的安全载荷敏感性
+F153 安全载荷的经验累计分布
+F154 异构机型载荷—等效航程关系
+F155 实际需求的空间位置与时间要求
+F156 按期望送达时刻累计的物资需求
+F157 服务区—物资类别的真实需求矩阵
+F158 五个已计算Q3候选的三指标位置
+F159 实际搜索日志中的时间—能耗轨迹
+F160 Q3-T-016：任务能耗与两阶段充电
+F161 Q3-T-016：完成站点交接后的剩余载荷
+F162 Q3-T-016：全飞行与交接区间通信切换
+F163 Q3-T-016：与能源、通信对齐的飞行剖面
+已生成 163 幅原生数据图，用时 77.6s
+{
+  "scope": "本轮原生绘图、数值聚合和文件继承验证；未重新求解优化器，也不替代原物理可行性证书。",
+  "checks": 2440,
+  "failed": 0,
+  "failures": [],
+  "source_F148_grid_points": 4941,
+  "max_surface_error_kwh": 2.6645352591003757e-15
+}
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 11 Dec. 2024. Version 4.86.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  figures/F002.pdf
+  figures/F007.pdf
+  figures/F010.pdf
+  figures/F012.pdf
+  figures/F027.pdf
+  figures/F046.pdf
+  figures/F049.pdf
+  figures/F050.pdf
+  figures/F051.pdf
+  figures/F053.pdf
+  figures/F063.pdf
+  figures/F064.pdf
+  figures/F077.pdf
+  figures/F078.pdf
+  figures/F079.pdf
+  figures/F082.pdf
+  figures/F099.pdf
+  figures/F109.pdf
+  figures/F112.pdf
+  figures/F113.pdf
+  figures/F117.pdf
+  figures/F118.pdf
+  figures/F128.pdf
+  figures/F135.pdf
+  figures/F138.pdf
+  figures/F139.pdf
+  figures/F142.pdf
+  figures/F144.pdf
+  figures/F147.pdf
+Category 'changed_user':
+  figures/F002.pdf
+  figures/F007.pdf
+  figures/F010.pdf
+  figures/F012.pdf
+  figures/F027.pdf
+  figures/F046.pdf
+  figures/F049.pdf
+  figures/F050.pdf
+  figures/F051.pdf
+  figures/F053.pdf
+  figures/F063.pdf
+  figures/F064.pdf
+  figures/F077.pdf
+  figures/F078.pdf
+  figures/F079.pdf
+  figures/F082.pdf
+  figures/F099.pdf
+  figures/F109.pdf
+  figures/F112.pdf
+  figures/F113.pdf
+  figures/F117.pdf
+  figures/F118.pdf
+  figures/F128.pdf
+  figures/F135.pdf
+  figures/F138.pdf
+  figures/F139.pdf
+  figures/F142.pdf
+  figures/F144.pdf
+  figures/F147.pdf
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error -no-pdf -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./my_paper.cls
+Document Class: my_paper 2026/09/23 Compatibility class for supplied text templ
+ate
+) (/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexart.cls
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(/usr/share/texlive/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-articl
+e.def (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+ (/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex-cs4size.clo)
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+ (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxtext.sty
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/TeXGyreTermesX.fontspec)
+(./main.aux) (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1minntx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd)
+[1] (./main.toc
+[2])
+[3]
+[4] [5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+[19]
+[20] (/usr/share/texmf/tex/latex/lm/ot1lmss.fd)
+[21]
+[22]
+[23]
+[24]
+[25]
+[26]
+[27]
+[28]
+[29]
+[30]
+[31]
+[32]
+[33]
+[34]
+[35]
+[36]
+[37] [38] [39] [40] [41]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+[42]
+[43]
+[44]
+[45]
+[46] (./main.aux) )
+(see the transcript file for additional information)
+Output written on main.xdv (46 pages, 717160 bytes).
+SyncTeX written on main.synctex.gz.
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Log file says output to 'main.xdv'
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  main.xdv
+Category 'changed_source_rules':
+  xelatex
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "main.pdf"  "main.xdv"'
+------------
+main.xdv -> main.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46]
+3379874 bytes written
+Latexmk: All targets (main.xdv main.pdf) are up-to-date
+
+重绘、核验和同步完成；用时 88.3秒。

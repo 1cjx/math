@@ -1,0 +1,6 @@
+﻿horizontal_multiplier,climb_multiplier,feasible,trips,energy_kwh,operation_time_s,min_return_soc_fraction,type
+1.0,1.0,True,18,59.13129602205389,32776.015748915874,0.230883497636599,nominal
+0.9,1.0,True,18,53.473740317755265,32776.015748915874,0.30558339186533656,assumption_perturbation_not_source_parameter
+1.1,1.0,True,20,69.3441985335703,36335.49082163948,0.21064135527948924,assumption_perturbation_not_source_parameter
+1.0,0.9,True,18,58.875722124147124,32776.015748915874,0.23309525364420147,assumption_perturbation_not_source_parameter
+1.0,1.1,True,18,59.38686991996065,32776.015748915874,0.2286717416289965,assumption_perturbation_not_source_parameter

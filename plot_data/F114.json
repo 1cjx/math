@@ -1,0 +1,94 @@
+{
+  "figure_id": "F114",
+  "title": "第三问：全部资源共同延后的时限裕度",
+  "sources": {
+    "results/q3/common_start_delay_sensitivity.csv": "2b9f8d7fbf71f0c8a0e40c9738468f1f16963328f3942b53da77d0986b077d92"
+  },
+  "note": "压力场景不重优化；负裕度或中断表示失败，不能当作正式可行方案",
+  "values": [
+    {
+      "common_delay_s": "0.0",
+      "min_hard_slack_s": "338.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "1.0",
+      "min_hard_slack_s": "337.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "2.0",
+      "min_hard_slack_s": "336.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "3.0",
+      "min_hard_slack_s": "335.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "5.0",
+      "min_hard_slack_s": "333.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "10.0",
+      "min_hard_slack_s": "328.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "30.0",
+      "min_hard_slack_s": "308.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "60.0",
+      "min_hard_slack_s": "278.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "90.0",
+      "min_hard_slack_s": "248.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    },
+    {
+      "common_delay_s": "120.0",
+      "min_hard_slack_s": "218.49973248746437",
+      "hard_late_boxes": "0",
+      "feasible": "True"
+    }
+  ],
+  "visible_text": [
+    "共同延迟（s）",
+    "-20",
+    "0",
+    "20",
+    "40",
+    "60",
+    "80",
+    "100",
+    "120",
+    "140",
+    "最紧硬时限裕度（s）",
+    "-50",
+    "0",
+    "50",
+    "100",
+    "150",
+    "200",
+    "250",
+    "300",
+    "350",
+    "400",
+    "第三问：全部资源共同延后的时限裕度"
+  ]
+}

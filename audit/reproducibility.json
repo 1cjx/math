@@ -1,0 +1,10 @@
+{
+  "redraw_start_from_other_cwd": "/tmp",
+  "compared_png": 163,
+  "compared_svg": 163,
+  "compared_plot_data": 163,
+  "mismatches": [],
+  "original_archive_file_count": 1269,
+  "original_archive_mismatches": [],
+  "PDF_comparison_note": "PDF封装中含创建时刻；PDF不要求逐字节相同，核验其源绘图数据、SVG和PNG。"
+}

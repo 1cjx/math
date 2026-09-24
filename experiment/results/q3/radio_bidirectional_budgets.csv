@@ -1,0 +1,4 @@
+﻿link_type,forward_loss_limit_db,reverse_loss_limit_db,bidirectional_limit_db,receiver_threshold_dbm
+direct,122.0,129.0,122.0,-90.0
+access,116.0,116.0,116.0,-90.0
+backhaul,126.0,134.0,126.0,-90.0
