@@ -1,0 +1,39 @@
+[A-warmup seed=101] hard=0.000 tardy=0.000 N=23 Cmax=10791.19 E=78.993  (5s)
+[A-warmup seed=102] hard=0.000 tardy=0.000 N=23 Cmax=10677.21 E=76.506  (9s)
+[A-warmup seed=103] hard=0.000 tardy=0.000 N=23 Cmax=10768.64 E=79.820  (13s)
+[A-warmup seed=104] hard=0.000 tardy=0.000 N=22 Cmax=10267.45 E=73.323  (17s)
+[A-warmup seed=105] hard=0.000 tardy=0.000 N=23 Cmax=10664.09 E=78.741  (21s)
+[A-warmup seed=106] hard=0.000 tardy=0.000 N=22 Cmax=10738.17 E=74.436  (25s)
+[A-polish 1] hard=0.000 tardy=0.000 N=18 Cmax=10422.92 E=70.291  (41s)
+[A-polish 2] hard=0.000 tardy=0.000 N=18 Cmax=10149.97 E=67.946  (55s)
+[A-polish 3] hard=0.000 tardy=0.000 N=18 Cmax=10149.97 E=67.946  (69s)
+[A-polish 4] hard=0.000 tardy=0.000 N=18 Cmax=10215.97 E=66.635  (83s)
+[A-polish 5] hard=0.000 tardy=0.000 N=18 Cmax=9856.09 E=66.612  (97s)
+[A-FINAL] hard=0.000 tardy=0.000 N=18 Cmax=9856.09 E=66.612
+[A2-time-polish seed=301] hard=0.000 tardy=0.000 N=25 Cmax=6895.82 E=76.069
+[A2-time-polish seed=302] hard=0.000 tardy=0.000 N=27 Cmax=6722.60 E=76.224
+[A2-PARETO] N=18 Cmax=9856.09 E=66.612
+[A2-PARETO] N=23 Cmax=9493.06 E=75.35
+[A2-PARETO] N=24 Cmax=7239.78 E=76.899
+[A2-PARETO] N=25 Cmax=6854.60 E=77.174
+[A2-PARETO] N=26 Cmax=6836.89 E=75.723
+[A2-PARETO] N=27 Cmax=6722.60 E=76.541
+[A2-PARETO] N=28 Cmax=7342.72 E=82.246
+[A2-PARETO] N=29 Cmax=7396.90 E=83.576
+[A2-PARETO] N=30 Cmax=7837.58 E=86.92
+[A2-PARETO] N=31 Cmax=8398.60 E=92.023
+[A2-PARETO] N=32 Cmax=8464.91 E=93.081
+[A2-PARETO] N=33 Cmax=9047.09 E=96.228
+[B-warmup seed=401] hard=0.000 tardy=0.000 N=30 Cmax=7899.80 E=85.714  (141s)
+[B-warmup seed=402] hard=0.000 tardy=0.000 N=28 Cmax=7389.89 E=81.281  (146s)
+[B-warmup seed=403] hard=0.000 tardy=0.000 N=30 Cmax=7669.86 E=86.426  (151s)
+[B-warmup seed=404] hard=0.000 tardy=0.000 N=29 Cmax=7641.52 E=85.288  (155s)
+[B-seed0 载入失败] unhashable type: 'list'
+[B-polish 1] hard=0.000 tardy=0.000 N=24 Cmax=6464.37 E=71.492  (176s)
+[B-polish 2] hard=0.000 tardy=0.000 N=26 Cmax=6297.83 E=73.648  (197s)
+[B-polish 3] hard=0.000 tardy=0.000 N=25 Cmax=6297.32 E=73.084  (219s)
+[B-polish 4] hard=0.000 tardy=0.000 N=25 Cmax=6297.32 E=72.181  (242s)
+[B-polish 5] hard=0.000 tardy=0.000 N=25 Cmax=6297.32 E=72.108  (264s)
+[B-polish 6] hard=0.000 tardy=0.000 N=25 Cmax=6256.80 E=71.727  (286s)
+[B-FINAL] hard=0.000 tardy=0.000 N=25 Cmax=6256.80 E=71.727
+TOTAL 286s

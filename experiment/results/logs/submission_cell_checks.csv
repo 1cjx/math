@@ -426,15 +426,6 @@ Q2_运输架次!R26C5,True
 Q2_运输架次!R26C6,True
 Q2_运输架次!R26C7,True
 Q2_运输架次!R26C8,True
-Q2_运输架次/row27_no_extra_fields,True
-Q2_运输架次!R27C1,True
-Q2_运输架次!R27C2,True
-Q2_运输架次!R27C3,True
-Q2_运输架次!R27C4,True
-Q2_运输架次!R27C5,True
-Q2_运输架次!R27C6,True
-Q2_运输架次!R27C7,True
-Q2_运输架次!R27C8,True
 Q2_逐箱交付/record_count,True
 Q2_逐箱交付/row1_no_extra_fields,True
 Q2_逐箱交付!R1C1,True
