@@ -182,7 +182,7 @@ def tradeoff(rows,which,compat=False):
 def redraw_one(row,pub):
     code=row['图号'];name=row['图文件'].replace('results/figures/','');title=row['中文图题'];note=row.get('说明','')
     S.start(row['数据源'].split(';'))
-    vals={}; f=a=None
+    vals={}; f=a=None; short_title=None
     if name=='q1/q1_00_dem.png':f,a,vals=plot_map(full=True)
     elif name=='01_dem_routes.png':f,a,vals=plot_map([{'visit_order':x['service_id']} for x in C('q1','route_geometry')])
     elif name in ('q2_01_routes.png','q3/q3_01_routes.png') or re.search(r'q[23]/routes_model_[ABC].png',name):
@@ -222,26 +222,58 @@ def redraw_one(row,pub):
         f,a=figure((7.6,4.25));y=nums(rr,'return_soc_fraction',100);x=np.arange(len(rr));cols=[MODEL.get(r.get('model_id'),PURPLE) for r in rr]
         a.axhspan(0,20,color=RED,alpha=.055);a.vlines(x,20,y,color=cols,lw=1.3,alpha=.6);a.scatter(x,y,c=cols,s=31,edgecolors='white',lw=.55,zorder=4);a.axhline(20,ls='--',lw=1,color=RED,label='题定最低返航电量20%')
         a.set_xticks(x,[r.get('trip_id',r.get('relay_trip_id','')).split('-')[-1] for r in rr],rotation=45 if len(rr)>20 else 0);a.set(xlabel='架次编号',ylabel='返航剩余电量（%）',ylim=(0,100));j=int(np.argmin(y));a.annotate(f'最低 {y[j]:.3f}%',(j,y[j]),xytext=(6,12),textcoords='offset points',fontsize=8,color=RED);legend(a,loc='upper right');vals=rr
-    elif name in ('06_reserve_sorties.png','07_reserve_energy.png'):
-        rr=C('q1','reserve_sensitivity');good=[r for r in rr if r['trips']];bad=[r for r in rr if not r['trips']];key='trips' if name.startswith('06') else 'energy_kwh';xx=nums(good,'reserve_fraction',100);yy=nums(good,key)
+    elif name=='06_reserve_sorties.png':
+        rr=C('q1','reserve_sensitivity');good=[r for r in rr if r['trips']];bad=[r for r in rr if not r['trips']]
+        xx=nums(good,'reserve_fraction',100);yy=nums(good,'trips')
+        q1=J('q1');critical=100*float(q1['critical_common_reserve_fraction']);baseline_hold=100*float(good[0]['min_return_soc_fraction'])
+        f=plt.figure(figsize=(7.6,4.65));gs=f.add_gridspec(2,1,height_ratios=(4.4,.72),hspace=.06)
+        a=f.add_subplot(gs[0]);state=f.add_subplot(gs[1],sharex=a)
+        a.vlines(xx,17.45,yy,color=BLUE,lw=1.2,alpha=.22,zorder=1)
+        a.scatter(xx,yy,s=43,facecolors=['white']*len(xx),edgecolors=BLUE,lw=1.35,zorder=3)
+        a.scatter([xx[0]],[yy[0]],s=47,color=BLUE,edgecolors='white',lw=.55,zorder=4)
+        for x,y in zip(xx,yy):a.annotate(f'{y:.0f}',(x,y),xytext=(0,7),textcoords='offset points',ha='center',fontsize=8,color=INK)
+        a.axvline(baseline_hold,color=BLUE,ls='--',lw=.9,alpha=.85)
+        a.axvline(critical,color=RED,ls='--',lw=.9,alpha=.9)
+        a.annotate(f'18架次方案保持至 {baseline_hold:.2f}%',(baseline_hold,18),xytext=(9,18),textcoords='offset points',fontsize=8,color=BLUE,arrowprops=dict(arrowstyle='-',color=BLUE,lw=.7))
+        a.annotate(f'全任务边界 {critical:.2f}%',(critical,25.05),xytext=(8,-2),textcoords='offset points',fontsize=8,color=RED,va='top')
+        a.set_xlim(18,62);a.set_ylim(17.35,25.85);a.set_ylabel('重新优化后的最少架次数');a.tick_params(axis='x',labelbottom=False)
+        a.yaxis.set_major_locator(ticker.MaxNLocator(integer=True));a.grid(False,axis='x')
+        state.axvspan(20,critical,color=TEAL,alpha=.18,lw=0);state.axvspan(critical,60,color=RED,alpha=.13,lw=0)
+        state.scatter(xx,np.full(len(xx),.22),s=19,color=BLUE,edgecolors='white',lw=.4,zorder=3)
+        if bad:state.scatter(nums(bad,'reserve_fraction',100),np.full(len(bad),.22),s=27,marker='x',color=RED,lw=1.1,zorder=3)
+        state.axvline(critical,color=RED,ls='--',lw=.9);state.text((20+critical)/2,.66,'全箱可交付',ha='center',va='center',fontsize=8,color=TEAL);state.text((critical+60)/2,.66,'全箱交付不可行',ha='center',va='center',fontsize=8,color=RED)
+        state.set_ylim(0,1);state.set_yticks([]);state.set_xticks(nums(rr,'reserve_fraction',100));state.set_xlabel(r'返航SOC下限 $\rho$（%）');state.grid(False)
+        for sp in ('left','right','top'):state.spines[sp].set_visible(False)
+        vals={'sweep':rr,'baseline_18_trip_hold_to_percent':baseline_hold,'critical_common_reserve_percent':critical}
+        note+='；上图仅绘制离散重优化档位，不对档位之间作线性插值；下方状态带给出解析可行边界。';short_title=''
+    elif name=='07_reserve_energy.png':
+        rr=C('q1','reserve_sensitivity');good=[r for r in rr if r['energy_kwh']];bad=[r for r in rr if not r['energy_kwh']];xx=nums(good,'reserve_fraction',100);yy=nums(good,'energy_kwh')
         f,a=figure((7.2,4.4));a.plot(xx,yy,'o-',color=BLUE,markerfacecolor='white',markeredgewidth=1.2,zorder=3)
-        for x,y in zip(xx,yy):a.annotate(f'{y:.0f}' if key=='trips' else f'{y:.2f}',(x,y),xytext=(0,8),textcoords='offset points',ha='center',fontsize=8)
+        for x,y in zip(xx,yy):a.annotate(f'{y:.2f}',(x,y),xytext=(0,8),textcoords='offset points',ha='center',fontsize=8)
         if bad:
-            # 空值代表不可行；不画成0。标识在坐标轴上方，非数值轴上的结果点。
             for x in nums(bad,'reserve_fraction',100):a.plot([x],[.08],transform=a.get_xaxis_transform(),marker='x',color=RED,clip_on=False)
             a.text(.98,.14,'× 全箱交付不可行',transform=a.transAxes,ha='right',fontsize=8,color=RED)
-        a.set_xlim(18,62);a.set_xticks(nums(rr,'reserve_fraction',100));a.set_xlabel('要求保留的返航电量（%）');a.set_ylabel('最少架次数' if key=='trips' else '方案运输能耗（kWh）');vals=rr
-        if key=='trips':a.yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+        a.set_xlim(18,62);a.set_xticks(nums(rr,'reserve_fraction',100));a.set_xlabel('要求保留的返航电量（%）');a.set_ylabel('方案运输能耗（kWh）');vals=rr
     elif name=='08_limiting_payload_sensitivity.png':
         rr=[r for r in C('q1','capacity_sensitivity') if r['service_id']=='S008'];f,a=figure()
         for g in 'ABC':
             ar=[r for r in rr if r['model_id']==g];a.plot(nums(ar,'reserve_fraction',100),nums(ar,'max_safe_payload_kg'),marker={'A':'o','B':'s','C':'^'}[g],mfc='white',mec=MODEL[g],color=MODEL[g],label=g+'型')
         a.set(xlabel='要求保留的返航电量（%）',ylabel='连续最大安全载荷（kg）');legend(a);vals=rr
     elif name=='09_sortie_energy_frontier.png':
-        rr=C('q1','flight_energy_frontier');x=nums(rr,'trips');y=nums(rr,'min_energy_kwh');mask=np.array([r['pareto_efficient_N_E']=='True' for r in rr]);f,a=figure()
-        a.plot(x,y,color=BLUE,lw=1.5,alpha=.85,label='每个架次数下的最小能耗');a.scatter(x[~mask],y[~mask],s=11,color=BLUE,alpha=.55);a.scatter(x[mask],y[mask],s=75,fc=GOLD,ec=INK,lw=.7,zorder=5,label='二维非支配点')
-        a.annotate(f'18架次：{y[0]:.3f} kWh\n19架次：{y[1]:.3f} kWh',(x[0],y[0]),xytext=(27,95),textcoords='data',arrowprops=dict(arrowstyle='-',color=MUTED,lw=.7),fontsize=8)
-        a.set(xlabel='运输总架次数',ylabel='最小运输能耗（kWh）');legend(a,loc='upper left');vals=rr
+        rr=C('q1','flight_energy_frontier');x=nums(rr,'trips');y=nums(rr,'min_energy_kwh');mask=np.array([r['pareto_efficient_N_E']=='True' for r in rr]);focus=x<=25
+        f=plt.figure(figsize=(7.8,4.25));gs=f.add_gridspec(1,2,width_ratios=(3.25,1.15),wspace=.18);a=f.add_subplot(gs[0]);overview=f.add_subplot(gs[1])
+        a.plot(x[focus],y[focus],color=MUTED,lw=.9,alpha=.8,zorder=1)
+        a.scatter(x[focus & ~mask],y[focus & ~mask],s=25,color='#AAB3BA',edgecolors='white',lw=.45,zorder=2)
+        a.scatter([x[0]],[y[0]],s=78,color=BLUE,edgecolors='white',lw=.8,zorder=5)
+        a.scatter([x[1]],[y[1]],s=78,color=GOLD,edgecolors=INK,lw=.65,zorder=5)
+        a.annotate(f'18架次主方案\n{y[0]:.3f} kWh',(x[0],y[0]),xytext=(12,24),textcoords='offset points',fontsize=8,color=BLUE,arrowprops=dict(arrowstyle='-',color=BLUE,lw=.7))
+        a.annotate(f'19架次节能方案\n{y[1]:.3f} kWh',(x[1],y[1]),xytext=(20,-20),textcoords='offset points',fontsize=8,color=INK,arrowprops=dict(arrowstyle='-',color=GOLD,lw=.8))
+        de=y[0]-y[1];dt=float(rr[1]['operation_time_at_min_energy_s'])-float(rr[0]['operation_time_at_min_energy_s'])
+        a.text(.98,.95,f'增加1架次：能耗 −{de:.3f} kWh（−{100*de/y[0]:.3f}%）\n累计作业时间 +{dt:.0f} s（+{100*dt/float(rr[0]["operation_time_at_min_energy_s"]):.2f}%）',transform=a.transAxes,ha='right',va='top',fontsize=8,color=INK)
+        a.set_xlim(17.65,25.35);a.set_xticks(np.arange(18,26));a.set_ylim(min(y[focus])-.42,max(y[focus])+.48);a.set_xlabel('运输总架次数 $N$');a.set_ylabel('固定整数架次数下的最小能耗（kWh）');a.text(0,1.02,'关键区间',transform=a.transAxes,ha='left',va='bottom',fontsize=9,color=INK)
+        overview.axvspan(18,25,color=BLUE,alpha=.055,lw=0);overview.plot(x,y,color=MUTED,lw=.85,alpha=.8);overview.scatter(x,y,s=9,color='#98A4AD',alpha=.75)
+        overview.scatter(x[mask],y[mask],s=28,c=[BLUE,GOLD],edgecolors='white',lw=.45,zorder=4);overview.set_xlim(17,81);overview.set_xticks([20,50,80]);overview.set_ylim(min(y)-4,max(y)+5);overview.set_title('18–80架次全范围',loc='left',fontsize=9,pad=6);overview.set_xlabel('$N$');overview.tick_params(axis='y',labelleft=False);overview.grid(axis='y');overview.grid(False,axis='x')
+        vals=rr;note+='；主轴显示18–25架次，右侧保留18–80架次全部整数解，不删除被支配点。';short_title=''
     elif re.match(r'q1/terrain_S\d+.png',name) or name=='12_route_terrain_profile.png':
         sid=re.search(r'S\d+',name)[0] if name.startswith('q1/') else 'S008';cells=[r for r in C('q1','route_dem_cells') if r['service_id']==sid];rt=next(r for r in C('q1','route_geometry') if r['service_id']==sid)
         x=nums(cells,'along_m',.001);z=nums(cells,'dem_m');H=float(rt['cruise_altitude_m']);f,a=figure((7.2,4.2));base=min(0,float(np.min(z)))
@@ -255,9 +287,27 @@ def redraw_one(row,pub):
             ar=[r for r in rr if r['model_id']==g];a.plot(nums(ar,'payload_kg'),nums(ar,'energy_fraction_percent'),color=MODEL[g],label=g+'型',lw=1.9)
         a.axhline(80,color=RED,ls='--',lw=1,label='20%余量对应能量上限');a.set(xlabel='去程货物质量（kg）',ylabel='往返能耗 / 可用电量（%）');legend(a,loc='upper left');vals=rr
     elif re.match(r'q1/payload_[ABC].png',name):
-        g=re.search('payload_([ABC])',name)[1];rr=[r for r in C('q1','payload_continuous_discrete') if r['model_id']==g];v=nums(rr,'continuous_safe_payload_kg');w=nums(rr,'available_box_max_payload_kg');f,a=figure((7.7,4.4));x=np.arange(15)
-        a.vlines(x,w,v,color=MODEL[g],alpha=.42,lw=4);a.scatter(x,v,marker='o',s=43,fc='white',ec=MODEL[g],lw=1.3,label='连续安全上限',zorder=4);a.scatter(x,w,marker='D',s=23,color=MODEL[g],label='现有整箱可实现值',zorder=5)
-        a.axhline(MODELS[g]['max_payload_kg'],color=MUTED,ls=':',lw=.8,label='额定载质量上限');a.set_xticks(x,SERVICES,rotation=45,ha='right');a.set_ylabel('货物质量（kg）');a.set_ylim(0,MODELS[g]['max_payload_kg']*1.22);legend(a,ncol=3,loc='upper left');vals=rr
+        g=re.search('payload_([ABC])',name)[1];all_rows=C('q1','payload_continuous_discrete')
+        if g=='C':
+            rr=sorted([r for r in all_rows if r['service_id']=='S008'],key=lambda r:'ABC'.index(r['model_id']))
+            rated=nums(rr,'rated_payload_kg');safe=nums(rr,'continuous_safe_payload_kg');boxed=nums(rr,'available_box_max_payload_kg');y=np.arange(3)
+            f,a=figure((7.65,3.65));a.hlines(y,boxed,rated,color='#CAD0D5',lw=2.0,zorder=1)
+            a.hlines(y,boxed,safe,color=GOLD,lw=5.5,alpha=.28,zorder=2);a.hlines(y,safe,rated,color=BLUE,lw=5.5,alpha=.18,zorder=2)
+            a.scatter(rated,y,marker='|',s=230,color=MUTED,lw=2.1,label='额定载荷',zorder=4)
+            a.scatter(safe,y,marker='o',s=66,facecolors='white',edgecolors=BLUE,lw=1.5,label='连续安全载荷',zorder=5)
+            a.scatter(boxed,y,marker='D',s=42,color=GOLD,edgecolors='white',lw=.55,label='现有整箱可实现载荷',zorder=6)
+            for j,(q0,q1,q2) in enumerate(zip(rated,safe,boxed)):
+                a.annotate(f'{q1:.1f}',(q1,j),xytext=(0,-15),textcoords='offset points',ha='center',fontsize=8,color=BLUE)
+                a.annotate(f'{q2:.0f}',(q2,j),xytext=(0,10),textcoords='offset points',ha='center',fontsize=8,color=INK)
+            a.text((safe[2]+rated[2])/2,2-.23,'航线能量约束',ha='center',va='center',fontsize=8,color=BLUE)
+            a.text((boxed[2]+safe[2])/2,2+.18,'现有库存约束',ha='center',va='center',fontsize=8,color=GOLD)
+            a.set_yticks(y,[r['model_id']+'型' for r in rr]);a.set_ylim(2.48,-.42);a.set_xlim(0,86);a.set_xlabel('货物质量（kg）');a.set_ylabel('S008运输机型');a.grid(False,axis='y');a.grid(axis='x');legend(a,ncol=3,loc='lower left',bbox_to_anchor=(0,1.01))
+            vals={'source_row_count':len(all_rows),'shown_row_count':len(rr),'selection_rule':'正文指定的瓶颈服务区S008，展示A/B/C三种机型','shown_rows':rr}
+            note+='；从45组服务区×机型数据中选择正文明确讨论的瓶颈服务区S008三组，完整45组仍保留于表6与源数据。';short_title=''
+        else:
+            rr=[r for r in all_rows if r['model_id']==g];v=nums(rr,'continuous_safe_payload_kg');w=nums(rr,'available_box_max_payload_kg');f,a=figure((7.7,4.4));x=np.arange(15)
+            a.vlines(x,w,v,color=MODEL[g],alpha=.42,lw=4);a.scatter(x,v,marker='o',s=43,fc='white',ec=MODEL[g],lw=1.3,label='连续安全上限',zorder=4);a.scatter(x,w,marker='D',s=23,color=MODEL[g],label='现有整箱可实现值',zorder=5)
+            a.axhline(MODELS[g]['max_payload_kg'],color=MUTED,ls=':',lw=.8,label='额定载质量上限');a.set_xticks(x,SERVICES,rotation=45,ha='right');a.set_ylabel('货物质量（kg）');a.set_ylim(0,MODELS[g]['max_payload_kg']*1.22);legend(a,ncol=3,loc='upper left');vals=rr
     elif name=='q1/energy_assumptions.png':
         rr=C('q1','energy_assumption_sensitivity');labs=[f'水平×{float(r["horizontal_multiplier"]):.1f} / 爬升×{float(r["climb_multiplier"]):.1f}' for r in rr];f,a=dotbars(labs,nums(rr,'energy_kwh'),'重新优化后的总运输能耗（kWh）',horizontal=True,fmt='{:.3f}');vals=rr
     elif 'gantt.png' in name:
@@ -351,7 +401,7 @@ def redraw_one(row,pub):
     else:raise ValueError(f'尚未实现图: {name}')
     if f is None:raise AssertionError(name)
     # 数据源与绘图值由本轮读取记录，不复制旧图中的像素。
-    pub.save(f,code,title,S,vals,note)
+    pub.save(f,code,title,S,vals,note,short_title=short_title)
 
 def make_originals(pub,selection=None):
     rows=S.csv('paper/figure_catalog.csv')

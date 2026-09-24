@@ -5,10 +5,10 @@ F003,第一问：各机型连续最大安全载荷,results/figures/02_safe_paylo
 F004,第一问：各服务区最少往返架次数,results/figures/03_service_sorties.png,results/figures/03_service_sorties.pdf,results/q1/service_summary.csv,paper/figure_data/03_service_sorties.json,当前主方案的诊断视图；柱高由源表聚合
 F005,第一问：逐架次往返能耗分解,results/figures/04_energy_components.png,results/figures/04_energy_components.pdf,results/q1/batches_NET.csv,paper/figure_data/04_energy_components.json,当前主方案的诊断视图；不另算一次独立实验
 F006,第一问：每一架次返航电量核验,results/figures/05_return_soc.png,results/figures/05_return_soc.pdf,results/q1/batches_NET.csv,paper/figure_data/05_return_soc.json,当前主方案的诊断视图；不另算一次独立实验
-F007,第一问：安全余量与最少架次数,results/figures/06_reserve_sorties.png,results/figures/06_reserve_sorties.pdf,results/q1/reserve_sensitivity.csv,paper/figure_data/06_reserve_sorties.json,各档重新优化；仅绘制全箱可交付档，不可行档详见源表，不能视为0
+F007,第一问：安全余量下的架次数与可行边界,results/figures/06_reserve_sorties.png,results/figures/06_reserve_sorties.pdf,results/q1/reserve_sensitivity.csv,paper/figure_data/06_reserve_sorties.json,各档重新优化；主图仅绘制可行档的整数架次数；状态带显示解析可行边界，不可行档不记为0
 F008,第一问：提高返航余量后的总能耗,results/figures/07_reserve_energy.png,results/figures/07_reserve_energy.pdf,results/q1/reserve_sensitivity.csv,paper/figure_data/07_reserve_energy.json,各档重新优化；仅绘制全箱可交付档，不可行档详见源表，不能视为0
 F009,第一问：S008安全载荷对余量要求的响应,results/figures/08_limiting_payload_sensitivity.png,results/figures/08_limiting_payload_sensitivity.pdf,results/q1/capacity_sensitivity.csv,paper/figure_data/08_limiting_payload_sensitivity.json,当前主方案的诊断视图；不另算一次独立实验
-F010,第一问：不同架次数下的最小能耗曲线,results/figures/09_sortie_energy_frontier.png,results/figures/09_sortie_energy_frontier.pdf,results/q1/flight_energy_frontier.csv,paper/figure_data/09_sortie_energy_frontier.json,包含被支配点的逐架次数最小能耗曲线；只有18和19架次是本数据二维非支配点，非三目标全部帕累托前沿
+F010,第一问：整数架次数下的最小能耗权衡,results/figures/09_sortie_energy_frontier.png,results/figures/09_sortie_energy_frontier.pdf,results/q1/flight_energy_frontier.csv,paper/figure_data/09_sortie_energy_frontier.json,包含18至80架次的全部整数精确解；主轴放大18至25架次；只有18和19架次是本数据二维非支配点，非三目标全部帕累托前沿
 F011,数据核查：题定节点海拔与DEM像元差异,results/figures/10_node_dem_difference.png,results/figures/10_node_dem_difference.pdf,results/quality/node_dem_comparison.csv,paper/figure_data/10_node_dem_difference.json,当前主方案的诊断视图；柱高由源表聚合
 F012,数据核查：全部货箱按服务区分布,results/figures/11_demand_distribution.png,results/figures/11_demand_distribution.pdf,results/q1/service_summary.csv,paper/figure_data/11_demand_distribution.json,当前主方案的诊断视图；柱高由源表聚合
 F013,第一问：O01至S001沿线地形与净空,results/figures/q1/terrain_S001.png,results/figures/q1/terrain_S001.pdf,results/q1/route_dem_cells.csv;results/q1/route_geometry.csv,paper/figure_data/q1__terrain_S001.json,当前主方案的诊断视图；不另算一次独立实验
@@ -44,7 +44,7 @@ F042,第一问：O01至S015沿线地形与净空,results/figures/q1/terrain_S015
 F043,第一问：S015载荷—能量可行边界,results/figures/q1/energy_curve_S015.png,results/figures/q1/energy_curve_S015.pdf,results/closure/energy_curves_S015.csv,paper/figure_data/q1__energy_curve_S015.json,基于明确能耗假设的确定性曲线，不是额外现场实验
 F044,第一问：A型连续上限与现有整箱可实现载荷,results/figures/q1/payload_A.png,results/figures/q1/payload_A.pdf,results/q1/payload_continuous_discrete.csv,paper/figure_data/q1__payload_A.json,当前主方案的诊断视图；不另算一次独立实验
 F045,第一问：B型连续上限与现有整箱可实现载荷,results/figures/q1/payload_B.png,results/figures/q1/payload_B.pdf,results/q1/payload_continuous_discrete.csv,paper/figure_data/q1__payload_B.json,当前主方案的诊断视图；不另算一次独立实验
-F046,第一问：C型连续上限与现有整箱可实现载荷,results/figures/q1/payload_C.png,results/figures/q1/payload_C.pdf,results/q1/payload_continuous_discrete.csv,paper/figure_data/q1__payload_C.json,当前主方案的诊断视图；不另算一次独立实验
+F046,第一问：S008三机型载荷约束分解,results/figures/q1/payload_C.png,results/figures/q1/payload_C.pdf,results/q1/payload_continuous_discrete.csv,paper/figure_data/q1__payload_C.json,从完整45组数据中选择正文明确讨论的瓶颈服务区S008三组；完整数值保留于表6与源数据
 F047,第一问：三种时间口径的组成,results/figures/q1/time_components.png,results/figures/q1/time_components.pdf,results/q1/batches_NET.csv,paper/figure_data/q1__time_components.json,当前主方案的诊断视图；不另算一次独立实验
 F048,第一问：能耗分项假设扰动后重新优化,results/figures/q1/energy_assumptions.png,results/figures/q1/energy_assumptions.pdf,results/q1/energy_assumption_sensitivity.csv,paper/figure_data/q1__energy_assumptions.json,当前主方案的诊断视图；柱高由源表聚合
 F049,Q2：26架次运输航线与节点,results/figures/q2_01_routes.png,results/figures/q2_01_routes.pdf,results/q2/trips.csv;data/cleaned/model_inputs.json,paper/figure_data/q2_01_routes.json,当前主方案的诊断视图；不另算一次独立实验

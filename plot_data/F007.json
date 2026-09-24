@@ -1,119 +1,115 @@
 {
   "figure_id": "F007",
-  "title": "第一问：安全余量与最少架次数",
+  "title": "第一问：安全余量下的架次数与可行边界",
   "sources": {
-    "results/q1/reserve_sensitivity.csv": "11f9d8ec5b7d8f82a0341cd49c4397589ca93ba254636bbb61ada0d67a11af30"
+    "results/q1/reserve_sensitivity.csv": "11f9d8ec5b7d8f82a0341cd49c4397589ca93ba254636bbb61ada0d67a11af30",
+    "results/q1/summary.json": "712c82d83eac8ac61ae87aefa3f1803650251c8749930b539e560a6fec464b27"
   },
-  "note": "各档重新优化；仅绘制全箱可交付档，不可行档详见源表，不能视为0",
-  "values": [
-    {
-      "reserve_fraction": "0.2",
-      "feasible": "True",
-      "trips": "18",
-      "energy_kwh": "59.13129602205389",
-      "operation_time_s": "32776.015748915874",
-      "min_return_soc_fraction": "0.230883497636599",
-      "model_mix": "B:9;C:9",
-      "infeasible_services": ""
-    },
-    {
-      "reserve_fraction": "0.25",
-      "feasible": "True",
-      "trips": "19",
-      "energy_kwh": "61.07338737608944",
-      "operation_time_s": "34565.659385979154",
-      "min_return_soc_fraction": "0.27049853606452356",
-      "model_mix": "B:10;C:9",
-      "infeasible_services": ""
-    },
-    {
-      "reserve_fraction": "0.3",
-      "feasible": "True",
-      "trips": "20",
-      "energy_kwh": "67.22758968352564",
-      "operation_time_s": "36586.176952417474",
-      "min_return_soc_fraction": "0.3101873775759114",
-      "model_mix": "B:9;C:11",
-      "infeasible_services": ""
-    },
-    {
-      "reserve_fraction": "0.35",
-      "feasible": "True",
-      "trips": "25",
-      "energy_kwh": "75.60758952635034",
-      "operation_time_s": "45383.563533925684",
-      "min_return_soc_fraction": "0.35117768018311146",
-      "model_mix": "B:15;C:10",
-      "infeasible_services": ""
-    },
-    {
-      "reserve_fraction": "0.4",
-      "feasible": "False",
-      "trips": "",
-      "energy_kwh": "",
-      "operation_time_s": "",
-      "min_return_soc_fraction": "",
-      "model_mix": "",
-      "infeasible_services": "S004;S008"
-    },
-    {
-      "reserve_fraction": "0.45",
-      "feasible": "False",
-      "trips": "",
-      "energy_kwh": "",
-      "operation_time_s": "",
-      "min_return_soc_fraction": "",
-      "model_mix": "",
-      "infeasible_services": "S002;S003;S004;S008;S012"
-    },
-    {
-      "reserve_fraction": "0.5",
-      "feasible": "False",
-      "trips": "",
-      "energy_kwh": "",
-      "operation_time_s": "",
-      "min_return_soc_fraction": "",
-      "model_mix": "",
-      "infeasible_services": "S002;S003;S004;S008;S012"
-    },
-    {
-      "reserve_fraction": "0.55",
-      "feasible": "False",
-      "trips": "",
-      "energy_kwh": "",
-      "operation_time_s": "",
-      "min_return_soc_fraction": "",
-      "model_mix": "",
-      "infeasible_services": "S002;S003;S004;S008;S009;S012;S014;S015"
-    },
-    {
-      "reserve_fraction": "0.6",
-      "feasible": "False",
-      "trips": "",
-      "energy_kwh": "",
-      "operation_time_s": "",
-      "min_return_soc_fraction": "",
-      "model_mix": "",
-      "infeasible_services": "S002;S003;S004;S005;S008;S009;S012;S014;S015"
-    }
-  ],
+  "note": "各档重新优化；主图仅绘制可行档的整数架次数；状态带显示解析可行边界，不可行档不记为0；上图仅绘制离散重优化档位，不对档位之间作线性插值；下方状态带给出解析可行边界。",
+  "values": {
+    "sweep": [
+      {
+        "reserve_fraction": "0.2",
+        "feasible": "True",
+        "trips": "18",
+        "energy_kwh": "59.13129602205389",
+        "operation_time_s": "32776.015748915874",
+        "min_return_soc_fraction": "0.230883497636599",
+        "model_mix": "B:9;C:9",
+        "infeasible_services": ""
+      },
+      {
+        "reserve_fraction": "0.25",
+        "feasible": "True",
+        "trips": "19",
+        "energy_kwh": "61.07338737608944",
+        "operation_time_s": "34565.659385979154",
+        "min_return_soc_fraction": "0.27049853606452356",
+        "model_mix": "B:10;C:9",
+        "infeasible_services": ""
+      },
+      {
+        "reserve_fraction": "0.3",
+        "feasible": "True",
+        "trips": "20",
+        "energy_kwh": "67.22758968352564",
+        "operation_time_s": "36586.176952417474",
+        "min_return_soc_fraction": "0.3101873775759114",
+        "model_mix": "B:9;C:11",
+        "infeasible_services": ""
+      },
+      {
+        "reserve_fraction": "0.35",
+        "feasible": "True",
+        "trips": "25",
+        "energy_kwh": "75.60758952635034",
+        "operation_time_s": "45383.563533925684",
+        "min_return_soc_fraction": "0.35117768018311146",
+        "model_mix": "B:15;C:10",
+        "infeasible_services": ""
+      },
+      {
+        "reserve_fraction": "0.4",
+        "feasible": "False",
+        "trips": "",
+        "energy_kwh": "",
+        "operation_time_s": "",
+        "min_return_soc_fraction": "",
+        "model_mix": "",
+        "infeasible_services": "S004;S008"
+      },
+      {
+        "reserve_fraction": "0.45",
+        "feasible": "False",
+        "trips": "",
+        "energy_kwh": "",
+        "operation_time_s": "",
+        "min_return_soc_fraction": "",
+        "model_mix": "",
+        "infeasible_services": "S002;S003;S004;S008;S012"
+      },
+      {
+        "reserve_fraction": "0.5",
+        "feasible": "False",
+        "trips": "",
+        "energy_kwh": "",
+        "operation_time_s": "",
+        "min_return_soc_fraction": "",
+        "model_mix": "",
+        "infeasible_services": "S002;S003;S004;S008;S012"
+      },
+      {
+        "reserve_fraction": "0.55",
+        "feasible": "False",
+        "trips": "",
+        "energy_kwh": "",
+        "operation_time_s": "",
+        "min_return_soc_fraction": "",
+        "model_mix": "",
+        "infeasible_services": "S002;S003;S004;S008;S009;S012;S014;S015"
+      },
+      {
+        "reserve_fraction": "0.6",
+        "feasible": "False",
+        "trips": "",
+        "energy_kwh": "",
+        "operation_time_s": "",
+        "min_return_soc_fraction": "",
+        "model_mix": "",
+        "infeasible_services": "S002;S003;S004;S005;S008;S009;S012;S014;S015"
+      }
+    ],
+    "baseline_18_trip_hold_to_percent": 23.0883497636599,
+    "critical_common_reserve_percent": 35.26780688718867
+  },
   "visible_text": [
     "18",
     "19",
     "20",
     "25",
-    "× 全箱交付不可行",
-    "要求保留的返航电量（%）",
-    "20",
-    "25",
-    "30",
-    "35",
-    "40",
-    "45",
-    "50",
-    "55",
-    "60",
-    "最少架次数",
+    "18架次方案保持至 23.09%",
+    "全任务边界 35.27%",
+    "重新优化后的最少架次数",
     "17",
     "18",
     "19",
@@ -124,6 +120,17 @@
     "24",
     "25",
     "26",
-    "第一问：安全余量与最少架次数"
+    "全箱可交付",
+    "全箱交付不可行",
+    "返航SOC下限 $\\rho$（%）",
+    "20",
+    "25",
+    "30",
+    "35",
+    "40",
+    "45",
+    "50",
+    "55",
+    "60"
   ]
 }

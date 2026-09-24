@@ -6,11 +6,14 @@ from viz.core import ROOT,OUT,csvwrite,write_json,sha
 CAPTION_FIXES={
  '各服务区不可拆货箱数量分布；柱高来自完整逐箱需求汇总':'各服务区不可拆货箱数量及物资组成；堆叠总高度来自完整逐箱需求汇总',
  '第三次中继任务的往返高度与沿途地形剖面':'第三次中继任务的往返飞行高度及有效通信服务时段',
+ 'C型连续最大安全载荷与现有整箱可实现载荷的区别':'瓶颈服务区S008三种机型的额定载荷、连续安全载荷与现有整箱可实现载荷',
+ '固定架次数下的最小运输能耗；18和19架次构成二维非支配权衡':'整数架次数下的最小运输能耗；局部放大显示18和19架次的二维非支配权衡',
+ '提高返航安全余量后的最少往返架次数；不可行档位不记为0':'返航安全余量下的最少往返架次数与全箱交付可行边界',
 }
 
 def sync():
     ov=ROOT/'overleaf';ov.mkdir(exist_ok=True);(ov/'figures').mkdir(exist_ok=True)
-    rows=json.loads((ROOT/'audit/render_manifest.json').read_text())
+    rows=json.loads((ROOT/'audit/render_manifest.json').read_text(encoding='utf-8'))
     source=ROOT/'audit/original_main.tex'
     if not source.exists():shutil.copy2(ov/'main.tex',source)
     tex=source.read_text(encoding='utf-8')
@@ -21,7 +24,7 @@ def sync():
     for r in rows:
         code=r['图号'];shutil.copy2(OUT/f'{code}.pdf',ov/'figures'/f'{code}.pdf')
         r.update({'本论文选用':'是' if code in selected else '否','Overleaf路径':f'figures/{code}.pdf'})
-    panels=json.loads((ROOT/'audit/panels_manifest.json').read_text())
+    panels=json.loads((ROOT/'audit/panels_manifest.json').read_text(encoding='utf-8'))
     for r in panels:shutil.copy2(OUT/f'{r["图号"]}.pdf',ov/'figures'/f'{r["图号"]}.pdf')
     (ov/'main.tex').write_text(tex,encoding='utf-8');(ov/'论文完整源码_可复制.txt').write_text(tex,encoding='utf-8')
     csvwrite(ov/'figure_catalog.csv',rows)
@@ -43,7 +46,8 @@ F148-F163是新增的确定性诊断或既有数据视图。所有图直接从CS
 ## 覆盖使用
 将本目录中的main.tex、figure_catalog.csv和figures/覆盖到此前完整论文工程的同名位置。
 旧的圆角卡片美化图不再使用。结果宏、数值表、模型公式保持不变。
-本次图注微调两处：需求图明确物资堆叠；中继剖面不再错误称为沿途地形剖面。
+本次图注同步更新五处：需求图明确物资堆叠；中继剖面不再错误称为沿途地形剖面；
+Q1三幅主图分别明确S008载荷约束分解、整数架次数局部权衡和安全余量可行边界。
 
 ## 可选多面板图
 optional_panels.tex内含P01-P06的LaTeX插入段及严格的解释，不默认塞进正文使论文变长。
@@ -62,9 +66,9 @@ PDF中的线、标记、字体轮廓等是矢量；地图背景是原始DEM栅�
     for old,new in CAPTION_FIXES.items():expected=expected.replace(old,new)
     assert expected==tex
     macros=lambda t:re.findall(r'\\(?:newcommand|def)[^\n]*',t)
-    assert macros(tex)==macros(source.read_text())
+    assert macros(tex)==macros(source.read_text(encoding='utf-8'))
     tables=lambda t:re.findall(r'\\begin\{(?:table|longtable)\}.*?\\end\{(?:table|longtable)\}',t,re.S)
-    assert tables(tex)==tables(source.read_text())
+    assert tables(tex)==tables(source.read_text(encoding='utf-8'))
     write_json(ROOT/'audit/overleaf_sync.json',{'selected_figures':selected,'selected_count':len(selected),'pdf_assets':len(list((ov/'figures').glob('*.pdf'))),'main_text_equal_except_disclosed_captions':True,'formula_macros_unchanged':True,'all_table_blocks_unchanged':True,'main_sha256':sha(ov/'main.tex')})
     return ov
 if __name__=='__main__':sync()

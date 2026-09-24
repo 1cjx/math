@@ -55,12 +55,12 @@
   },
   {
     "图号": "F007",
-    "中文图题": "第一问：安全余量与最少架次数",
+    "中文图题": "第一问：安全余量下的架次数与可行边界",
     "图文件": "results/figures/06_reserve_sorties.png",
     "矢量PDF": "results/figures/06_reserve_sorties.pdf",
     "数据源": "results/q1/reserve_sensitivity.csv",
     "绘图数值": "paper/figure_data/06_reserve_sorties.json",
-    "说明": "各档重新优化；仅绘制全箱可交付档，不可行档详见源表，不能视为0"
+    "说明": "各档重新优化；主图仅绘制可行档的整数架次数；状态带显示解析可行边界，不可行档不记为0"
   },
   {
     "图号": "F008",
@@ -82,12 +82,12 @@
   },
   {
     "图号": "F010",
-    "中文图题": "第一问：不同架次数下的最小能耗曲线",
+    "中文图题": "第一问：整数架次数下的最小能耗权衡",
     "图文件": "results/figures/09_sortie_energy_frontier.png",
     "矢量PDF": "results/figures/09_sortie_energy_frontier.pdf",
     "数据源": "results/q1/flight_energy_frontier.csv",
     "绘图数值": "paper/figure_data/09_sortie_energy_frontier.json",
-    "说明": "包含被支配点的逐架次数最小能耗曲线；只有18和19架次是本数据二维非支配点，非三目标全部帕累托前沿"
+    "说明": "包含18至80架次的全部整数精确解；主轴放大18至25架次；只有18和19架次是本数据二维非支配点，非三目标全部帕累托前沿"
   },
   {
     "图号": "F011",
@@ -406,12 +406,12 @@
   },
   {
     "图号": "F046",
-    "中文图题": "第一问：C型连续上限与现有整箱可实现载荷",
+    "中文图题": "第一问：S008三机型载荷约束分解",
     "图文件": "results/figures/q1/payload_C.png",
     "矢量PDF": "results/figures/q1/payload_C.pdf",
     "数据源": "results/q1/payload_continuous_discrete.csv",
     "绘图数值": "paper/figure_data/q1__payload_C.json",
-    "说明": "当前主方案的诊断视图；不另算一次独立实验"
+    "说明": "从完整45组数据中选择正文明确讨论的瓶颈服务区S008三组；完整数值保留于表6与源数据"
   },
   {
     "图号": "F047",

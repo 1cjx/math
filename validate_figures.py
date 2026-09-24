@@ -12,20 +12,20 @@ def check(name,predicate,details=''):
 def readcsv(p):
     with p.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 def main():
-    manifests=json.loads((ROOT/'audit/render_manifest.json').read_text())
+    manifests=json.loads((ROOT/'audit/render_manifest.json').read_text(encoding='utf-8'))
     check('独立图共163幅',len(manifests)==163)
     for row in manifests:
-        code=row['图号'];d=json.loads((ROOT/'plot_data'/f'{code}.json').read_text())
+        code=row['图号'];d=json.loads((ROOT/'plot_data'/f'{code}.json').read_text(encoding='utf-8'))
         check(code+'包含中文图题',bool(re.search('[\u4e00-\u9fff]',d['title'])))
         for src,h in d['sources'].items():check(code+'源文件哈希:'+src,sha(EXP/src)==h)
         for ext in ('png','svg','pdf'):check(code+'.'+ext+'存在',(OUT/f'{code}.{ext}').exists())
         with fitz.open(OUT/f'{code}.pdf') as f:
             check(code+'矢量PDF单页',len(f)==1)
             check(code+'不是整页旧图截图',len(f[0].get_drawings())>2)
-        svg=(OUT/f'{code}.svg').read_text()
+        svg=(OUT/f'{code}.svg').read_text(encoding='utf-8')
         for banned in ('科学图表美化版','Style refresh by code','no fabricated results','Data-driven result figure'):
             check(code+'无装饰性文案:'+banned,banned not in svg)
-    def v(code):return json.loads((ROOT/'plot_data'/f'{code}.json').read_text())['values']
+    def v(code):return json.loads((ROOT/'plot_data'/f'{code}.json').read_text(encoding='utf-8'))['values']
     boxes=readcsv(EXP/'data/cleaned/boxes.csv');check('真实货箱唯一80箱',len(boxes)==len({r['box_id'] for r in boxes})==80)
     check('堆叠需求数总计80',sum(sum(r['counts']) for r in v('F012'))==80)
     check('新增需求矩阵质量正确',abs(np.array(v('F157')['weight_kg']).sum()-sum(float(r['weight_kg']) for r in boxes))<1e-9)
@@ -37,7 +37,7 @@ def main():
         for key,val in zip(('min','q1','median','q3','max'),np.quantile(raw,[0,.25,.5,.75,1])):check('分位统计'+str(rho)+key,abs(st[key]-val)<1e-10)
     mat=np.array(v('F152')['capacity_kg']);check('逐服务区余量增加载荷不增',np.all(np.diff(mat,axis=1)<=1e-7))
     # 独立表达式检查整个81x61能耗网格。
-    d=v('F148');q=np.array(d['payload_grid_kg']);H=np.array(d['cruise_altitude_grid_m']);rt=d['route'];data=json.loads((EXP/'data/cleaned/model_inputs.json').read_text());g=next(x for x in data['transport_models'] if x['model_id']=='C')
+    d=v('F148');q=np.array(d['payload_grid_kg']);H=np.array(d['cruise_altitude_grid_m']);rt=d['route'];data=json.loads((EXP/'data/cleaned/model_inputs.json').read_text(encoding='utf-8'));g=next(x for x in data['transport_models'] if x['model_id']=='C')
     sys.path.insert(0,str(EXP/'src'));from config import CFG
     L=g['empty_range_m']-(g['empty_range_m']-g['full_range_m'])*(q/g['max_payload_kg'])**CFG.range_load_exponent
     hor=CFG.horizontal_energy_multiplier*g['usable_energy_kwh']*rt['distance_m']*(1/L+1/g['empty_range_m'])
@@ -53,7 +53,7 @@ def main():
     # 原求解成果文件在本轮前后逐字节保持。
     pin=ROOT/'audit/frozen_inputs.json'
     if pin.exists():
-        expected=json.loads(pin.read_text())
+        expected=json.loads(pin.read_text(encoding='utf-8'))
         for rel,h in expected.items():check('冻结求解成果:'+rel,sha(EXP/rel)==h)
     result={'scope':'本轮原生绘图、数值聚合和文件继承验证；未重新求解优化器，也不替代原物理可行性证书。','checks':len(CHECKS),'failed':len(FAIL),'failures':FAIL,'source_F148_grid_points':len(q)*len(H),'max_surface_error_kwh':error}
     write_json(ROOT/'audit/figure_validation.json',result);write_json(ROOT/'audit/figure_validation_details.json',CHECKS)

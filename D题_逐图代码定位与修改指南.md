@@ -228,9 +228,9 @@ python rebuild_publication.py --compile
 | 1 | [F012](#F012) | 数据核查：全部货箱按服务区分布 | 239 | `fig:demand` | 数据预处理与公共物理模型 |
 | 2 | [F002](#F002) | 原始全分辨率地形与任务节点 | 240 | `fig:terrain` | 数据预处理与公共物理模型 |
 | 3 | [F027](#F027) | 第一问：O01至S008沿线地形与净空 | 288 | `fig:profile` | 数据预处理与公共物理模型 |
-| 4 | [F046](#F046) | 第一问：C型连续上限与现有整箱可实现载荷 | 410 | `fig:discretepayload` | 问题一：单点往返能力与不可拆货箱组批 |
-| 5 | [F010](#F010) | 第一问：不同架次数下的最小能耗曲线 | 484 | `fig:q1frontier` | 问题一：单点往返能力与不可拆货箱组批 |
-| 6 | [F007](#F007) | 第一问：安全余量与最少架次数 | 507 | `fig:reserve` | 问题一：单点往返能力与不可拆货箱组批 |
+| 4 | [F046](#F046) | 第一问：S008三机型载荷约束分解 | 410 | `fig:discretepayload` | 问题一：单点往返能力与不可拆货箱组批 |
+| 5 | [F010](#F010) | 第一问：整数架次数下的最小能耗权衡 | 484 | `fig:q1frontier` | 问题一：单点往返能力与不可拆货箱组批 |
+| 6 | [F007](#F007) | 第一问：安全余量下的架次数与可行边界 | 507 | `fig:reserve` | 问题一：单点往返能力与不可拆货箱组批 |
 | 7 | [F049](#F049) | Q2：26架次运输航线与节点 | 648 | `fig:q2route` | 问题二：异构无人机多点多架次运输调度 |
 | 8 | [F050](#F050) | Q2：运输无人机占用时序 | 649 | `fig:q2drone` | 问题二：异构无人机多点多架次运输调度 |
 | 9 | [F051](#F051) | Q2：共享电池任务与充电时序 | 653 | `fig:q2battery` | 问题二：异构无人机多点多架次运输调度 |
@@ -270,10 +270,10 @@ python rebuild_publication.py --compile
 | [F004](#F004) | 第一问：各服务区最少往返架次数 | `viz/redraw.py:198–199` | 未直接引用 |
 | [F005](#F005) | 第一问：逐架次往返能耗分解 | `viz/redraw.py:208–219` | 未直接引用 |
 | [F006](#F006) | 第一问：每一架次返航电量核验 | `viz/redraw.py:220–224` | 未直接引用 |
-| [F007](#F007) | 第一问：安全余量与最少架次数 | `viz/redraw.py:225–234` | 论文6；P02-D |
+| [F007](#F007) | 第一问：安全余量下的架次数与可行边界 | `viz/redraw.py:225–251` | 论文6；P02-D |
 | [F008](#F008) | 第一问：提高返航余量后的总能耗 | `viz/redraw.py:225–234` | 未直接引用 |
 | [F009](#F009) | 第一问：S008安全载荷对余量要求的响应 | `viz/redraw.py:235–239` | 未直接引用 |
-| [F010](#F010) | 第一问：不同架次数下的最小能耗曲线 | `viz/redraw.py:240–244` | 论文5 |
+| [F010](#F010) | 第一问：整数架次数下的最小能耗权衡 | `viz/redraw.py:262–279` | 论文5 |
 | [F011](#F011) | 数据核查：题定节点海拔与DEM像元差异 | `viz/redraw.py:206–207` | 未直接引用 |
 | [F012](#F012) | 数据核查：全部货箱按服务区分布 | `viz/redraw.py:200–205` | 论文1；P03-B |
 | [F013](#F013) | 第一问：O01至S001沿线地形与净空 | `viz/redraw.py:245–251` | 未直接引用 |
@@ -309,7 +309,7 @@ python rebuild_publication.py --compile
 | [F043](#F043) | 第一问：S015载荷—能量可行边界 | `viz/redraw.py:252–256` | 未直接引用 |
 | [F044](#F044) | 第一问：A型连续上限与现有整箱可实现载荷 | `viz/redraw.py:257–260` | 未直接引用 |
 | [F045](#F045) | 第一问：B型连续上限与现有整箱可实现载荷 | `viz/redraw.py:257–260` | 未直接引用 |
-| [F046](#F046) | 第一问：C型连续上限与现有整箱可实现载荷 | `viz/redraw.py:257–260` | 论文4 |
+| [F046](#F046) | 第一问：S008三机型载荷约束分解 | `viz/redraw.py:289–313` | 论文4 |
 | [F047](#F047) | 第一问：三种时间口径的组成 | `viz/redraw.py:208–219` | 未直接引用 |
 | [F048](#F048) | 第一问：能耗分项假设扰动后重新优化 | `viz/redraw.py:261–262` | 未直接引用 |
 
@@ -641,13 +641,13 @@ python redraw_figures.py --only F006
 **含义边界：**当前主方案的诊断视图；不另算一次独立实验
 
 <a id="F007"></a>
-### F007｜第一问：安全余量与最少架次数
+### F007｜第一问：安全余量下的架次数与可行边界
 
-**图形类型：**安全余量敏感性折线。
+**图形类型：**离散重优化点图与解析可行状态带。
 
 | 定位项目 | 位置或说明 |
 |---|---|
-| 生成主位置 | [`viz/redraw.py`](viz/redraw.py) 第 **225–234** 行，函数`redraw_one()` |
+| 生成主位置 | [`viz/redraw.py`](viz/redraw.py) 第 **225–251** 行，函数`redraw_one()` |
 | 检索键 | `06_reserve_sorties.png`（旧路径仅用于分支，不是新图输出路径） |
 | 共用绘图实现 | 图形对象直接在该分支中创建；仍使用`viz/style.py`与`Publisher.save()`。 |
 | 输出图片 | [`figures/F007.png`](figures/F007.png) · [`figures/F007.pdf`](figures/F007.pdf) · [`figures/F007.svg`](figures/F007.svg) |
@@ -655,17 +655,17 @@ python redraw_figures.py --only F006
 | 源文件 | [`experiment/results/q1/reserve_sensitivity.csv`](experiment/results/q1/reserve_sensitivity.csv) |
 | 论文图件副本 | [`overleaf/figures/F007.pdf`](overleaf/figures/F007.pdf) |
 
-**取数及计算位置：**reserve_fraction×100为横轴；纵轴trips或energy_kwh；空值表示全箱交付不可行。
+**取数及计算位置：**reserve_fraction×100为横轴，trips为纵轴；主方案min_return_soc_fraction给出18架次保持边界，Q1汇总中的critical_common_reserve_fraction给出全箱交付解析边界；空值表示不可行。
 
-**建议改动的位置：**折线/点/注释/刻度/不可行标记位置；不得把空值补为0。
+**建议改动的位置：**离散点、两条边界线、状态带、注释和刻度；不得在未加密重算时把离散档位连成连续响应，也不得把空值补为0。
 
-**同分支影响范围：**F007, F008。不加`code`条件直接改该分支，会影响这些图；改共用函数还会影响更大范围。
+**同分支影响范围：**F007已使用独立分支；F008保留单独的能耗敏感性分支。
 
-**绘图变量结构：**列表（9项），单项字段：`reserve_fraction`、`feasible`、`trips`、`energy_kwh`、`operation_time_s`、`min_return_soc_fraction`、`model_mix`、`infeasible_services`。
+**绘图变量结构：**对象字段：`sweep`（9个档位）、`baseline_18_trip_hold_to_percent`、`critical_common_reserve_percent`。
 
 **当前论文：**第6个图引用；`overleaf/main.tex:507`；章节“问题一：单点往返能力与不可拆货箱组批” / “目标权衡、安全余量与能耗假设敏感性”。
 ```latex
-\paperfig[.88]{F007}{提高返航安全余量后的最少往返架次数；不可行档位不记为0}{fig:reserve}
+\paperfig[.88]{F007}{返航安全余量下的最少往返架次数与全箱交付可行边界}{fig:reserve}
 ```
 **组合关系：**P02-D；改本图后须运行`python -m viz.compose`再复制对应P图。
 
@@ -738,13 +738,13 @@ python redraw_figures.py --only F009
 **含义边界：**当前主方案的诊断视图；不另算一次独立实验
 
 <a id="F010"></a>
-### F010｜第一问：不同架次数下的最小能耗曲线
+### F010｜第一问：整数架次数下的最小能耗权衡
 
-**图形类型：**架次数—最小能耗曲线。
+**图形类型：**整数解局部放大图与全范围概览。
 
 | 定位项目 | 位置或说明 |
 |---|---|
-| 生成主位置 | [`viz/redraw.py`](viz/redraw.py) 第 **240–244** 行，函数`redraw_one()` |
+| 生成主位置 | [`viz/redraw.py`](viz/redraw.py) 第 **262–279** 行，函数`redraw_one()` |
 | 检索键 | `09_sortie_energy_frontier.png`（旧路径仅用于分支，不是新图输出路径） |
 | 共用绘图实现 | 图形对象直接在该分支中创建；仍使用`viz/style.py`与`Publisher.save()`。 |
 | 输出图片 | [`figures/F010.png`](figures/F010.png) · [`figures/F010.pdf`](figures/F010.pdf) · [`figures/F010.svg`](figures/F010.svg) |
@@ -754,13 +754,13 @@ python redraw_figures.py --only F009
 
 **取数及计算位置：**flight_energy_frontier.trips、min_energy_kwh及pareto_efficient_N_E；是真实二维非支配标记。
 
-**建议改动的位置：**线宽、普通/非支配点样式和注释；第243行含data坐标注释位置，可移文字但不要改点值。
+**建议改动的位置：**18–25架次主轴范围、全范围概览宽度、普通/非支配点样式和权衡注释；可移动文字但不要改点值。
 
 **绘图变量结构：**列表（63项），单项字段：`trips`、`min_energy_kwh`、`operation_time_at_min_energy_s`、`pareto_efficient_N_E`、`trip_allocation`。
 
 **当前论文：**第5个图引用；`overleaf/main.tex:484`；章节“问题一：单点往返能力与不可拆货箱组批” / “目标权衡、安全余量与能耗假设敏感性”。
 ```latex
-\paperfig[.88]{F010}{固定架次数下的最小运输能耗；18和19架次构成二维非支配权衡}{fig:q1frontier}
+\paperfig[.88]{F010}{整数架次数下的最小运输能耗；局部放大显示18和19架次的二维非支配权衡}{fig:q1frontier}
 ```
 **组合关系：**当前P01–P06未使用本图。
 
@@ -1893,13 +1893,13 @@ python redraw_figures.py --only F045
 **含义边界：**当前主方案的诊断视图；不另算一次独立实验
 
 <a id="F046"></a>
-### F046｜第一问：C型连续上限与现有整箱可实现载荷
+### F046｜第一问：S008三机型载荷约束分解
 
-**图形类型：**连续/整箱载荷双端点图。
+**图形类型：**额定—连续安全—现有整箱载荷三阶段点线图。
 
 | 定位项目 | 位置或说明 |
 |---|---|
-| 生成主位置 | [`viz/redraw.py`](viz/redraw.py) 第 **257–260** 行，函数`redraw_one()` |
+| 生成主位置 | [`viz/redraw.py`](viz/redraw.py) 第 **289–313** 行，函数`redraw_one()` |
 | 检索键 | `q1/payload_C.png`（旧路径仅用于分支，不是新图输出路径） |
 | 共用绘图实现 | 图形对象直接在该分支中创建；仍使用`viz/style.py`与`Publisher.save()`。 |
 | 输出图片 | [`figures/F046.png`](figures/F046.png) · [`figures/F046.pdf`](figures/F046.pdf) · [`figures/F046.svg`](figures/F046.svg) |
@@ -1907,17 +1907,17 @@ python redraw_figures.py --only F045
 | 源文件 | [`experiment/results/q1/payload_continuous_discrete.csv`](experiment/results/q1/payload_continuous_discrete.csv) |
 | 论文图件副本 | [`overleaf/figures/F046.pdf`](overleaf/figures/F046.pdf) |
 
-**取数及计算位置：**按机型筛选payload_continuous_discrete；continuous_safe_payload_kg与available_box_max_payload_kg。
+**取数及计算位置：**从完整45组payload_continuous_discrete中筛选正文明确讨论的S008三种机型；依次读取rated_payload_kg、continuous_safe_payload_kg与available_box_max_payload_kg。完整45组仍保留在表6和源文件中。
 
-**建议改动的位置：**上下端点形状、连线透明度、额定上限线、图例；两个载荷含义不能对调。
+**建议改动的位置：**三阶段标记、两类约束线段、数值标签和图例；额定载荷、连续安全载荷与现有整箱可实现载荷的含义不能对调。
 
 **同分支影响范围：**F044, F045, F046。不加`code`条件直接改该分支，会影响这些图；改共用函数还会影响更大范围。
 
-**绘图变量结构：**列表（15项），单项字段：`service_id`、`model_id`、`rated_payload_kg`、`continuous_safe_payload_kg`、`available_box_max_payload_kg`、`available_total_weight_kg`、`max_payload_witness_box_ids`、`witness_volume_m3`、`witness_energy_kwh`、`reserve_fraction`、`note`。
+**绘图变量结构：**对象字段：`source_row_count`（45）、`shown_row_count`（3）、`selection_rule`、`shown_rows`；每个展示行保留原表全部字段。
 
 **当前论文：**第4个图引用；`overleaf/main.tex:410`；章节“问题一：单点往返能力与不可拆货箱组批” / “连续安全载荷及整箱可实现载荷”。
 ```latex
-\paperfig[.90]{F046}{C型连续最大安全载荷与现有整箱可实现载荷的区别}{fig:discretepayload}
+\paperfig[.90]{F046}{瓶颈服务区S008三种机型的额定载荷、连续安全载荷与现有整箱可实现载荷}{fig:discretepayload}
 ```
 **组合关系：**当前P01–P06未使用本图。
 
@@ -1925,7 +1925,7 @@ python redraw_figures.py --only F045
 ```bash
 python redraw_figures.py --only F046
 ```
-**含义边界：**当前主方案的诊断视图；不另算一次独立实验
+**含义边界：**仅聚焦正文指定的瓶颈区S008进行约束分解；不是从45组数据中挑选更好结果，完整数值仍见表6与源数据。
 
 <a id="F047"></a>
 ### F047｜第一问：三种时间口径的组成
@@ -5748,7 +5748,7 @@ python -m viz.compose
 | A | [F151](#F151) | 返航余量下的跨服务区载荷分布 | (35, 12, 535, 342) |
 | B | [F152](#F152) | 15个服务区的安全载荷敏感性 | (575, 12, 985, 418) |
 | C | [F153](#F153) | 安全载荷的经验累计分布 | (35, 453, 535, 770) |
-| D | [F007](#F007) | 第一问：安全余量与最少架次数 | (575, 453, 1075, 770) |
+| D | [F007](#F007) | 第一问：安全余量下的架次数与可行边界 | (575, 453, 1075, 770) |
 
 **当前页大小：**1110×805 pt。子PDF会保留纵横比，并在目标矩形内顶部对齐、横向居中；不会强制拉伸填满矩形。
 

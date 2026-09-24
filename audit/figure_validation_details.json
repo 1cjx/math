@@ -360,6 +360,11 @@
     "details": ""
   },
   {
+    "check": "F007源文件哈希:results/q1/summary.json",
+    "passed": true,
+    "details": ""
+  },
+  {
     "check": "F007.png存在",
     "passed": true,
     "details": ""
